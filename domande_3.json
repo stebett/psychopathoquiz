@@ -1,0 +1,1994 @@
+{"Quesito1": {
+	"Domanda": "Qual è la definizione di epidemiologia nell'ambito della salute mentale?",
+	"Risposte": {
+		"1": "È lo studio della distribuzione delle malattie mentali.",
+		"2": "È lo studio dell'incidenza dei disturbi mentali.",
+		"3": "Tutte  le altre risposte sono corrette. ",
+		"4": "È lo studio della prevalenza dei disturbi mentali."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito2": {
+	"Domanda": "La meta-analisi è... ",
+	"Risposte": {
+		"1": "... una tecnica di ricerca longitudinale che permette di seguire i partecipanti dalla nascita alla morte per trarre conclusioni sul decorso dei disturbi mentali più gravi.",
+		"2": "... una tecnica di ricerca retrospettiva.",
+		"3": "... un metodo che consiste di rilevare errori metodologici e statistici negli studi già pubblicati allo scopo di incrementare la qualità della ricerca scientifica.",
+		"4": "... un approccio statistico che calcola e combina i risultati di diversi studi scientifici"
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito3": {
+	"Domanda": "Qual è la differenza tra prevalenza e incidenza di una patologia?",
+	"Risposte": {
+		"1": "La prima si riferisce al numero di nuovi casi che si verificano in un determinato periodo di tempo; la seconda al numero di casi attivi in un determinato periodo di tempo.",
+		"2": "Non c'è nessuna differenza: i due termini sono sinonimi.",
+		"3": "La prevalenza indica quanto un disturbo mentale è diffuso nella popolazione rispetto agli altri disturbi mentali, mentre l'incidenza è un indice della gravità di quel disturbo al confronto con gli altri.",
+		"4": "La prima si riferisce al numero di casi attivi in un determinato periodo di tempo; la seconda al numero di nuovi casi che si verificano in un determinato periodo di tempo. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito4": {
+	"Domanda": "Gli studi correlazionali...",
+	"Risposte": {
+		"1": "... nonostante non individuino relazioni causali permettono di fare inferenze e confermare o smentire ipotesi. ",
+		"2": "... non sono molto utilizzati nella ricerca in psicologia clinica e psicopatologia.",
+		"3": "... individuano relazioni di tipo causale.",
+		"4": "... sono d'interesse clinico e scientifico quando individuano una correlazione positiva tra variabili."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito5": {
+	"Domanda": "Cos'è la validità interna?",
+	"Risposte": {
+		"1": "Si riferisce a quanto uno studio permetta di trarre conclusioni affidabili su uno specifico paziente.",
+		"2": "È la misura in cui uno studio è metodologicamente corretto, privo di equivoci o di altre fonti di errore. ",
+		"3": "È il livello di significatività statistica di uno studio.",
+		"4": "Fa riferimento alla possibilità di generalizzare le conclusioni tratte dalla ricerca empirica ad ambiti più ampi rispetto a quello in cui la ricerca è stata realizzata."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito6": {
+	"Domanda": "Una correlazione negativa",
+	"Risposte": {
+		"1": "... indica che a punteggi alti di una prima variabile corrispondono punteggi bassi di una seconda variabile. ",
+		"2": "... indica che i punteggi della variabile indipendente non sono in nessun modo esplicativi dei punteggi della variabile dipendente.",
+		"3": "Nessuna delle altre risposte è corretta.",
+		"4": "... indica che a punteggi alti di una prima variabile corrispondono punteggi alti di una seconda variabile."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito7": {
+	"Domanda": "Secondo gli studi di Platone (429-347 a.C.):",
+	"Risposte": {
+		"1": "I disturbi mentali o le attitudini criminali possono essere inferite dalla conformazione del cranio (per es. da bozzi).",
+		"2": "Le persone con disturbi mentali che commettono dei crimini non sono da ritenersi responsabili per le azioni commesse. ",
+		"3": "La malattia organica è la causa primaria dei disturbi mentali.",
+		"4": "I pianeti influenzano un fluido magnetico universale presente nel corpo, la cui distribuzione determina la salute o la malattia."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito8": {
+	"Domanda": "ad Anton Mesmer (1734-1815) si deve la teoria secondo cui:",
+	"Risposte": {
+		"1": "Tutti i disturbi mentali possono trarre beneficio da un trattamento con lo shock elettrico.",
+		"2": "I pianeti agiscono su un fluido magnetico universale presente nel corpo, la cui distribuzione determina lo stato di salute e malattia.",
+		"3": "La conformazione del cranio può dare informazioni sulla vulnerabilità alla psicopatologica.",
+		"4": "I disturbi nevrotici possono trarre giovamento dalla regressione ipnotica."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito9": {
+	"Domanda": "Il lavoro di Pinel e Tuke, in Europa, e di Dix e Rush, negli Stati Uniti, quali sviluppi ha portato nel modo di intendere la psicopatologia?",
+	"Risposte": {
+		"1": "La progressiva accettazione dei pazienti con patologia mentale come individui colpiti da un morbo e meritevoli di cura e assistenza professionale. ",
+		"2": "La nascita di una classificazione diagnostica dei disturbi mentali con criteri descrittivi precisi.",
+		"3": "L'importanza dell'inconscio, come elemento patognomonico.",
+		"4": "La concezione della malattia mentale come disturbo incurabile."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito10": {
+	"Domanda": "In che anno Wilhelm Wundt istituì il primo laboratorio di psicologia sperimentale?",
+	"Risposte": {
+		"1": "1879 ",
+		"2": "1859",
+		"3": "1890",
+		"4": "1910"
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito11": {
+	"Domanda": "Chi sono i principali esponenti della scuola comportamentista?",
+	"Risposte": {
+		"1": "Watson; Pavlov; Wundt; Sullivan.",
+		"2": "Skinner; Pavlov; Thorndike; Watson. ",
+		"3": "Skinner; Pavlov; Adler; Wundt.",
+		"4": "Watson; Bernheim; Charcot; Skinner."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito12": {
+	"Domanda": "Quale gruppo di teorici psicodinamici di seconda generazione sottolinea che le determinanti del comportamento umano siano le forze sociali e culturali piuttosto che gli istinti interiori?",
+	"Risposte": {
+		"1": "La prospettiva della teoria dell'attaccamento, attorno alla figura di John Bowlby.",
+		"2": "La prospettiva interpersonale.",
+		"3": "La prospettiva jungiana.",
+		"4": "La teoria delle relazioni oggettuali."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito13": {
+	"Domanda": "Su quale tema dibattevano la scuola di Nancy, rappresentata da Bernheim, e la Salpêtrière di Parigi, con a capo Charcot?",
+	"Risposte": {
+		"1": "Le cause biologiche vs. psicologiche sottostanti l'isteria e altri disturbi mentali. ",
+		"2": "La possibilità di trattare i pazienti con l'elettroshock.",
+		"3": "L'esistenza dell'inconscio.",
+		"4": "La possibilità di poter studiare il comportamento umano in laboratorio."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito14": {
+	"Domanda": "Chi viene considerato il fondatore della psichiatria americana?",
+	"Risposte": {
+		"1": "Willhem Wundt.",
+		"2": "Benjamin Rush. ",
+		"3": "Benjamin Franklin.",
+		"4": "Philippe Pinel."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito15": {
+	"Domanda": "Cosa accomuna gli psichiatri Emil Kraepelin, Wilhelm Griesinger e Albrecht von Haller?",
+	"Risposte": {
+		"1": "La centralità attribuita alla patologia cerebrale nella genesi dei disturbi mentali. ",
+		"2": "L'utilizzo di tecniche di ipnosi nel trattamento delle nevrosi.",
+		"3": "La centralità attribuita al trauma nella genesi dei disturbi mentali.",
+		"4": "L'utilizzo dell'elettroshock per il trattamento dei pazienti psichiatrici."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito16": {
+	"Domanda": "Qual era il disturbo mentale con sintomatologia somatica molto studiato da Freud, Breuer e Janet?",
+	"Risposte": {
+		"1": "Nevrosi ossessiva.",
+		"2": "Isteria. ",
+		"3": "Psicosi.",
+		"4": "Lapsus."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito17": {
+	"Domanda": "Quale metodologia di raccolta di informazioni sui disturbi mentali era privilegiata da psichiatri come Kraepelin (1856-1926) e Bleuler (1857-1939)?",
+	"Risposte": {
+		"1": "Verifica di ipotesi tramite un confronto tra un gruppo sperimentale e un gruppo di controllo.",
+		"2": "Studio di casi singoli. ",
+		"3": "Somministrazione di strumenti self-report.",
+		"4": "Studi controllati randomizzati per valutare l'esito delle terapie psichiatriche."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito18": {
+	"Domanda": "Quale prospettiva psicodinamica ha fra i suoi esponenti principali Klein, Mahler, Fairburn e Winnicott?",
+	"Risposte": {
+		"1": "La teoria dell'attaccamento.",
+		"2": "La psicologia dell'Io.",
+		"3": "La prospettiva interpersonale.",
+		"4": "La teoria delle relazioni oggettuali. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito19": {
+	"Domanda": "Chi nel 1792 fece l'esperimento di rimuovere le catene ad alcuni detenuti per verificare l'ipotesi che la malattia mentale dovesse essere trattata con rispetto e considerazione?",
+	"Risposte": {
+		"1": "Emil Kraepelin",
+		"2": "Wiliam Tuke",
+		"3": "Anton Mesmer",
+		"4": "Philippe Pinel "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito20": {
+	"Domanda": "La classificazione dei disturbi mentali nelle 3 categorie mania, melanconia e febbre al cervello (phrenitis) è attribuibile a:",
+	"Risposte": {
+		"1": "Platone.",
+		"2": "Mesmer.",
+		"3": "Ippocrate. ",
+		"4": "Freud"
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito21": {
+	"Domanda": "I manicomi nascono con l'esigenza di istituzionalizzare la malattia mentale:",
+	"Risposte": {
+		"1": "Nel XX secolo.",
+		"2": "Nel XIX secolo.",
+		"3": "Nel XIV secolo.",
+		"4": "Nel XVI secolo."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito22": {
+	"Domanda": "La classificazione dei disturbi mentali nelle 3 categorie mania, melanconia e febbre al cervello (phrenitis) è attribuibile a:",
+	"Risposte": {
+		"1": "Ippocrate. ",
+		"2": "Platone.",
+		"3": "Freud",
+		"4": "Mesmer."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito23": {
+	"Domanda": "Chi sono i principali esponenti della Scuola di Nancy?",
+	"Risposte": {
+		"1": "Kraepelin e Freud.",
+		"2": "Charcot e Freud.",
+		"3": "Liébeault e Bernheim. ",
+		"4": "Breuer e Charcot."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito24": {
+	"Domanda": "Il condizionamento operante:",
+	"Risposte": {
+		"1": "Si verifica quando uno stimolo incondizionato diventa condizionato, cioè in grado di evocare la risposta desiderata.",
+		"2": "È essenzialmente legato al concetto di rinforzo.",
+		"3": "È un tipo di apprendimento che si basa sull'osservazione diretta.",
+		"4": "È un concetto introdotto da Pavlov (1927)."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito25": {
+	"Domanda": "L'approccio descrittivo favorisce:",
+	"Risposte": {
+		"1": "La relazione tra paziente e terapeuta.",
+		"2": "La valutazione dei disturbi di personalità e psichiatrici. ",
+		"3": "La comprensione del paziente e dei suoi conflitti.",
+		"4": "La comunicazione tra paziente e terapeuta."
+	},
+	"Soluzione": " 2"
+},
+
+
+"Quesito26": {
+	"Domanda": "Quale elemento strutturale della personalità, secondo la teorizzazione di Freud, si forma a seguito dell'interiorizzazione di tabù e valori morali riguardo ciò che è giusto o sbagliato?",
+	"Risposte": {
+		"1": "L'Es.",
+		"2": "L'Io.",
+		"3": "Il Super-Io. ",
+		"4": "Il Sé."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito27": {
+	"Domanda": "Gli studi sui gemelli...",
+	"Risposte": {
+		"1": "Sono difficilmente interpretabili: è difficile scindere la componente genetica da quella ambientale (ambiente di crescita). ",
+		"2": "Sono utilizzati principalmente per verificare le influenze ambientali nello sviluppo dei disturbi mentali.",
+		"3": "Hanno portato alla conclusione che esistano dei disturbi mentali che sono geneticamente determinati.",
+		"4": "Nessuna delle risposte indicate è corretta."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito28": {
+	"Domanda": "Quali anni di vita di un individuo copre il periodo di latenza nella teoria dello sviluppo psicosessuale di Freud?",
+	"Risposte": {
+		"1": "9-15 anni.",
+		"2": "6-12 anni. ",
+		"3": "4-19 anni.",
+		"4": "15-21 anni"
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito29": {
+	"Domanda": "Qual è il tema centrale della prospettiva comportamentista?",
+	"Risposte": {
+		"1": "L'inconscio e il suo rapporto con la salute e la malattia mentale.",
+		"2": "La ricerca delle determinanti del comportamento umano a livello cerebrale.",
+		"3": "L'elaborazione delle informazioni, infatti il cervello è concepito alla stregua di un computer.",
+		"4": "Il ruolo dell'apprendimento nel comportamento umano."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito30": {
+	"Domanda": "Il complesso di Elettra:",
+	"Risposte": {
+		"1": "Si verifica durante il periodo di latenza dello sviluppo psicosessuale delle bambine.",
+		"2": "Si verifica in un'età compresa tra i 6 e i 12 anni.",
+		"3": "Deriva dall'angoscia di castrazione.",
+		"4": "È legato a un sentimento di invidia del pene da parte delle bambine. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito31": {
+	"Domanda": "Scarico dei sentimenti repressi, spesso ostili, su oggetti meno pericolosi di quelli realiè la definizione di quale meccanismo di difesa?",
+	"Risposte": {
+		"1": "Repressione",
+		"2": "Spostamento. ",
+		"3": "Razionalizzazione.",
+		"4": "Acting-out."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito32": {
+	"Domanda": "Il meccanismo di difesa della scissione:",
+	"Risposte": {
+		"1": "È un meccanismo di difesa adattivo.",
+		"2": "Permette l'espressione dell'affetto ma ne altera la consapevolezza.",
+		"3": "È caratteristico delle personalità di cluster C.",
+		"4": "Determina nei pazienti un pensiero bianco-nero, tutto-o-niente. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito33": {
+	"Domanda": "Fare in modo che pensieri pericolosi o dolorosi non possano entrare a livello della coscienzaè la definizione di quale meccanismo di difesa?",
+	"Risposte": {
+		"1": "Repressione. ",
+		"2": "Proiezione.",
+		"3": "Spostamento.",
+		"4": "Formazione reattiva."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito34": {
+	"Domanda": "Nelle famiglie in cui i genitori adottano prevalentemente uno stile permissivo/indulgente:",
+	"Risposte": {
+		"1": "I bambini tendono a essere amichevoli e mostrare un buono sviluppo di competenze generali e nell'interazione con gli altri.",
+		"2": "bambini tendono a diventare impulsivi e aggressivi; generalmente sono egoisti e viziati. ",
+		"3": "I genitori sono poco calorosi e poco controllanti.",
+		"4": "I genitori sono scarsamente affettuosi ma molto rigidi ed esigenti."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito35": {
+	"Domanda": "Quale costrutto riveste un ruolo centrale nel pensiero di A. Freud?",
+	"Risposte": {
+		"1": "La relazione di attaccamento.",
+		"2": "I meccanismi di difesa dell'Io. ",
+		"3": "I conflitti inconsci.",
+		"4": "Le relazioni oggettuali."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito36": {
+	"Domanda": "La resilienza...",
+	"Risposte": {
+		"1": "... è l'assenza di fattori di rischio.",
+		"2": "... si osserva tipicamente negli individui con un elevato QI.",
+		"3": "... si realizza quando i fattori protettivi superano di gran lunga i fattori di rischio.",
+		"4": "... è la capacità di adattarsi con successo a circostanze anche molto difficili. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito37": {
+	"Domanda": "I fattori di protezione",
+	"Risposte": {
+		"1": "... non sono necessariamente esperienze positive.",
+		"2": "... promuovono l'utilizzo di strategie di coping adattive.",
+		"3": "... diminuiscono la probabilità di esiti negativi.",
+		"4": "... tutte le risposte indicate sono corrette. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito38": {
+	"Domanda": "La terapia cognitiva.",
+	"Risposte": {
+		"1": "Riconosce il primato delle emozioni sui processi cognitivi.",
+		"2": "Si basa sull'idea che il nostro modo di interpretare gli eventi e le esperienze determini le nostre reazioni emotive. ",
+		"3": "Si basa sull'idea che le esperienze precoci abbiano un forte impatto sullo sviluppo della personalità dell'individuo.",
+		"4": "Dà molta importanza ai sogni del paziente e ad altre manifestazioni dell'inconscio."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito39": {
+	"Domanda": "Durante quale fase dello sviluppo si manifesta il complesso di Edipo?",
+	"Risposte": {
+		"1": "Fase orale.",
+		"2": "Stadio genitale.",
+		"3": "Stadio anale.",
+		"4": "Fase fallica. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito40": {
+	"Domanda": "In cosa consiste l'effetto evocativo del genotipo sull'ambiente?",
+	"Risposte": {
+		"1": "Il genotipo del bambino può richiamare particolari tipi di reazioni dall'ambiente sociale e fisico. ",
+		"2": "Il genotipo del bambino ha un'influenza sull'ambiente data dalla somiglianza genetica con i genitori.",
+		"3": "Il genotipo del bambino influenza la sua ricerca e la costruzione di un ambiente che gli sia più congeniale.",
+		"4": "Nessuna delle precedenti."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito41": {
+	"Domanda": "Come viene definito dal DSM 5 un disturbo mentale?",
+	"Risposte": {
+		"1": "Nessuna delle altre risposte è corretta.",
+		"2": "Un disagio soggettivo associato a uno stato di sofferenza o di dolore psichico.",
+		"3": "Qualsiasi compromissione del funzionamento psicologico, relazionale e lavorativo.",
+		"4": "Una sindrome che coinvolge in modo clinicamente significativo un disturbo del comportamento, la regolazione di un'emozione o il funzionamento cognitivo."
+	},
+	"Soluzione": "4"
+},
+
+"Quesito42": {
+	"Domanda": "Cosa afferma il modello interattivo diatesi-stress del comportamento patologico?",
+	"Risposte": {
+		"1": "Un individuo senza nessuna predisposizione, o con un livello molto basso, potrebbe anche sviluppare un disturbo a fronte di uno stress molto forte. ",
+		"2": "Un individuo senza una data predisposizione non potrà mai sviluppare una malattia, a prescindere dal livello di stress sperimentato. ",
+		"3": "La diatesi e lo stress si sommano.",
+		"4": "In presenza di forte predisposizione, il disturbo può manifestarsi anche in assenza di stress."
+	},
+	"Soluzione": "2"
+},
+
+
+
+"Quesito43": {
+	"Domanda": "Quale sistema nosografico è pubblicato dalla Organizzazione Mondiale della Sanità ed ampiamente utilizzato in Europa?",
+	"Risposte": {
+		"1": "PDM",
+		"2": "MMPI-2",
+		"3": "ICD-10",
+		"4": "DSM-5"
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito44": {
+	"Domanda": "La fMRI:",
+	"Risposte": {
+		"1": "Rileva esclusivamente la struttura cerebrale.",
+		"2": "Monitora i livelli di glucosio in aree specifiche del tessuto cerebrale.",
+		"3": "Misura le variazioni nell'ossigenazione di aree specifiche del tessuto cerebrale.",
+		"4": "È una tecnica di valutazione radiologica che si limita a dare informazioni anatomiche."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito45": {
+	"Domanda": "Secondo la classificazione DSM-5, i disturbi mentali...",
+	"Risposte": {
+		"1": "...sono collocati lungo un continuum dimensionale di normalità-patologia.",
+		"2": "... sono suddivisi in disturbi di Asse I e di Asse II.",
+		"3": "... sono considerati entità cliniche distinte.",
+		"4": "... sono considerati di origine organica."
+	},
+	"Soluzione": "Domanda3"
+},
+
+
+"Quesito46": {
+	"Domanda": "Qual è il principale strumento per la valutazione dell'intelligenza usato in età evolutiva?",
+	"Risposte": {
+		"1": "WAIS-IV.",
+		"2": "WISC-IV. ",
+		"3": "MMPI-2.",
+		"4": "TAT."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito47": {
+	"Domanda": "La Brief Psychiatric Rating Scale (BPRS)?",
+	"Risposte": {
+		"1": "È uno strumento breve per la valutazione del comportamento sessuale.",
+		"2": "È finalizzata alla valutazione della personalità.",
+		"3": "Fornisce un format strutturato e quantificabile dei sintomi clinici. ",
+		"4": "È specifica per la valutazione delle dipendenze da sostanze psicoattive."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito48": {
+	"Domanda": "Cosa valuta il Millon Clinical Multiaxial Inventory?",
+	"Risposte": {
+		"1": "Il profilo di personalità. ",
+		"2": "Il rischio di un individuo di sviluppare una malattia mentale.",
+		"3": "Il QI.",
+		"4": "La presenza e la gravità di disturbi dell'umore e d'ansia."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito49": {
+	"Domanda": "La velocità motoria di un soggetto, la reazione all'insolito e l'abilità di apprendere e utilizzare spunti tattili e cinestesici, viene misurata con quale test?",
+	"Risposte": {
+		"1": "Il Category Testdi Halstead.",
+		"2": "Il test del ritmo.",
+		"3": "Compiti motori distali.",
+		"4": "Il test delle prestazioni tattili"
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito50": {
+	"Domanda": "Il test del completamento di frasi (Fernald & Fernald, 2010):",
+	"Risposte": {
+		"1": "È un test proiettivo. ",
+		"2": "Viene utilizzato principalmente nei pazienti con demenza.",
+		"3": "È un test neuropsicologico.",
+		"4": "È un test oggettivo di personalità."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito51": {
+	"Domanda": "Qual è l'approccio attualmente più condiviso per inquadrare i disturbi psichici?",
+	"Risposte": {
+		"1": "La prospettiva sociologica.",
+		"2": "La prospettiva bio-psico-sociale. ",
+		"3": "La prospettiva psicologica.",
+		"4": "La prospettiva neurobiologica."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito52": {
+	"Domanda": "Cosa afferma il modello interattivo diatesi-stress del comportamento patologico?",
+	"Risposte": {
+		"1": "In presenza di forte predisposizione, il disturbo può manifestarsi anche in assenza di stress.",
+		"2": "Un individuo senza una data predisposizione non potrà mai sviluppare una malattia, a prescindere dal livello di stress sperimentato. ",
+		"3": "La diatesi e lo stress si sommano.",
+		"4": "Un individuo senza nessuna predisposizione, o con un livello molto basso, potrebbe anche sviluppare un disturbo a fronte di uno stress molto forte. "
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito53": {
+	"Domanda": "La PET:",
+	"Risposte": {
+		"1": "È molto utilizzata per studiare gli stati di sonno e veglia.",
+		"2": "Registra l'attività elettrica del cervello attraverso elettrodi posizionati sullo scalpo.",
+		"3": "Fornisce quadri metabolici del funzionamento di un organo. ",
+		"4": "È una tecnica di risonanza magnetica funzionale."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito54": {
+	"Domanda": "Quale strumento strutturato di valutazione della personalità è il più diffuso e utilizzato?",
+	"Risposte": {
+		"1": "Il Rorschach.",
+		"2": "Il Minnesota Multiphasic Personality Inventory (MMPI-2). ",
+		"3": "Il Millon Clinical Multiaxial Inventory (MCM-III).",
+		"4": "Il test di appercezione tematica (TAT)."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito55": {
+	"Domanda": "Lo stress a lungo termine o cronico:",
+	"Risposte": {
+		"1": "Interferisce con la capacità del corpo di inibire la produzione di citochine, che mediano la risposta infiammatoria e immunitaria. ",
+		"2": "È meno dannoso, per la salute fisica e psichica, di uno stress acuto.",
+		"3": "Non è correlato con l'insorgenza di problematiche fisiche, come ad esempio il diabete o l'asma.",
+		"4": "È ugualmente dannoso quanto uno stress a breve termine."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito56": {
+	"Domanda": "Il Disturbo da Stress Post-Traumatico è una condizione che viene frequentemente descritta:",
+	"Risposte": {
+		"1": "Negli impiegati della pubblica amministrazione.",
+		"2": "Nei giorni immediatamente successivi a un evento traumatico.",
+		"3": "Nei quadri psicopatologici caratterizzati da umore euforico.",
+		"4": "Nei militari reduci da operazioni belliche. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito57": {
+	"Domanda": "nel DSM-5 quali cambiamenti sono stati apportati al Disturbo da Stress post-traumatico?",
+	"Risposte": {
+		"1": "è ora possibile diagnosticare il DPTS anche in assenza di un evento traumatico reale",
+		"2": "è stato spostato nella sezione denominata disturbi d'ansia",
+		"3": "è incluso in una nuova categoria che comprende il disturbo dell'adattamento e il disturbo acuto da stress",
+		"4": "il focus è spostato sulla natura dell'evento stressante piuttosto che sulla risposta emotiva e comportamentale del paziente"
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito58": {
+	"Domanda": "Cosa si intende per coping?",
+	"Risposte": {
+		"1": "Qualsiasi stressor che, in un determinato momento della vita, impatta sull'individuo.",
+		"2": "È un sinonimo di resilienza.",
+		"3": "È una strategia terapeutica utilizzata nelle terapie di pazienti difficili",
+		"4": "È la strategia adottata per far fronte a un fattore di stress. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito59": {
+	"Domanda": "Nel disturbo dell'adattamento:",
+	"Risposte": {
+		"1": "I sintomi diminuiscono o scompaiono quando l'evento stressante si conclude.",
+		"2": "I sintomi non diminuiscono né scompaiono quando l'evento stressante si conclude.",
+		"3": "I sintomi possono comparire a 6 mesi dalla manifestazione dell'evento stressante",
+		"4": "Non è presente una compromissione significativa rispetto al funzionamento abituale del paziente."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito60": {
+	"Domanda": "Il biofeedback:",
+	"Risposte": {
+		"1": "Permette ai pazienti di riconoscere le cause ambientali dello stress.",
+		"2": "Permette ai pazienti di riconoscere l'ansia e insegna loro a formulare una richiesta d'aiuto.",
+		"3": "Si basa sul riconoscimento del significato dei feedback ambientali.",
+		"4": "Si basa sul monitoraggio della frequenza cardiaca, del livello di tensione muscolare o della pressione sanguigna. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito61": {
+	"Domanda": "Il carico allostatico:",
+	"Risposte": {
+		"1": "Quando è basso la vulnerabilità del nostro sistema immunitario aumenta.",
+		"2": "Aumenta quando siamo stressati.",
+		"3": "Nessuna delle altre risposte è corretta.",
+		"4": "Aumenta quando non stiamo vivendo una situazione stressante."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito62": {
+	"Domanda": "Di cosa si occupa la psicologia della salute?",
+	"Risposte": {
+		"1": "Esclusivamente di psicosomatica.",
+		"2": "Degli effetti dei disturbi mentali sulla salute fisica di un individuo.",
+		"3": "Dell'assistenza psicologica ai malati terminali.",
+		"4": "Degli effetti dello stress e di altri fattori psicologici implicati nell'esordio e nel mantenimento dei problemi fisici. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito63": {
+	"Domanda": "Nel DSM 5 quali cambiamenti sono stati apportati al Disturbo Post-Traumatico da Stress?",
+	"Risposte": {
+		"1": "Il focus si è spostato sulla natura dell'evento stressante piuttosto che sulla risposta emotiva e comportamentale del paziente.",
+		"2": "È stato spostato nella sezione denominata Disturbi d'ansia.",
+		"3": "È ora possibile diagnosticare il DPTS anche in assenza di un evento traumatico reale.",
+		"4": "È incluso in una nuova categoria che comprende il disturbo dell'adattamento e il disturbo acuto da stress. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito64": {
+	"Domanda": "Quando un individuo sviluppa dei sintomi (per esempio pensieri intrusivi, ipervigilanza o irritabilità) poco dopo aver sperimentato un evento traumatico e questi durano almeno 2 giorni, quale diagnosi potrebbe essere la più appropriata?",
+	"Risposte": {
+		"1": "Disturbo dell'adattamento con manifestazioni ansiose.",
+		"2": "Disturbo di Panico.",
+		"3": "Disturbo da Stress Acuto. ",
+		"4": "Disturbo da Stress Post-Traumatico."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito65": {
+	"Domanda": "Quali sono i due sistemi di risposta allo stress?",
+	"Risposte": {
+		"1": "Il sistema nervoso simpatico; l'asse ipotalamo-ipofisi-surrene. ",
+		"2": "Il sistema nervoso parasimpatico; l'asse ipotalamo-ipofisi-tiroide.",
+		"3": "Il sistema nervoso parasimpatico; l'asse ipotalamo-ipofisi-surrene.",
+		"4": "Il sistema nervoso simpatico; l'asse ipotalamo-ipofisi-tiroide."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito66": {
+	"Domanda": "Paura o ansia marcate di una o più situazioni sociali specifiche in cui l'individuo teme di poter essere esposto al giudizio e alla valutazione negativa altrui o di comportarsi in maniera imbarazzante o umiliante. A quale disturbo si riferisce questa definizione?",
+	"Risposte": {
+		"1": "Disturbo d'ansia generalizzato.",
+		"2": "Disturbo d'ansia sociale. ",
+		"3": "Fobia specifica.",
+		"4": "Disturbo ossessivo-compulsivo."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito67": {
+	"Domanda": "Il Disturbo da Dismorfismo Corporeo:",
+	"Risposte": {
+		"1": "È tipico degli individui con marcati tratti narcisistici di personalità.",
+		"2": "Nel DSM- IV-TR era classificato come un disturbo somatoforme, nel DSM 5 è inserito nella stessa categoria del DOC. ",
+		"3": "Si presenta negli individui che hanno un evidente difetto fisico.",
+		"4": "È una diagnosi molto più frequente nelle donne."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito68": {
+	"Domanda": "L'ansia, secondo S. Freud...",
+	"Risposte": {
+		"1": "Si può manifestare come cecità o paralisi (sintomi di conversione).",
+		"2": "Svolge un ruolo fondamentale nella maggior parte delle forme di psicopatologia.",
+		"3": "Può essere vissuta apertamente, repressa, oppure trasformata in altri sintomi.",
+		"4": "Tutte le risposte indicate sono corrette"
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito69": {
+	"Domanda": "Tra i sintomi che caratterizzano l'attacco di panico nella prospettiva DSM, NON compaiono:",
+	"Risposte": {
+		"1": "Illusioni percettive. ",
+		"2": "Parestesie.",
+		"3": "Paura di morire o di impazzire.",
+		"4": "Sintomi dissociativi (depersonalizzazione, derealizzazione)."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito70": {
+	"Domanda": "Il disturbo d'ansia da separazione:",
+	"Risposte": {
+		"1": "È più frequente nei maschi.",
+		"2": "Non è quasi mai individuabile un fattore causale del disturbo.",
+		"3": "Esita spesso in un disturbo della condotta.",
+		"4": "È più frequente nelle femmine. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito71": {
+	"Domanda": "Le fobie del sangue-iniezioni-ferite rispetto ad altre fobie specifiche:",
+	"Risposte": {
+		"1": "Provocano una risposta di paura più intensa.",
+		"2": "Hanno un'incidenza del 9% della popolazione.",
+		"3": "Rispondono a criteri DSM 5 differenti.",
+		"4": "Sono tipicamente caratterizzate da una sensazione di disgusto oltre che di paura. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito72": {
+	"Domanda": "Quale metodo si è dimostrato il più efficace nel trattamento delle fobie specifiche?",
+	"Risposte": {
+		"1": "La terapia sistemica.",
+		"2": "La terapia supportiva rogersiana.",
+		"3": "I gruppi di auto-mutuo-aiuto.",
+		"4": "La terapia di esposizione. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito73": {
+	"Domanda": "Secondo un'interpretazione psicoanalitica classica, da cosa originano le fobie specifiche?",
+	"Risposte": {
+		"1": "Rappresentano una difesa contro l'angoscia che deriva dagli impulsi rimossi provenienti dall'Es. ",
+		"2": "Originano nella fase anale.",
+		"3": "Sono dei comportamenti appresi in seguito a una situazione spiacevole e poi generalizzati a situazioni o oggetti simili.",
+		"4": "Originano da un trauma infantile rimosso dalla persona."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito74": {
+	"Domanda": "Quali disturbi mentali sono ad esordio più precoce (circa 6 anni)?",
+	"Risposte": {
+		"1": "Disturbi da uso di sostanze",
+		"2": "Disturbi d'ansia. ",
+		"3": "Disturbi dell'umore.",
+		"4": "Disturbi del comportamento alimentare."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito75": {
+	"Domanda": "Pensieri, immagini o impulsi intrusivi, persistenti e ricorrenti che sono vissuti come disturbanti, inappropriati e incontrollabili, è una buona definizione di:",
+	"Risposte": {
+		"1": "Idee di riferimento.",
+		"2": "Compulsioni.",
+		"3": "Pensiero magico",
+		"4": "Ossessioni. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito76": {
+	"Domanda": "Quale tratto è considerato centrale fra le cause psicologiche del DAG?",
+	"Risposte": {
+		"1": "La propensione all'assertività.",
+		"2": "La tendenza dell'individuo ad essere remissivo.",
+		"3": "La tendenza ad usare meccanismi di difesa disadattivi.",
+		"4": "La propensione al rimuginio"
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito77": {
+	"Domanda": "Per diagnosticare un disturbo di panico secondo i criteri del DSM 5:",
+	"Risposte": {
+		"1": "Devono essere presenti almeno 4 attacchi di panico in un mese.",
+		"2": "Almeno uno degli attacchi di panico deve essere seguito da un mese o più in cui si manifesta una preoccupazione persistente per l'insorgere di altri attacchi e/o significativa alterazione disadattiva del comportamento, correlata agli attacchi.",
+		"3": "Almeno uno degli attacchi di panico deve essere seguito da ricorrenti incubi e/o fuga delle idee e alterazione del pensiero.",
+		"4": "Deve essere presente una situazione o un oggetto chiaramente correlati all'insorgenza dell'attacco di panico."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito78": {
+	"Domanda": "Ansia e preoccupazioni difficili da controllare che si manifestano per la maggior parte dei giorni per almeno 6 mesi e riguardo a una quantità di eventi o attività suggeriscono la presenza di:",
+	"Risposte": {
+		"1": "Disturbo d'ansia generalizzato. ",
+		"2": "Disturbo depressivo maggiore.",
+		"3": "Disturbo ossessivo-compulsivo.",
+		"4": "Fobia specifica."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito79": {
+	"Domanda": "Quale struttura cerebrale attiva la risposta autonomica, neuroendocrina e comportamentale che si verifica durante un attacco di panico?",
+	"Risposte": {
+		"1": "L'amigdala ",
+		"2": "La corteccia prefrontale.",
+		"3": "L'ipotalamo.",
+		"4": "Il locus coeruleus."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito80": {
+	"Domanda": "L'acido gamma amino butirrico (GABA).",
+	"Risposte": {
+		"1": "È implicato nello sviluppo della schizofrenia.",
+		"2": "È implicato nei disturbi da dipendenza da sostanze.",
+		"3": "È un neurotrasmettitore monoaminico.",
+		"4": "È implicato nel fenomeno dell'ansia. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito81": {
+	"Domanda": "Il condizionamento vicariante:",
+	"Risposte": {
+		"1": "È un condizionamento classico.",
+		"2": "Nessuna delle precedenti.",
+		"3": "È un condizionamento traumatico diretto.",
+		"4": "È un condizionamento basato sull'osservazione della reazione di paura di una persona fobica. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito82": {
+	"Domanda": "L'agorafobia:",
+	"Risposte": {
+		"1": "È una frequente complicanza del disturbo d'ansia sociale.",
+		"2": "È una frequente complicanza del disturbo di panico. ",
+		"3": "È la paura degli spazi aperti.",
+		"4": "È più frequente negli uomini."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito83": {
+	"Domanda": "Qual è la prevalenza del DOC in popolazione generale?",
+	"Risposte": {
+		"1": "2-3% ",
+		"2": "9-10%",
+		"3": "6-8%",
+		"4": "18-20%"
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito84": {
+	"Domanda": "Quali fra i seguenti sono alcuni dei disturbi d'ansia riconosciuti dal DSM 5?",
+	"Risposte": {
+		"1": "Agorafobia, disturbo da stress post-traumatico, disturbo di panico.",
+		"2": "Agorafobia, disturbo di panico, disturbo d'ansia generalizzato. ",
+		"3": "Disturbo da stress acuto, fobia specifica, disturbo ossessivo-compulsivo.",
+		"4": "Disturbo d'ansia generalizzato, disturbo ossessivo-compulsivo, disturbo d'ansia sociale."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito85": {
+	"Domanda": "Il disturbo ciclotimico:",
+	"Risposte": {
+		"1": "Presenta alterazioni cicliche dell'umore, alternando fasi maniacali a fasi depressive (che non soddisfano il criterio della durata dell'episodio depressivo maggiore).",
+		"2": "Si presenta come una condizione clinica di gravità maggiore rispetto ai disturbi bipolari, poiché è caratterizzata da alterazioni estreme dell'umore.",
+		"3": "Presenta alterazioni cicliche dell'umore, alternando fasi ipomaniacali e distimiche. ",
+		"4": "È una condizione clinica che esclude una futura formulazione di diagnosi di disturbo bipolare per il paziente."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito86": {
+	"Domanda": "i farmaci generalmente impiegati nel trattamento del disturbo bipolare sono:",
+	"Risposte": {
+		"1": "neurolettici",
+		"2": "antidepressivi",
+		"3": "stabilizzatori dell'umore",
+		"4": "cortisonici"
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito87": {
+	"Domanda": "La depressione nella popolazione over 65:",
+	"Risposte": {
+		"1": "Ha una prevalenza significativamente più alta rispetto all'età adulta.",
+		"2": "È diagnosticata solo nel caso in cui il paziente abbia una storia clinica di disturbi dell'umore precedente.",
+		"3": "È dovuta alla morte del coniuge.",
+		"4": "È spesso difficile da diagnosticare perché i sintomi sono spesso scambiati con quelli di altre patologie, come ad esempio la demenza."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito88": {
+	"Domanda": "Di che categoria di farmaci fanno parte gli IMAO, TCA e SSRI ?",
+	"Risposte": {
+		"1": "Antipsicotici.",
+		"2": "Antidepressivi.",
+		"3": "Ansiolitici.",
+		"4": "Stabilizzatori dell'umore."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito89": {
+	"Domanda": "La depressione maggiore:",
+	"Risposte": {
+		"1": "È meno diffusa rispetto ai disturbi bipolari.",
+		"2": "Come per il disturbo bipolare, non ci sono differenze d'incidenza tra uomini e donne.",
+		"3": "Ha un'incidenza maggiore nelle donne.",
+		"4": "Ha un'incidenza maggiore negli uomini."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito90": {
+	"Domanda": "La diminuita capacità di provare piacereè una buona definizione di:",
+	"Risposte": {
+		"1": "Anedonia.",
+		"2": "Affettività coartata.",
+		"3": "Alogia.",
+		"4": "Abulia."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito91": {
+	"Domanda": "Cosa si intende per depressione doppia?",
+	"Risposte": {
+		"1": "Si tratta di una condizione clinica particolarmente grave in cui i pazienti depressi fanno esperienza di un lutto.",
+		"2": "Si tratta di una condizione clinica particolarmente grave, poiché in fase acuta i pazienti presentano anche manifestazioni psicotiche.",
+		"3": "Si tratta di una condizione clinica di depressione le cui cause sono chiaramente riferibili alla familiarità del disturbo.",
+		"4": "Si tratta di una condizione clinica in cui il paziente soddisfa i criteri sia per il disturbo depressivo maggiore che per il disturbo depressivo persistente. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito92": {
+	"Domanda": "Il suicidio:",
+	"Risposte": {
+		"1": "Le donne hanno un tasso di morte per suicidio più elevato rispetto agli uomini, anche se gli uomini tentano più frequentemente il suicidio delle donne.",
+		"2": "È frequentemente associato ai disturbi di personalità di cluster C.",
+		"3": "Di solito le persone che vogliono perpetrare il suicidio non hanno nessun pensiero ambivalente a riguardo.",
+		"4": "È frequentemente associato agli stati depressivi."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito93": {
+	"Domanda": "Quale regione cerebrale se ipoattiva è associata alla depressione, come dimostrato da molte evidenze di studi EEG e PET?",
+	"Risposte": {
+		"1": "Corteccia parietale posteriore sinistra.",
+		"2": "Corteccia prefrontale anteriore destra.",
+		"3": "Corteccia prefrontale anteriore sinistra. ",
+		"4": "Corteccia parietale posteriore destra."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito94": {
+	"Domanda": "Cosa caratterizza la depressione con manifestazioni melanconiche?",
+	"Risposte": {
+		"1": "Sintomi depressivi peggiori di sera; reattività dell'umore; incremento ponderale o aumento dell'appetito; ipersonnia.",
+		"2": "Ha un andamento stagionale ed è spesso accompagnata da psicosi (deliri o allucinazioni) nelle fasi acute.",
+		"3": "È un insieme di manifestazioni psicomotorie che spaziano dall'immobilità all'eccessiva attività motoria.",
+		"4": "Sintomi depressivi regolarmente peggiori al mattino; marcato rallentamento motorio o agitazione; perdita dell'appetito e diminuzione di peso; sentimenti di colpa. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito95": {
+	"Domanda": "Che criterio temporale deve essere soddisfatto per poter diagnosticare il disturbo depressivo maggiore?",
+	"Risposte": {
+		"1": "I sintomi devono essere presenti per un periodo di almeno 1 mese.",
+		"2": "I sintomi devono essere presenti per un periodo di almeno 2 settimane. ",
+		"3": "I sintomi devono essere presenti per un periodo di almeno 1 settimana",
+		"4": "I sintomi devono essere presenti per periodo massimo di 1 anno."
+	},
+	"Soluzione": "2"
+},
+
+"Quesito96": {
+	"Domanda": "Un umore marcatamente elevato, sia sul versante dell'espansività che dell'irritabilità, che può essere frequentemente accompagnato da: ridotto bisogno di sonno, un eloquio accelerato, fuga delle idee, distraibilità, aumento della socievolezza, della libido, irrequietezza e senso di grandiosità e scarso giudizio. Questa definizione si riferisce a:",
+	"Risposte": {
+		"1": "Episodio di delirio psicotico.",
+		"2": "Disturbo bipolare II.",
+		"3": "Episodio Maniacale.",
+		"4": "Episodio Ipomaniacale."
+	},
+	"Soluzione": "3"
+},
+
+
+
+
+
+"Quesito97": {
+	"Domanda": "Quale teoria sostiene che gli individui con uno stile attribuzionale pessimistico, in parte sviluppato attraverso l'apprendimento sociale, di fronte ad eventi di vita negativi siano più vulnerabili a sviluppare un disturbo depressivo?",
+	"Risposte": {
+		"1": "La teoria cognitiva di Beck (1967).",
+		"2": "La teoria sulla ruminazione depressiva di Nolen-Hoeksema (1991).",
+		"3": "L'interpretazione psicodinamica di Abraham (1927).",
+		"4": "La teoria dell'impotenza appresa di Abramson (1978).  "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito98": {
+	"Domanda": "Qual è la relazione tra SES (Socieconomic status) e disturbi dell'umore?",
+	"Risposte": {
+		"1": "Al diminuire del SES aumenta la probabilità di sviluppare un disturbo depressivo maggiore. ",
+		"2": "Al diminuire del SES diminuisce la probabilità di sviluppare un disturbo depressivo maggiore.",
+		"3": "Al diminuire del SES aumenta la probabilità di sviluppare un disturbo bipolare.",
+		"4": "All'aumentare del SES diminuisce la probabilità di sviluppare un disturbo bipolare."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito99": {
+	"Domanda": "Secondo la triade cognitiva di Beck, quale modalità di processamento dell'informazione produce un pensiero disfunzionale analogo al seguente: Se non posso raggiungere il massimo risultato, tanto vale non farlo.",
+	"Risposte": {
+		"1": "Ragionamento dicotomico. ",
+		"2": "Pregiudizio rigido.",
+		"3": "Astrazione selettiva.",
+		"4": "Inferenza arbitraria."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito100": {
+	"Domanda": "Quale interpretazione del lutto danno S. Freud e K. Abraham (1927)?",
+	"Risposte": {
+		"1": "La persona in lutto regredisce alla fase orale dello sviluppo e introietta la persona persa. ",
+		"2": "La persona in lutto utilizza principalmente il meccanismo di difesa della rimozione per non sentire il dolore.",
+		"3": "La persona in lutto rivive un conflitto interno proiettandolo sulla persona persa.",
+		"4": "La persona in lutto regredisce alla fase anale dello sviluppo cercando di espellere l'immagine della persona persa."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito101": {
+	"Domanda": "Un esempio di interazione genotipo-ambiente, in cui i fattori genetici non sono necessari e sufficienti a causare disturbi mentali, può essere:",
+	"Risposte": {
+		"1": "Il disturbo borderline di personalità",
+		"2": "Il disturbo di panico.",
+		"3": "La Depressione Maggiore. ",
+		"4": "La disfunzione erettile."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito102": {
+	"Domanda": "Il criterio ricorrenti vuoti nella rievocazione di eventi quotidiani, di importanti informazioni personali e/o eventi traumatici non riconducibili a normale dimenticanzaè riconducibile ad un quadro clinico di:",
+	"Risposte": {
+		"1": "Disturbo dissociativo dell'identità.",
+		"2": "Disturbo di conversione",
+		"3": "Disturbo di panico.",
+		"4": "Disturbo da depersonalizzazione."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito103": {
+	"Domanda": "Qual è la differenza tra la diagnosi di disturbo da sintomi somatici e disturbo da ansia di malattia?",
+	"Risposte": {
+		"1": "Il disturbo da sintomi somatici equivale alla vecchia diagnosi (DSM-IV) di ipocondria.",
+		"2": "Il disturbo da ansia di malattia equivale alla vecchia diagnosi (DSM-IV) di ipocondria.",
+		"3": "Nel disturbo da ansia di malattia i sintomi somatici non sono presenti. ",
+		"4": "Nel disturbo da ansia di malattia non sono presenti comportamenti eccessivi correlati alla salute."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito104": {
+	"Domanda": "Quando viene abbandonata la classificazione dei disturbi dissociativi e somatoformi come disturbi d'ansia?",
+	"Risposte": {
+		"1": "Sono ancora classificati nella sezione dei disturbi d'ansia.",
+		"2": "Solo nel 2013, nel nuovo DSM 5.",
+		"3": "Nel 1968, con l'uscita del DSM II.",
+		"4": "Nel 1980, con l'uscita del DSM III. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito105": {
+	"Domanda": "Le modificazioni che avvengono a livello somatico sono spesso segnali di allarme di una grave malattia, ogni sintomo deve avere una causa fisica identificabile. Quello descritto è un pensiero disfunzionale che può essere tipico di un paziente con un disturbo:",
+	"Risposte": {
+		"1": "Somatoforme.",
+		"2": "Da sintomi somatici. ",
+		"3": "Schizotipico.",
+		"4": "Fittizio."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito106": {
+	"Domanda": "Nel disturbo di conversione:",
+	"Risposte": {
+		"1": "Il paziente ha deliri e allucinazioni dovuti a periodi di stress particolarmente intenso.",
+		"2": "Il paziente ha sintomi o alterazioni della funzione motoria o sensoriale che suggerirebbero un disturbo medico o neurologico sottostante ma che non sono riconducibili a una causa organica. ",
+		"3": "Il paziente vive un'esperienza di irrealtà e distacco rispetto all'ambiente circostante",
+		"4": "Il paziente simula e produce intenzionalmente sintomi psicologici o fisici."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito107": {
+	"Domanda": "Un individuo che presenta un sintomo fisico, con causa medica chiaramente identificabile, percepito dal soggetto come molto stressante, ad esempio associato ad un livello di ansia costantemente elevato:",
+	"Risposte": {
+		"1": "Soddisfa i criteri per un disturbo da sintomi somatici. ",
+		"2": "Non soddisfa i criteri per la diagnosi di un disturbo somatico.",
+		"3": "Soddisfa i criteri per un disturbo di conversione.",
+		"4": "Soddisfa i criteri per un disturbo da ansia di malattia."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito108": {
+	"Domanda": "Pensieri, sentimenti e comportamenti disadattivi ed eccessivi collegati ai sintomi fisici. Con preoccupazioni intrusive e sproporzionate rispetto alla gravità dei sintomi; ansia sproporzionata rispetto ai sintomi e utilizzo eccessivo tempo ed energie dedicato alle preoccupazioni per la salute.Questa descrizione si riferisce a:",
+	"Risposte": {
+		"1": "Disturbo da ansia di malattia.",
+		"2": "Disturbo di conversione.",
+		"3": "Disturbo da sintomi somatici. ",
+		"4": "Disturbo fittizio."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito109": {
+	"Domanda": "Un individuo che presenta un sintomo fisico, con causa medica chiaramente identificabile, percepito dal soggetto come molto stressante, ad esempio associato ad un livello di ansia costantemente elevato:",
+	"Risposte": {
+		"1": "Soddisfa i criteri per un disturbo di conversione.",
+		"2": "Soddisfa i criteri per un disturbo da sintomi somatici. ",
+		"3": "Soddisfa i criteri per un disturbo da ansia di malattia.",
+		"4": "Non soddisfa i criteri per la diagnosi di un disturbo somatico."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito110": {
+	"Domanda": "Quale importante innovazione è stata introdotta nel DSM 5 nelle diagnosi di disturbo da sintomi somatici e correlati?",
+	"Risposte": {
+		"1": "Viene eliminata la distinzione tra sintomi fisici che hanno una diagnosi medica e quelli che non ce l'hanno, che restano comunque elementi chiave in alcune diagnosi. ",
+		"2": "Viene attribuita molta più importanza ai sintomi fisici che non hanno una spiegazione medica precisa.",
+		"3": "Viene introdotta la diagnosi di disturbo algico.",
+		"4": "Viene introdotta la diagnosi di ipocondria."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito111": {
+	"Domanda": "L'amnesia dissociativa:",
+	"Risposte": {
+		"1": "Consiste molto spesso in una diffusa amnesia anterograda.",
+		"2": "Molto spesso segue ad abuso di sostanze psicotrope.",
+		"3": "Molto spesso segue a un trauma cranico.",
+		"4": "Consiste molto spesso in un'amnesia circoscritta o selettiva per alcuni specifici eventi. "
+	},
+	"Soluzione": "4"
+},
+
+
+
+"Quesito112": {
+	"Domanda": "Qual è il tempo necessario stimato perché si sviluppi una dipendenza da oppiacei?",
+	"Risposte": {
+		"1": "È sufficiente un uso continuativo per 5 giorni.",
+		"2": "È sufficiente un uso continuativo per 30 giorni. ",
+		"3": "È sufficiente un solo utilizzo.",
+		"4": "É necessario un uso continuativo per una durata di 6 mesi."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito113": {
+	"Domanda": "Il bisogno di quantità sempre maggiori di sostanza per ottenere gli effetti desiderati, derivato da mutamenti biochimici nella metabolizzazione e smaltimento della sostanza,descrive:",
+	"Risposte": {
+		"1": "L'astinenza.",
+		"2": "La dipendenza.",
+		"3": "La tolleranza. ",
+		"4": "L'assuefazione."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito114": {
+	"Domanda": "Gli effetti dell'abuso di alcol:",
+	"Risposte": {
+		"1": "Sono solamente eccitatori perché portano a una minore inibizione.",
+		"2": "Comprendono sia la stimolazione che la depressione del sistema nervoso.",
+		"3": "Possono essere smaltiti più velocemente facendo una doccia fredda o con l'esercizio fisico.",
+		"4": "Possono essere contrastati bevendo diverse tazze di caffè."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito115": {
+	"Domanda": "Gli oppiacei:",
+	"Risposte": {
+		"1": "Sono sostanze psicoattive allucinogene.",
+		"2": "Si legano ai recettori delle endorfine nel sistema nervoso centrale. ",
+		"3": "Sono sostanze psicoattive stimolanti.",
+		"4": "Stimolano la resistenza, gli impulsi sessuali, diminuiscono la sensazione di fatica."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito116": {
+	"Domanda": "La comorbilità fra abuso di alcol e altri disturbi mentali:",
+	"Risposte": {
+		"1": "Non si verifica quasi mai.",
+		"2": "Si aggira intorno al 40%.",
+		"3": "Si aggira intorno al 10%.",
+		"4": "Si verifica soprattutto con i disturbi di personalità."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito117": {
+	"Domanda": "La cocaina:",
+	"Risposte": {
+		"1": "Quando è sintetizzata per essere iniettata è il crack.",
+		"2": "È una sostanza psicoattiva classificata come oppiaceo.",
+		"3": "È una sostanza psicoattiva allucinogena.",
+		"4": "Provoca uno stato di stupor."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito118": {
+	"Domanda": "Le anfetamine:",
+	"Risposte": {
+		"1": "Aumentano lo stato di allerta, l'autostima e la resistenza permettendo di stare svegli per lunghi periodi. ",
+		"2": "Alleviano la tensione e l'ansia, inducono rilassamento e sonno.",
+		"3": "Sono classificate come allucinogeni.",
+		"4": "Sono classificate come sedativi."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito119": {
+	"Domanda": "I barbiturici:",
+	"Risposte": {
+		"1": "Sono sostanze psicoattive stimolanti.",
+		"2": "Sono sostanze psicoattive della stessa categoria della Cannabis.",
+		"3": "Rallentano l'attività del SNC riducendo la performance in compiti cognitivi. ",
+		"4": "Accelerano l'attività del SNC aumentando la performance in compiti cognitivi."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito120": {
+	"Domanda": "Il delirium tremens:",
+	"Risposte": {
+		"1": "Compare durante lo stato di astinenza da oppiacei.",
+		"2": "Riguarda conseguenze negative che seguono il binge drinking, come ad esempio un senso di stanchezza o impulsività.",
+		"3": "Compare durante lo stato di astinenza che segue a un uso eccesivo di alcol prolungato nel tempo. ",
+		"4": "È la perdita di coscienza che segue l'abuso di alcol."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito121": {
+	"Domanda": "Tra le conseguenze negative dell'abuso di alcol possiamo elencare:",
+	"Risposte": {
+		"1": "Riduzione del livello di dopamina nel cervello, che a lungo andare genera cambiamenti strutturali.",
+		"2": "Stato euforico, di beatitudinee irrequietezza.",
+		"3": "Compromissione dell'apprendimento, della capacità di giudizio, presa di decisioni e coordinazione motoria. ",
+		"4": "Alterazione progressiva del sistema immunitario."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito122": {
+	"Domanda": "Quando fu sintetizzata e si diffuse la prima anfetamina disponibile sul mercato come inalante per le congestioni nasali?",
+	"Risposte": {
+		"1": "Anni '30. ",
+		"2": "Anni '50.",
+		"3": "Anni '90.",
+		"4": "Anni '70."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito123": {
+	"Domanda": "Le anfetamine:",
+	"Risposte": {
+		"1": "Sono classificate nella stessa classe di alcol e barbiturici.",
+		"2": "Alleviano tensione ed ansia e inducono rilassamento e sonno.",
+		"3": "Sono utilizzate come calmanti nel trattamento del DDAI (disturbo da deficit di attenzione e iperattività). ",
+		"4": "Sono sostanze psicoattive allucinogene."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito124": {
+	"Domanda": "Gli effetti dell'abuso di alcol:",
+	"Risposte": {
+		"1": "Possono essere contrastati bevendo diverse tazze di caffè.",
+		"2": "Possono essere smaltiti più velocemente facendo una doccia fredda o con l'esercizio fisico.",
+		"3": "Comprendono sia la stimolazione che la depressione del sistema nervoso. ",
+		"4": "Sono solamente eccitatori perché portano a una minore inibizione."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito125": {
+	"Domanda": "Chi per primo descrisse nel 1887 il disturbo amnestico da alcol?",
+	"Risposte": {
+		"1": "Tourette.",
+		"2": "Cloninger.",
+		"3": "Freud.",
+		"4": "Korsakoff. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito126": {
+	"Domanda": "La condizione di transessualismo:",
+	"Risposte": {
+		"1": "Si presenta negli adulti con disforia di genere che decidono cambiare sesso con terapie ormonali e/o chirurgiche. ",
+		"2": "Si presenta nei bambini/e che si vestono da donne/uomini e preferiscono giochi tipici del genere opposto a quello di nascita.",
+		"3": "Nel DSM-5 è suddivisa nei sottotipi di transessualismo omosessuale e autoginefilico.",
+		"4": "Si riferisce per esempio alle persone omosessuali che fanno le Drag Queen."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito127": {
+	"Domanda": "cos'è l'autoginefilia?",
+	"Risposte": {
+		"1": "l'eccitazione sessuale parafilica che nasce dal desiderio o fantasia di essere una donna",
+		"2": "la masturbazione femminile",
+		"3": "l'eccitazione sessuale derivante dall'uso di oggetti inanimati",
+		"4": "l'eccitazione sessuale derivata dal mostrare i propri genitali in pubblico"
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito128": {
+	"Domanda": "La terapia dell'avversione:",
+	"Risposte": {
+		"1": "Consiste nel tentativo di eliminare le distorsioni cognitive dei criminali sessuali.",
+		"2": "Consiste nell'associare a uno stimolo parafilico un odore ripugnante o una scossa elettrica.",
+		"3": "Consiste in una rieducazione ai rapporti interpersonali con l'altro sesso.",
+		"4": "Ha un'efficacia dimostrata sia in laboratorio che ecologica."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito129": {
+	"Domanda": "Quale studioso, negli anni '50, diede avvio all'era contemporanea della ricerca sulla sessualità?",
+	"Risposte": {
+		"1": "Virginia Johnson",
+		"2": "John Harvey Kellog",
+		"3": "Helen Kaplan",
+		"4": "Alfred Kinsey "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito130": {
+	"Domanda": "Nei disturbi parafilici e nelle parafilie:",
+	"Risposte": {
+		"1": "L'esordio è tardivo.",
+		"2": "La frequenza è maggiore nelle donne.",
+		"3": "La frequenza è maggiore negli uomini.",
+		"4": "Di solito non coesistono diversi interessi parafilici in uno stesso individuo."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito131": {
+	"Domanda": "Quante sono le fasi della risposta sessuale?",
+	"Risposte": {
+		"1": "3: desiderio, eccitazione, orgasmo.",
+		"2": "3: eccitazione, desiderio, orgasmo, plateau.",
+		"3": "3: eccitazione, desiderio, orgasmo.",
+		"4": "4: desiderio, eccitazione, orgasmo, risoluzione."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito132": {
+	"Domanda": "Il disturbo da dolore genito-pelvico della penetrazione?",
+	"Risposte": {
+		"1": "Era suddiviso nelle diagnosi di dispareunia e vaginismo. ",
+		"2": "Non ha subito modifiche nel DSM-5 rispetto alle precedenti versioni.",
+		"3": "È un disturbo legato all'orgasmo maschile.",
+		"4": "Consiste nell'impossibilità dell'uomo di portare a termine la penetrazione."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito133": {
+	"Domanda": "Eccitazione ricorrente e intensa, manifestata attraverso fantasie, desideri o comportamenti, per almeno 6 mesi, derivanti dal toccare, o strusciarsi contro una persona non consenzienteè un criterio per:",
+	"Risposte": {
+		"1": "Disturbo frotteuristico.",
+		"2": "Nessuna delle altre risposte è corretta.",
+		"3": "Disturbo da sadismo sessuale.",
+		"4": "Disturbo voyeristico."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito134": {
+	"Domanda": "Le persone che subiscono un abuso sessuale in infanzia:",
+	"Risposte": {
+		"1": "Di solito rimuovono il ricordo, che riemerge molto più avanti in età adulta.",
+		"2": "Di solito ricostruiscono con attendibilità la situazione d'abuso.",
+		"3": "Hanno il 20% in più di probabilità di sviluppare un disturbo mentale rispetto agli altri.",
+		"4": "Hanno il 50% in più di probabilità di sviluppare un disturbo mentale rispetto agli altri."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito135": {
+	"Domanda": "Quale causa principale del disturbo erettile veniva identificata da Masters e Johnson (1975)?",
+	"Risposte": {
+		"1": "Distrazioni cognitive associate all'ansia.",
+		"2": "Una disfunzione dovuta a un problema medico.",
+		"3": "Umore depresso.",
+		"4": "Ansia relativa alla prestazione sessuale."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito136": {
+	"Domanda": "Il priapismo:",
+	"Risposte": {
+		"1": "È un'erezione che non regredisce nemmeno a distanza di un paio d'ore.",
+		"2": "Può essere una causa di disfunzione erettile nei giovani.",
+		"3": "Tutte le risposte indicate sono corrette. ",
+		"4": "Può essere il risultato di un'attività sessuale prolungata."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito137": {
+	"Domanda": "Quali elementi predicono un disturbo del desiderio sessuale ipoattivo maschile?",
+	"Risposte": {
+		"1": "Alti livelli di aggressività, essere sposati e lavoro precario.",
+		"2": "Uso di alcol quotidiano, stress e celibato. ",
+		"3": "Status economico-sociale svantaggiato, essere sposati e lavoro precario",
+		"4": "Status economico-sociale svantaggiato e avere una diagnosi di disturbo di personalità."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito138": {
+	"Domanda": "La diagnosi di disforia di genere nei bambini è controversa perché:",
+	"Risposte": {
+		"1": "La maggior parte dei bambini con disforia di genere si rivela essere omosessuale in età adulta.",
+		"2": "Di solito i bambini con disforia di genere hanno generalmente un buon adattamento in età adulta.",
+		"3": "Stigmatizza i comportamenti cross-dresser dei bambini.",
+		"4": "Tutte le risposte indicate sono corrette. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito139": {
+	"Domanda": "Problemi legati all'erezione:",
+	"Risposte": {
+		"1": "Si verificano nel 90% degli uomini che utilizzano SSRI (antidepressivi). ",
+		"2": "Sono tipici dell'età giovanile, con una stima del 25% di disturbi erettili tra i 18 e 25 anni.",
+		"3": "Non sono legati all'invecchiamento.",
+		"4": "Si verificano nel 90% degli uomini che utilizzano litio."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito140": {
+	"Domanda": "Il disturbo da eiaculazione ritardata:",
+	"Risposte": {
+		"1": "Il ritardo nell'eiaculazione deve essere intenzionale per poter diagnosticare il disturbo.",
+		"2": "È definito come un disturbo in cui ricorrentemente e in modo persistente l'orgasmo avviene con una minima stimolazione sessuale.",
+		"3": "Per essere diagnosticato i sintomi si devono protrarsi per almeno 6 mesi. ",
+		"4": "Nell'85% dei casi riguarda uomini del tutto incapaci di eiaculare."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito141": {
+	"Domanda": "Per quale ragione stabilire un confine tra normalità e patologia è particolarmente complesso nel caso delle disfunzioni sessuali?",
+	"Risposte": {
+		"1": "Alcune tematiche relative alla sessualità sono sensibili e controverse nella nostra società (ad es. aborto, abusi).",
+		"2": "Ciò che è considerato normale e accettabile varia molto da una cultura all'altra e con il passare del tempo.",
+		"3": "Tutte le risposte indicate sono corrette. ",
+		"4": "Il sesso spesso è ancora un argomento tabù e ancora poco studiato."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito142": {
+	"Domanda": "L'ebefilia:",
+	"Risposte": {
+		"1": "È inclusa nel DSM-5 come sottocategoria della pedofilia.",
+		"2": "È l'attrazione sessuale per i bambini pubescenti. ",
+		"3": "È l'attrazione sessuale nei confronti di bambini prepubere.",
+		"4": "Era inclusa nel DSM-IV come sottocategoria della pedofilia."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito143": {
+	"Domanda": "Le parafilie:",
+	"Risposte": {
+		"1": "Sono sempre classificabili come disturbi sessuali.",
+		"2": "Non sono in nessun caso compatibili con la salute e il benessere della persona.",
+		"3": "Comprendono il transessualismo.",
+		"4": "Diventano problematiche se arrecano danno e per l'insistenza ed esclusività dell'interesse sessuale. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito144": {
+	"Domanda": "Assenza (o ridotta) iniziativa nel rapporto sessuale e generale rifiuto delle iniziative del partner con ridotti pensieri o fantasie sessuali/erotici, sono sintomi tipici del:",
+	"Risposte": {
+		"1": "Disturbo erettile.",
+		"2": "Disturbo dell'orgasmo femminile.",
+		"3": "Disturbo del desiderio sessuale e dell'eccitazione sessuale femminile. ",
+		"4": "Disturbo del dolore genito-pelvico della penetrazione."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito145": {
+	"Domanda": "Come è cambiata l'etichetta di Disturbo dell'identità di genere nel DSM-5",
+	"Risposte": {
+		"1": "Disturbo da Travestitismo.",
+		"2": "Dismorfismo corporeo.",
+		"3": "Disforia di genere. ",
+		"4": "Disturbo da Transessualismo."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito146": {
+	"Domanda": "In quale edizione del Manuale Diagnostico e Statistico dei disturbi mentali l'omosessualità venne rimossa e derubricata definitivamente?",
+	"Risposte": {
+		"1": "DSM-IV ",
+		"2": "DSM-II",
+		"3": "DSM-III-R",
+		"4": "DSM III"
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito147": {
+	"Domanda": "Qual è l'assunto centrale della teoria della degenerazione di Simon Tissot (1750)?",
+	"Risposte": {
+		"1": "La masturbazione è una pratica sana.",
+		"2": "I rapporti sessuali devono primariamente essere finalizzati alla ricerca del piacere per sé e per il proprio partner.",
+		"3": "Riconosce nel testosterone l'ormone legato alla funzionalità sessuale maschile.",
+		"4": "Lo sperma è responsabile del vigore fisico e sessuale dell'uomo e non va sprecato con pratiche quali la masturbazione."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito148": {
+	"Domanda": "I pazienti schizofrenici:",
+	"Risposte": {
+		"1": "Hanno una prestazione peggiore nei compiti cognitivi complessi dovuta a un'ipoattivazione dei lobi frontali. ",
+		"2": "Hanno una disfunzione del cervelletto che causa i sintomi negativi.",
+		"3": "Hanno uno squilibrio neurochimico dovuto a un eccesso del neurotrasmettitore noradrenalina.",
+		"4": "Hanno una prestazione peggiore nei compiti cognitivi complessi dovuta a un'iperattivazione dei lobi frontali."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito149": {
+	"Domanda": "Gli antipsicotici:",
+	"Risposte": {
+		"1": "Agiscono aumentando la produzione di glutammato nel cervello.",
+		"2": "Agiscono bloccando i recettori della dopamina.",
+		"3": "Agiscono bloccando i recettori noradrenergici.",
+		"4": "Agiscono aumentando la produzione di dopamina nel cervello."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito150": {
+	"Domanda": "Il cervello delle persone affette da schizofrenia:",
+	"Risposte": {
+		"1": "Presenta delle anomalie solo a livello strutturale.",
+		"2": "Presenta delle anomalie solo a livello funzionale.",
+		"3": "Presenta un'anomalia dei ventricoli cerebrali che sono di volume ridotto rispetto ai controlli.",
+		"4": "Presenta una complessiva riduzione della materia grigia che peggiora nel tempo. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito151": {
+	"Domanda": "I sintomi negativi:",
+	"Risposte": {
+		"1": "Includono la manifestazione di un'affettività coartata e l'abulia. ",
+		"2": "Includono le allucinazioni.",
+		"3": "Riflettono una distorsione nel normale repertorio di comportamento ed esperienza.",
+		"4": "Includono il pensiero disorganizzato."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito152": {
+	"Domanda": "I deliri:",
+	"Risposte": {
+		"1": "Riflettono un disturbo del contenuto del pensiero. ",
+		"2": "Sono spesso dovuti a scarsa intelligenza, bassa scolarità o deprivazione culturale.",
+		"3": "Riflettono un disturbo formale del pensiero.",
+		"4": "Una persona che ne è affetta sembra usare il linguaggio in modo convenzionale, seguendo le regole semantiche e sintattiche che governano la comunicazione verbale ma risulta incomprensibile."
+	},
+	"Soluzione": "1"
+},
+
+
+"Quesito153": {
+	"Domanda": "Qual è la tipica età di esordio della schizofrenia?",
+	"Risposte": {
+		"1": "35-50 anni.",
+		"2": "12-20 anni.",
+		"3": "18-30 anni. ",
+		"4": "25-35 anni"
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito154": {
+	"Domanda": "Trascuratezza nell'igiene personale o nella sicurezza e salute fanno pensare a un:",
+	"Risposte": {
+		"1": "Episodio ipomaniacale.",
+		"2": "Episodio depressivo.",
+		"3": "Disturbo formale del pensiero.",
+		"4": "Comportamento disorganizzato."
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito155": {
+	"Domanda": "Il disturbo schizofreniforme:",
+	"Risposte": {
+		"1": "Ha una prognosi peggiore rispetto alla schizofrenia.",
+		"2": "È diagnosticabile se l'episodio dura meno di un mese.",
+		"3": "È caratterizzato dal ricorrere episodi dell'umore (depressivi o maniacali) in un quadro di malattia psicotica.",
+		"4": "È caratterizzato dagli stessi sintomi della schizofrenia ma la durata del disturbo non lo rende classificabile come schizofrenia. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito156": {
+	"Domanda": "Secondo l'ipotesi del doppio legame:",
+	"Risposte": {
+		"1": "La schizofrenia spesso si sviluppa nelle famiglie che hanno una tendenza all'emotività espressa.",
+		"2": "Avere una madre schizofrenogenicaè una delle cause principali della schizofrenia.",
+		"3": "La schizofrenia è causata da interazioni genitoriali distruttive.",
+		"4": "La schizofrenia può svilupparsi in un bambino che riceve richieste contraddittorie o incompatibili. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito157": {
+	"Domanda": "La dementia precox (Kraepelin):",
+	"Risposte": {
+		"1": "È oggi conosciuta come demenza senile.",
+		"2": "È oggi conosciuta come disturbo psicotico breve.",
+		"3": "È oggi conosciuta come schizofrenia. ",
+		"4": "È una temporanea perdita delle facoltà mentali dovuta ad abuso di sostanze."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito158": {
+	"Domanda": "Le allucinazioni:",
+	"Risposte": {
+		"1": "Sono più comuni nella forma visiva.",
+		"2": "Possono comparire in persone sane se sottoposte a un forte stress.",
+		"3": "Sono rare nella forma uditiva.",
+		"4": "Sono una dispercezione di uno stimolo esistente."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito159": {
+	"Domanda": "Qual è il ruolo dei fattori genetici nello sviluppo della schizofrenia:",
+	"Risposte": {
+		"1": "Modesto: studi su gemelli omozigoti dimostrano che non c'è molta familiarità nel disturbo.",
+		"2": "Intervengono come concausa nel disturbo: è stato dimostrato il coinvolgimento di molti geni, ciascuno con un effetto modesto che aumentano il rischio di sviluppare il disturbo. ",
+		"3": "Nessuno: è stato dimostrato come vi siano altri fattori causali, quali ad esempio complicanze in gravidanza o l'esposizione prenatale a virus.",
+		"4": "Gli studi sui gemelli, dimostrano che la malattia schizofrenica è causata da una mutazione su un gene: il COMT sul cromosoma 22."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito160": {
+	"Domanda": "Qual è il sintomo centrale della schizofrenia secondo la concezione di Bleuler (1911)?",
+	"Risposte": {
+		"1": "La paranoia e le idee di riferimento.",
+		"2": "La disorganizzazione del pensiero. ",
+		"3": "Il delirio.",
+		"4": "La dissociazione dell'identità."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito161": {
+	"Domanda": "La prima descrizione clinica della schizofrenia fu proposta da:",
+	"Risposte": {
+		"1": "Emil Kraepelin.",
+		"2": "Benedict Morel.",
+		"3": "Eugen Bleuler.",
+		"4": "John Haslam. "
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito162": {
+	"Domanda": "Deliri o allucinazioni per 2 settimane o più in assenza di un episodio dell'umore maggiore (depressivo o maniacale) durante la durata lifetime della malattiaè un criterio che rientra in un quadro di:",
+	"Risposte": {
+		"1": "Disturbo schizofreniforme.",
+		"2": "Disturbo schizoaffettivo. ",
+		"3": "Disturbo depressivo con caratteristiche psicotiche.",
+		"4": "Disturbo delirante."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito163": {
+	"Domanda": "Il termine schizofrenia è stato coniato nel:",
+	"Risposte": {
+		"1": "1890",
+		"2": "1930",
+		"3": "1948",
+		"4": "1911"
+	},
+	"Soluzione": "4"
+},
+
+
+"Quesito164": {
+	"Domanda": "L'incapacità di iniziare o portare avanti un comportamento diretto a uno scopoè una buona definizione di:",
+	"Risposte": {
+		"1": "Anedonia.",
+		"2": "Abulia. ",
+		"3": "Alogia.",
+		"4": "Affettività coartata."
+	},
+	"Soluzione": "2"
+},
+
+
+"Quesito165": {
+	"Domanda": "La ripetizione automatica a pappagallodi alcune parole è definita:[1]",
+	"Risposte": {
+		"1": "Neologismo.",
+		"2": "Filastrocca.",
+		"3": "Ecolalia",
+		"4": "Lallazione."
+	},
+	"Soluzione": "3"
+},
+
+
+"Quesito166": {
+	"Domanda": "Il neurotrasmettitore monoaminico dopamina.",
+	"Risposte": {
+		"1": "Ha un ruolo nello sviluppo di disturbi emotivi come ansia e depressione.",
+		"2": "Ha un effetto principalmente sul modo in cui elaboriamo le informazioni dell'ambiente circostante.",
+		"3": "Gioca un ruolo importante quando siamo esposti a situazioni di emergenza.",
+		"4": "Ha un ruolo nello sviluppo della schizofrenia. "
+	},
+	"Soluzione": "4"
+}
+}

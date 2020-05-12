@@ -1,0 +1,22 @@
+{"Quesito1": {
+	"Domanda" : "Qual è la definizione di epidemiologia nell’ambito della salute mentale?",
+	"Risposte": {
+		"1": "È lo studio della distribuzione delle malattie mentali.",
+		"2": "È lo studio dell’incidenza dei disturbi mentali.",
+		"3": "Tutte  le altre risposte sono corrette.",
+		"4": "È lo studio della prevalenza dei disturbi mentali."
+	},
+	"Soluzione": "3"
+},
+
+"Quesito2": {
+	"Domanda": "La meta-analisi è...",
+	"Risposte": {
+		"1": "... una tecnica di ricerca longitudinale che permette di seguire i partecipanti dalla nascita alla morte per trarre conclusioni sul decorso dei disturbi mentali più gravi.",
+		"2": "... una tecnica di ricerca retrospettiva.",
+		"3": "... un metodo che consiste di rilevare errori metodologici e statistici negli studi già pubblicati allo scopo di incrementare la qualità della ricerca scientifica.",
+		"4": "... un approccio statistico che calcola e combina i risultati di diversi studi scientifici"
+	},
+	"Soluzione": "4"
+}}
+
