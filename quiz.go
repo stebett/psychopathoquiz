@@ -21,7 +21,7 @@ type Quiz struct {
 	Soluzione string
 }
 
-const filename = "domande_finali.json"
+const filename = "domande.json"
 const numeroQuesiti = 166
 const numeroEpisodi = 30
 
