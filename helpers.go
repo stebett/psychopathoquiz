@@ -6,10 +6,71 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"math/rand"
 	"os"
 	"strconv"
 	"strings"
 )
+
+func ScegliDomanda() int {
+	CalcolaProbCumulativa()
+	r := rand.Float32()
+
+	domanda := 0
+	for r > cdf[domanda] {
+		domanda++
+	}
+	return domanda
+}
+
+func CalcolaProbCumulativa() {
+	punteggi := CaricaPunteggi(numeroDomanda, filename)
+
+}
+
+type Punteggio struct {
+	Corrette  int
+	Sbagliate int
+}
+
+func AggiornaPunteggio(numeroDomanda int, risultato int, filename string) {
+	return
+
+}
+
+func CaricaPunteggi(numeroDomanda int, filename string) []*Punteggio {
+	jsonData := readJson(filename)
+
+	var punteggi []*Punteggio
+
+	for i := 1; i <= numeroQuesiti; i++ {
+		quesito := "Quesito" + strconv.Itoa(i)
+		punteggi = append(punteggi, CaricaUnPunteggio(quesito, jsonData))
+	}
+
+	return punteggi
+}
+
+func CaricaUnPunteggio(numeroQuesito string, jsonData map[string]json.RawMessage) *Punteggio {
+
+	punteggio := new(Punteggio)
+	var quesito map[string]json.RawMessage
+
+	err := json.Unmarshal(jsonData[numeroQuesito], &quesito)
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = json.Unmarshal(quesito["Corrette"], &punteggio.Corrette)
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = json.Unmarshal(quesito["Sbagliate"], &punteggio.Sbagliate)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return punteggio
+}
 
 func scriviEsito(risultato int, risposta string) {
 	if risultato == 1 {
@@ -77,7 +138,7 @@ func scriviDomanda(quiz *Quiz) (int, string) {
 	return 0, quiz.Risposte[quiz.Soluzione]
 }
 
-func readJson() map[string]json.RawMessage {
+func readJson(filename string) map[string]json.RawMessage {
 	data, _ := ioutil.ReadFile(filename)
 	var jsonData map[string]json.RawMessage
 	err := json.Unmarshal(data, &jsonData)

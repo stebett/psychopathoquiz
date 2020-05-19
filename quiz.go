@@ -12,9 +12,12 @@ type Quiz struct {
 	Soluzione string
 }
 
-const filename = "domande.json"
+const domande = "domande.json"
+const punteggi = "punteggio.json"
 const numeroQuesiti = 166
 const numeroEpisodi = 30
+
+var cdf [166]float32
 
 var punteggio int
 var clear map[string]func() //create a map for storing clear funcs
@@ -22,7 +25,7 @@ var clear map[string]func() //create a map for storing clear funcs
 func main() {
 	rand.Seed(time.Now().UnixNano())
 
-	jsonData := readJson()
+	jsonData := readJson(domande)
 	database := caricaDomande(jsonData)
 
 	CallClear()
@@ -30,8 +33,10 @@ func main() {
 	fmt.Printf("[!] Iniziamo!\n\n")
 	for i := 1; i <= numeroEpisodi; i++ {
 
-		risultato, risposta := scriviDomanda(database[rand.Intn(numeroQuesiti)])
+		numeroDomanda := ScegliDomanda()
+		risultato, risposta := scriviDomanda(database[numeroDomanda])
 		punteggio += risultato
+		AggiornaPunteggio(numeroDomanda, risultato, punteggi)
 		CallClear()
 		scriviEsito(risultato, risposta)
 	}
