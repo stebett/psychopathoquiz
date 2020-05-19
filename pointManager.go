@@ -22,9 +22,9 @@ const filePunteggi = "punteggio.json"
 
 func ScegliDomanda() int {
 	ComputeCDF()
+	fmt.Println(cdf)
 	r := rand.Float32()
 
-	fmt.Println(r)
 	domanda := 0
 	for r > cdf[domanda] {
 		domanda++
@@ -38,16 +38,23 @@ func AggiornaPunteggio(numeroDomanda int, risultato int, punteggi Punteggi) {
 }
 
 func ComputeCDF() {
+	pointer := &cdf
 	loadScore()
 	var normalizer float32
 
 	for i := range cdf {
-		cdf[i] = punteggi.Punteggi[i].Sbagliate / punteggi.Punteggi[i].Corrette
-		normalizer += cdf[i]
+		pointer[i] = punteggi.Punteggi[i].Sbagliate / punteggi.Punteggi[i].Corrette
+		normalizer += pointer[i]
 	}
 
 	for i := range cdf {
-		cdf[i] = cdf[i] / normalizer
+		pointer[i] = pointer[i] / normalizer
+	}
+
+	for i := range cdf {
+		if i > 0 {
+			pointer[i] += pointer[i-1]
+		}
 	}
 }
 

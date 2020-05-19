@@ -17,7 +17,6 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 
 	loadQuestions()
-	fmt.Println(cdf)
 
 	fmt.Println(ScegliDomanda())
 	// for i := 1; i <= numeroEpisodi; i++ {
