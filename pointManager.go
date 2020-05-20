@@ -18,7 +18,7 @@ type Punteggio struct {
 	Sbagliate float32
 }
 
-const filePunteggi = "punteggio.json"
+const filePunteggi = "punteggi.json"
 
 func ScegliDomanda() int {
 	ComputeCDF()
@@ -32,9 +32,21 @@ func ScegliDomanda() int {
 	return domanda
 }
 
-func AggiornaPunteggio(numeroDomanda int, risultato int, punteggi Punteggi) {
-	return
-
+func AggiornaPunteggio(numeroDomanda int, risultato int) {
+	loadScore()
+	if risultato == 1 {
+		punteggi.Punteggi[numeroDomanda].Corrette += 1
+	} else {
+		punteggi.Punteggi[numeroDomanda].Sbagliate += 1
+	}
+	byteFile, err := json.Marshal(punteggi)
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = ioutil.WriteFile(filePunteggi, byteFile, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
 
 func ComputeCDF() {

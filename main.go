@@ -19,13 +19,14 @@ func main() {
 	loadQuestions()
 
 	fmt.Println(ScegliDomanda())
-	// for i := 1; i <= numeroEpisodi; i++ {
+	var punteggio int
+	for i := 1; i <= numeroEpisodi; i++ {
 
-	// 	risultato, risposta := scriviDomanda(quizzes.Quizzes[1])
-	// 	punteggio += risultato
-	// 	AggiornaPunteggio(1, risultato, punteggi)
-	// 	scriviEsito(risultato, risposta)
-	// }
-	// fmt.Printf("Hai totalizzato %d/30 punti!\n", punteggio)
+		risultato, risposta := scriviDomanda(quizzes.Quizzes[1])
+		punteggio += risultato
+		AggiornaPunteggio(1, risultato)
+		scriviEsito(risultato, risposta)
+	}
+	fmt.Printf("Hai totalizzato %d/30 punti!\n", punteggio)
 
 }
