@@ -10,12 +10,12 @@
 [9] [0.0061%] In che anno Wilhelm Wundt istitui' il primo laboratorio di psicologia sperimentale?
 [10] [0.0061%] Chi sono i principali esponenti della scuola comportamentista?
 [11] [0.0061%] Quale gruppo di teorici psicodinamici di seconda generazione sottolinea che le determinanti del comportamento umano siano le forze sociali e culturali piuttosto che gli istinti interiori?
-[12] [0.0122%] Su quale tema dibattevano la scuola di Nancy, rappresentata da Bernheim, e la Salp�trie're di Parigi, con a capo Charcot?
+[12] [0.0123%] Su quale tema dibattevano la scuola di Nancy, rappresentata da Bernheim, e la Salp�trie're di Parigi, con a capo Charcot?
 [13] [0.0061%] Chi viene considerato il fondatore della psichiatria americana?
 [14] [0.0061%] Cosa accomuna gli psichiatri Emil Kraepelin, Wilhelm Griesinger e Albrecht von Haller?
 [15] [0.0031%] Qual era il disturbo mentale con sintomatologia somatica molto studiato da Freud, Breuer e Janet?
 [16] [0.0061%] Quale metodologia di raccolta di informazioni sui disturbi mentali era privilegiata da psichiatri come Kraepelin (1856-1926) e Bleuler (1857-1939)?
-[17] [0.0122%] Quale prospettiva psicodinamica ha fra i suoi esponenti principali Klein, Mahler, Fairburn e Winnicott?
+[17] [0.0123%] Quale prospettiva psicodinamica ha fra i suoi esponenti principali Klein, Mahler, Fairburn e Winnicott?
 [18] [0.0061%] Chi nel 1792 fece l'esperimento di rimuovere le catene ad alcuni detenuti per verificare l'ipotesi che la malattia mentale dovesse essere trattata con rispetto e considerazione?
 [19] [0.0061%] La classificazione dei disturbi mentali nelle 3 categorie mania, melanconia e febbre al cervello (phrenitis) e' attribuibile a:
 [20] [0.0031%] I manicomi nascono con l'esigenza di istituzionalizzare la malattia mentale:
@@ -36,7 +36,7 @@
 [35] [0.0031%] La resilienza...
 [36] [0.0061%] I fattori di protezione
 [37] [0.0061%] La terapia cognitiva.
-[38] [0.0122%] Durante quale fase dello sviluppo si manifesta il complesso di Edipo?
+[38] [0.0123%] Durante quale fase dello sviluppo si manifesta il complesso di Edipo?
 [39] [0.0061%] In cosa consiste l'effetto evocativo del genotipo sull'ambiente?
 [40] [0.0061%] Come viene definito dal DSM 5 un disturbo mentale?
 [41] [0.0031%] Cosa afferma il modello interattivo diatesi-stress del comportamento patologico?
@@ -62,7 +62,7 @@
 [61] [0.0061%] Di cosa si occupa la psicologia della salute?
 [62] [0.0061%] Nel DSM 5 quali cambiamenti sono stati apportati al Disturbo Post-Traumatico da Stress?
 [63] [0.0061%] Quando un individuo sviluppa dei sintomi (per esempio pensieri intrusivi, ipervigilanza o irritabilita') poco dopo aver sperimentato un evento traumatico e questi durano almeno 2 giorni, quale diagnosi potrebbe essere la piu' appropriata?
-[64] [0.0122%] Quali sono i due sistemi di risposta allo stress?
+[64] [0.0123%] Quali sono i due sistemi di risposta allo stress?
 [65] [0.0061%] Paura o ansia marcate di una o piu' situazioni sociali specifiche in cui l'individuo teme di poter essere esposto al giudizio e alla valutazione negativa altrui o di comportarsi in maniera imbarazzante o umiliante. A quale disturbo si riferisce questa definizione?
 [66] [0.0061%] Il Disturbo da Dismorfismo Corporeo:
 [67] [0.0061%] L'ansia, secondo S. Freud...
@@ -70,13 +70,13 @@
 [69] [0.0061%] Il disturbo d'ansia da separazione:
 [70] [0.0061%] Le fobie del sangue-iniezioni-ferite rispetto ad altre fobie specifiche:
 [71] [0.0031%] Quale metodo si e' dimostrato il piu' efficace nel trattamento delle fobie specifiche?
-[72] [0.0122%] Secondo un'interpretazione psicoanalitica classica, da cosa originano le fobie specifiche?
+[72] [0.0123%] Secondo un'interpretazione psicoanalitica classica, da cosa originano le fobie specifiche?
 [73] [0.0031%] Quali disturbi mentali sono ad esordio piu' precoce (circa 6 anni)?
 [74] [0.0061%] Pensieri, immagini o impulsi intrusivi, persistenti e ricorrenti che sono vissuti come disturbanti, inappropriati e incontrollabili, e' una buona definizione di:
-[75] [0.0122%] Quale tratto e' considerato centrale fra le cause psicologiche del DAG?
+[75] [0.0123%] Quale tratto e' considerato centrale fra le cause psicologiche del DAG?
 [76] [0.0061%] Per diagnosticare un disturbo di panico secondo i criteri del DSM 5:
 [77] [0.0061%] Ansia e preoccupazioni difficili da controllare che si manifestano per la maggior parte dei giorni per almeno 6 mesi e riguardo a una quantita' di eventi o attivita' suggeriscono la presenza di:
-[78] [0.0122%] Quale struttura cerebrale attiva la risposta autonomica, neuroendocrina e comportamentale che si verifica durante un attacco di panico?
+[78] [0.0123%] Quale struttura cerebrale attiva la risposta autonomica, neuroendocrina e comportamentale che si verifica durante un attacco di panico?
 [79] [0.0061%] L'acido gamma amino butirrico (GABA).
 [80] [0.0031%] Il condizionamento vicariante:
 [81] [0.0031%] L'agorafobia:
@@ -94,14 +94,14 @@
 [93] [0.0061%] Cosa caratterizza la depressione con manifestazioni melanconiche?
 [94] [0.0061%] Che criterio temporale deve essere soddisfatto per poter diagnosticare il disturbo depressivo maggiore?
 [95] [0.0061%] Un umore marcatamente elevato, sia sul versante dell'espansivita' che dell'irritabilita', che puo' essere frequentemente accompagnato da: ridotto bisogno di sonno, un eloquio accelerato, fuga delle idee, distraibilita', aumento della socievolezza, della libido, irrequietezza e senso di grandiosita' e scarso giudizio. Questa definizione si riferisce a:
-[96] [0.0061%] Quale teoria sostiene che gli individui con uno stile attribuzionale pessimistico, in parte sviluppato attraverso l'apprendimento sociale, di fronte ad eventi di vita negativi siano piu' vulnerabili a sviluppare un disturbo depressivo?
+[96] [0.0031%] Quale teoria sostiene che gli individui con uno stile attribuzionale pessimistico, in parte sviluppato attraverso l'apprendimento sociale, di fronte ad eventi di vita negativi siano piu' vulnerabili a sviluppare un disturbo depressivo?
 [97] [0.0061%] Qual e' la relazione tra SES (Socieconomic status) e disturbi dell'umore?
 [98] [0.0061%] Secondo la triade cognitiva di Beck, quale modalita' di processamento dell'informazione produce un pensiero disfunzionale analogo al seguente: Se non posso raggiungere il massimo risultato, tanto vale non farlo.
 [99] [0.0061%] Quale interpretazione del lutto danno S. Freud e K. Abraham (1927)?
 [100] [0.0061%] Un esempio di interazione genotipo-ambiente, in cui i fattori genetici non sono necessari e sufficienti a causare disturbi mentali, puo' essere:
 [101] [0.0061%] Il criterio ricorrenti vuoti nella rievocazione di eventi quotidiani, di importanti informazioni personali e/o eventi traumatici non riconducibili a normale dimenticanzae' riconducibile ad un quadro clinico di:
 [102] [0.0061%] Qual e' la differenza tra la diagnosi di disturbo da sintomi somatici e disturbo da ansia di malattia?
-[103] [0.0122%] Quando viene abbandonata la classificazione dei disturbi dissociativi e somatoformi come disturbi d'ansia?
+[103] [0.0123%] Quando viene abbandonata la classificazione dei disturbi dissociativi e somatoformi come disturbi d'ansia?
 [104] [0.0031%] Le modificazioni che avvengono a livello somatico sono spesso segnali di allarme di una grave malattia, ogni sintomo deve avere una causa fisica identificabile. Quello descritto e' un pensiero disfunzionale che puo' essere tipico di un paziente con un disturbo:
 [105] [0.0031%] Nel disturbo di conversione:
 [106] [0.0061%] Un individuo che presenta un sintomo fisico, con causa medica chiaramente identificabile, percepito dal soggetto come molto stressante, ad esempio associato ad un livello di ansia costantemente elevato:
@@ -133,7 +133,7 @@
 [132] [0.0061%] Eccitazione ricorrente e intensa, manifestata attraverso fantasie, desideri o comportamenti, per almeno 6 mesi, derivanti dal toccare, o strusciarsi contro una persona non consenzientee' un criterio per:
 [133] [0.0061%] Le persone che subiscono un abuso sessuale in infanzia:
 [134] [0.0061%] Quale causa principale del disturbo erettile veniva identificata da Masters e Johnson (1975)?
-[135] [0.0122%] Il priapismo:
+[135] [0.0123%] Il priapismo:
 [136] [0.0061%] Quali elementi predicono un disturbo del desiderio sessuale ipoattivo maschile?
 [137] [0.0061%] La diagnosi di disforia di genere nei bambini e' controversa perche':
 [138] [0.0061%] Problemi legati all'erezione:
@@ -150,7 +150,7 @@
 [149] [0.0061%] Il cervello delle persone affette da schizofrenia:
 [150] [0.0061%] I sintomi negativi:
 [151] [0.0061%] I deliri:
-[152] [0.0122%] Qual e' la tipica eta' di esordio della schizofrenia?
+[152] [0.0123%] Qual e' la tipica eta' di esordio della schizofrenia?
 [153] [0.0061%] Trascuratezza nell'igiene personale o nella sicurezza e salute fanno pensare a un:
 [154] [0.0061%] Il disturbo schizofreniforme:
 [155] [0.0061%] Secondo l'ipotesi del doppio legame:
