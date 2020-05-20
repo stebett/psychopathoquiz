@@ -17,7 +17,7 @@ type Quiz struct {
 	Soluzione string
 }
 
-const fileDomande = "domande.json"
+const fileDomande = "/home/ginko/dev/psychopathoquiz/domande.json"
 
 func loadQuestions() {
 

@@ -18,7 +18,7 @@ type Punteggio struct {
 	Sbagliate float32
 }
 
-const filePunteggi = "punteggi.json"
+const filePunteggi = "/home/ginko/dev/psychopathoquiz/punteggi.json"
 
 func ScegliDomanda() int {
 	ComputeCDF()
@@ -72,7 +72,7 @@ func ComputeCDF() {
 }
 
 func testCDF() {
-	outFile, err := os.Create("debugCDF.txt")
+	outFile, err := os.Create("/home/ginko/dev/psychopathoquiz/debugCDF.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
