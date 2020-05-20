@@ -1,0 +1,166 @@
+[0] [0.0061%] Qual e' la definizione di epidemiologia nell'ambito della salute mentale?
+[1] [0.0061%] La meta-analisi e'... 
+[2] [0.0061%] Qual e' la differenza tra prevalenza e incidenza di una patologia?
+[3] [0.0061%] Gli studi correlazionali...
+[4] [0.0031%] Cos'e' la validita' interna?
+[5] [0.0061%] Una correlazione negativa
+[6] [0.0061%] Secondo gli studi di Platone (429-347 a.C.):
+[7] [0.0061%] ad Anton Mesmer (1734-1815) si deve la teoria secondo cui:
+[8] [0.0061%] Il lavoro di Pinel e Tuke, in Europa, e di Dix e Rush, negli Stati Uniti, quali sviluppi ha portato nel modo di intendere la psicopatologia?
+[9] [0.0061%] In che anno Wilhelm Wundt istitui' il primo laboratorio di psicologia sperimentale?
+[10] [0.0061%] Chi sono i principali esponenti della scuola comportamentista?
+[11] [0.0061%] Quale gruppo di teorici psicodinamici di seconda generazione sottolinea che le determinanti del comportamento umano siano le forze sociali e culturali piuttosto che gli istinti interiori?
+[12] [0.0122%] Su quale tema dibattevano la scuola di Nancy, rappresentata da Bernheim, e la Salp�trie're di Parigi, con a capo Charcot?
+[13] [0.0061%] Chi viene considerato il fondatore della psichiatria americana?
+[14] [0.0061%] Cosa accomuna gli psichiatri Emil Kraepelin, Wilhelm Griesinger e Albrecht von Haller?
+[15] [0.0031%] Qual era il disturbo mentale con sintomatologia somatica molto studiato da Freud, Breuer e Janet?
+[16] [0.0061%] Quale metodologia di raccolta di informazioni sui disturbi mentali era privilegiata da psichiatri come Kraepelin (1856-1926) e Bleuler (1857-1939)?
+[17] [0.0122%] Quale prospettiva psicodinamica ha fra i suoi esponenti principali Klein, Mahler, Fairburn e Winnicott?
+[18] [0.0061%] Chi nel 1792 fece l'esperimento di rimuovere le catene ad alcuni detenuti per verificare l'ipotesi che la malattia mentale dovesse essere trattata con rispetto e considerazione?
+[19] [0.0061%] La classificazione dei disturbi mentali nelle 3 categorie mania, melanconia e febbre al cervello (phrenitis) e' attribuibile a:
+[20] [0.0031%] I manicomi nascono con l'esigenza di istituzionalizzare la malattia mentale:
+[21] [0.0031%] La classificazione dei disturbi mentali nelle 3 categorie mania, melanconia e febbre al cervello (phrenitis) e' attribuibile a:
+[22] [0.0061%] Chi sono i principali esponenti della Scuola di Nancy?
+[23] [0.0031%] Il condizionamento operante:
+[24] [0.0061%] L'approccio descrittivo favorisce:
+[25] [0.0061%] Quale elemento strutturale della personalita', secondo la teorizzazione di Freud, si forma a seguito dell'interiorizzazione di tabu' e valori morali riguardo cio' che e' giusto o sbagliato?
+[26] [0.0061%] Gli studi sui gemelli...
+[27] [0.0031%] Quali anni di vita di un individuo copre il periodo di latenza nella teoria dello sviluppo psicosessuale di Freud?
+[28] [0.0061%] Qual e' il tema centrale della prospettiva comportamentista?
+[29] [0.0061%] Il complesso di Elettra:
+[30] [0.0061%] Scarico dei sentimenti repressi, spesso ostili, su oggetti meno pericolosi di quelli realie' la definizione di quale meccanismo di difesa?
+[31] [0.0061%] Il meccanismo di difesa della scissione:
+[32] [0.0061%] Fare in modo che pensieri pericolosi o dolorosi non possano entrare a livello della coscienzae' la definizione di quale meccanismo di difesa?
+[33] [0.0061%] Nelle famiglie in cui i genitori adottano prevalentemente uno stile permissivo/indulgente:
+[34] [0.0061%] Quale costrutto riveste un ruolo centrale nel pensiero di A. Freud?
+[35] [0.0031%] La resilienza...
+[36] [0.0061%] I fattori di protezione
+[37] [0.0061%] La terapia cognitiva.
+[38] [0.0122%] Durante quale fase dello sviluppo si manifesta il complesso di Edipo?
+[39] [0.0061%] In cosa consiste l'effetto evocativo del genotipo sull'ambiente?
+[40] [0.0061%] Come viene definito dal DSM 5 un disturbo mentale?
+[41] [0.0031%] Cosa afferma il modello interattivo diatesi-stress del comportamento patologico?
+[42] [0.0061%] Quale sistema nosografico e' pubblicato dalla Organizzazione Mondiale della Sanita' ed ampiamente utilizzato in Europa?
+[43] [0.0061%] La fMRI:
+[44] [0.0061%] Secondo la classificazione DSM-5, i disturbi mentali...
+[45] [0.0061%] Qual e' il principale strumento per la valutazione dell'intelligenza usato in eta' evolutiva?
+[46] [0.0061%] La Brief Psychiatric Rating Scale (BPRS)?
+[47] [0.0031%] Cosa valuta il Millon Clinical Multiaxial Inventory?
+[48] [0.0061%] La velocita' motoria di un soggetto, la reazione all'insolito e l'abilita' di apprendere e utilizzare spunti tattili e cinestesici, viene misurata con quale test?
+[49] [0.0061%] Il test del completamento di frasi (Fernald & Fernald, 2010):
+[50] [0.0031%] Qual e' l'approccio attualmente piu' condiviso per inquadrare i disturbi psichici?
+[51] [0.0061%] Cosa afferma il modello interattivo diatesi-stress del comportamento patologico?
+[52] [0.0061%] La PET:
+[53] [0.0061%] Quale strumento strutturato di valutazione della personalita' e' il piu' diffuso e utilizzato?
+[54] [0.0061%] Lo stress a lungo termine o cronico:
+[55] [0.0061%] Il Disturbo da Stress Post-Traumatico e' una condizione che viene frequentemente descritta:
+[56] [0.0061%] nel DSM-5 quali cambiamenti sono stati apportati al Disturbo da Stress post-traumatico?
+[57] [0.0061%] Cosa si intende per coping?
+[58] [0.0061%] Nel disturbo dell'adattamento:
+[59] [0.0061%] Il biofeedback:
+[60] [0.0061%] Il carico allostatico:
+[61] [0.0061%] Di cosa si occupa la psicologia della salute?
+[62] [0.0061%] Nel DSM 5 quali cambiamenti sono stati apportati al Disturbo Post-Traumatico da Stress?
+[63] [0.0061%] Quando un individuo sviluppa dei sintomi (per esempio pensieri intrusivi, ipervigilanza o irritabilita') poco dopo aver sperimentato un evento traumatico e questi durano almeno 2 giorni, quale diagnosi potrebbe essere la piu' appropriata?
+[64] [0.0122%] Quali sono i due sistemi di risposta allo stress?
+[65] [0.0061%] Paura o ansia marcate di una o piu' situazioni sociali specifiche in cui l'individuo teme di poter essere esposto al giudizio e alla valutazione negativa altrui o di comportarsi in maniera imbarazzante o umiliante. A quale disturbo si riferisce questa definizione?
+[66] [0.0061%] Il Disturbo da Dismorfismo Corporeo:
+[67] [0.0061%] L'ansia, secondo S. Freud...
+[68] [0.0061%] Tra i sintomi che caratterizzano l'attacco di panico nella prospettiva DSM, NON compaiono:
+[69] [0.0061%] Il disturbo d'ansia da separazione:
+[70] [0.0061%] Le fobie del sangue-iniezioni-ferite rispetto ad altre fobie specifiche:
+[71] [0.0031%] Quale metodo si e' dimostrato il piu' efficace nel trattamento delle fobie specifiche?
+[72] [0.0122%] Secondo un'interpretazione psicoanalitica classica, da cosa originano le fobie specifiche?
+[73] [0.0031%] Quali disturbi mentali sono ad esordio piu' precoce (circa 6 anni)?
+[74] [0.0061%] Pensieri, immagini o impulsi intrusivi, persistenti e ricorrenti che sono vissuti come disturbanti, inappropriati e incontrollabili, e' una buona definizione di:
+[75] [0.0122%] Quale tratto e' considerato centrale fra le cause psicologiche del DAG?
+[76] [0.0061%] Per diagnosticare un disturbo di panico secondo i criteri del DSM 5:
+[77] [0.0061%] Ansia e preoccupazioni difficili da controllare che si manifestano per la maggior parte dei giorni per almeno 6 mesi e riguardo a una quantita' di eventi o attivita' suggeriscono la presenza di:
+[78] [0.0122%] Quale struttura cerebrale attiva la risposta autonomica, neuroendocrina e comportamentale che si verifica durante un attacco di panico?
+[79] [0.0061%] L'acido gamma amino butirrico (GABA).
+[80] [0.0031%] Il condizionamento vicariante:
+[81] [0.0031%] L'agorafobia:
+[82] [0.0061%] Qual e' la prevalenza del DOC in popolazione generale?
+[83] [0.0061%] Quali fra i seguenti sono alcuni dei disturbi d'ansia riconosciuti dal DSM 5?
+[84] [0.0061%] Il disturbo ciclotimico:
+[85] [0.0061%] i farmaci generalmente impiegati nel trattamento del disturbo bipolare sono:
+[86] [0.0061%] La depressione nella popolazione over 65:
+[87] [0.0061%] Di che categoria di farmaci fanno parte gli IMAO, TCA e SSRI ?
+[88] [0.0061%] La depressione maggiore:
+[89] [0.0061%] La diminuita capacita' di provare piaceree' una buona definizione di:
+[90] [0.0061%] Cosa si intende per depressione doppia?
+[91] [0.0061%] Il suicidio:
+[92] [0.0061%] Quale regione cerebrale se ipoattiva e' associata alla depressione, come dimostrato da molte evidenze di studi EEG e PET?
+[93] [0.0061%] Cosa caratterizza la depressione con manifestazioni melanconiche?
+[94] [0.0061%] Che criterio temporale deve essere soddisfatto per poter diagnosticare il disturbo depressivo maggiore?
+[95] [0.0061%] Un umore marcatamente elevato, sia sul versante dell'espansivita' che dell'irritabilita', che puo' essere frequentemente accompagnato da: ridotto bisogno di sonno, un eloquio accelerato, fuga delle idee, distraibilita', aumento della socievolezza, della libido, irrequietezza e senso di grandiosita' e scarso giudizio. Questa definizione si riferisce a:
+[96] [0.0061%] Quale teoria sostiene che gli individui con uno stile attribuzionale pessimistico, in parte sviluppato attraverso l'apprendimento sociale, di fronte ad eventi di vita negativi siano piu' vulnerabili a sviluppare un disturbo depressivo?
+[97] [0.0061%] Qual e' la relazione tra SES (Socieconomic status) e disturbi dell'umore?
+[98] [0.0061%] Secondo la triade cognitiva di Beck, quale modalita' di processamento dell'informazione produce un pensiero disfunzionale analogo al seguente: Se non posso raggiungere il massimo risultato, tanto vale non farlo.
+[99] [0.0061%] Quale interpretazione del lutto danno S. Freud e K. Abraham (1927)?
+[100] [0.0061%] Un esempio di interazione genotipo-ambiente, in cui i fattori genetici non sono necessari e sufficienti a causare disturbi mentali, puo' essere:
+[101] [0.0061%] Il criterio ricorrenti vuoti nella rievocazione di eventi quotidiani, di importanti informazioni personali e/o eventi traumatici non riconducibili a normale dimenticanzae' riconducibile ad un quadro clinico di:
+[102] [0.0061%] Qual e' la differenza tra la diagnosi di disturbo da sintomi somatici e disturbo da ansia di malattia?
+[103] [0.0122%] Quando viene abbandonata la classificazione dei disturbi dissociativi e somatoformi come disturbi d'ansia?
+[104] [0.0031%] Le modificazioni che avvengono a livello somatico sono spesso segnali di allarme di una grave malattia, ogni sintomo deve avere una causa fisica identificabile. Quello descritto e' un pensiero disfunzionale che puo' essere tipico di un paziente con un disturbo:
+[105] [0.0031%] Nel disturbo di conversione:
+[106] [0.0061%] Un individuo che presenta un sintomo fisico, con causa medica chiaramente identificabile, percepito dal soggetto come molto stressante, ad esempio associato ad un livello di ansia costantemente elevato:
+[107] [0.0061%] Pensieri, sentimenti e comportamenti disadattivi ed eccessivi collegati ai sintomi fisici. Con preoccupazioni intrusive e sproporzionate rispetto alla gravita' dei sintomi; ansia sproporzionata rispetto ai sintomi e utilizzo eccessivo tempo ed energie dedicato alle preoccupazioni per la salute.Questa descrizione si riferisce a:
+[108] [0.0061%] Un individuo che presenta un sintomo fisico, con causa medica chiaramente identificabile, percepito dal soggetto come molto stressante, ad esempio associato ad un livello di ansia costantemente elevato:
+[109] [0.0061%] Quale importante innovazione e' stata introdotta nel DSM 5 nelle diagnosi di disturbo da sintomi somatici e correlati?
+[110] [0.0061%] L'amnesia dissociativa:
+[111] [0.0061%] Qual e' il tempo necessario stimato perche' si sviluppi una dipendenza da oppiacei?
+[112] [0.0061%] Il bisogno di quantita' sempre maggiori di sostanza per ottenere gli effetti desiderati, derivato da mutamenti biochimici nella metabolizzazione e smaltimento della sostanza,descrive:
+[113] [0.0031%] Gli effetti dell'abuso di alcol:
+[114] [0.0061%] Gli oppiacei:
+[115] [0.0061%] La comorbilita' fra abuso di alcol e altri disturbi mentali:
+[116] [0.0061%] La cocaina:
+[117] [0.0061%] Le anfetamine:
+[118] [0.0061%] I barbiturici:
+[119] [0.0061%] Il delirium tremens:
+[120] [0.0031%] Tra le conseguenze negative dell'abuso di alcol possiamo elencare:
+[121] [0.0031%] Quando fu sintetizzata e si diffuse la prima anfetamina disponibile sul mercato come inalante per le congestioni nasali?
+[122] [0.0061%] Le anfetamine:
+[123] [0.0020%] Gli effetti dell'abuso di alcol:
+[124] [0.0061%] Chi per primo descrisse nel 1887 il disturbo amnestico da alcol?
+[125] [0.0031%] La condizione di transessualismo:
+[126] [0.0061%] cos'e' l'autoginefilia?
+[127] [0.0061%] La terapia dell'avversione:
+[128] [0.0031%] Quale studioso, negli anni '50, diede avvio all'era contemporanea della ricerca sulla sessualita'?
+[129] [0.0061%] Nei disturbi parafilici e nelle parafilie:
+[130] [0.0031%] Quante sono le fasi della risposta sessuale?
+[131] [0.0061%] Il disturbo da dolore genito-pelvico della penetrazione?
+[132] [0.0061%] Eccitazione ricorrente e intensa, manifestata attraverso fantasie, desideri o comportamenti, per almeno 6 mesi, derivanti dal toccare, o strusciarsi contro una persona non consenzientee' un criterio per:
+[133] [0.0061%] Le persone che subiscono un abuso sessuale in infanzia:
+[134] [0.0061%] Quale causa principale del disturbo erettile veniva identificata da Masters e Johnson (1975)?
+[135] [0.0122%] Il priapismo:
+[136] [0.0061%] Quali elementi predicono un disturbo del desiderio sessuale ipoattivo maschile?
+[137] [0.0061%] La diagnosi di disforia di genere nei bambini e' controversa perche':
+[138] [0.0061%] Problemi legati all'erezione:
+[139] [0.0061%] Il disturbo da eiaculazione ritardata:
+[140] [0.0061%] Per quale ragione stabilire un confine tra normalita' e patologia e' particolarmente complesso nel caso delle disfunzioni sessuali?
+[141] [0.0061%] L'ebefilia:
+[142] [0.0061%] Le parafilie:
+[143] [0.0061%] Assenza (o ridotta) iniziativa nel rapporto sessuale e generale rifiuto delle iniziative del partner con ridotti pensieri o fantasie sessuali/erotici, sono sintomi tipici del:
+[144] [0.0061%] Come e' cambiata l'etichetta di Disturbo dell'identita' di genere nel DSM-5
+[145] [0.0061%] In quale edizione del Manuale Diagnostico e Statistico dei disturbi mentali l'omosessualita' venne rimossa e derubricata definitivamente?
+[146] [0.0061%] Qual e' l'assunto centrale della teoria della degenerazione di Simon Tissot (1750)?
+[147] [0.0061%] I pazienti schizofrenici:
+[148] [0.0061%] Gli antipsicotici:
+[149] [0.0061%] Il cervello delle persone affette da schizofrenia:
+[150] [0.0061%] I sintomi negativi:
+[151] [0.0061%] I deliri:
+[152] [0.0122%] Qual e' la tipica eta' di esordio della schizofrenia?
+[153] [0.0061%] Trascuratezza nell'igiene personale o nella sicurezza e salute fanno pensare a un:
+[154] [0.0061%] Il disturbo schizofreniforme:
+[155] [0.0061%] Secondo l'ipotesi del doppio legame:
+[156] [0.0061%] La dementia precox (Kraepelin):
+[157] [0.0061%] Le allucinazioni:
+[158] [0.0061%] Qual e' il ruolo dei fattori genetici nello sviluppo della schizofrenia:
+[159] [0.0061%] Qual e' il sintomo centrale della schizofrenia secondo la concezione di Bleuler (1911)?
+[160] [0.0061%] La prima descrizione clinica della schizofrenia fu proposta da:
+[161] [0.0061%] Deliri o allucinazioni per 2 settimane o piu' in assenza di un episodio dell'umore maggiore (depressivo o maniacale) durante la durata lifetime della malattiae' un criterio che rientra in un quadro di:
+[162] [0.0020%] Il termine schizofrenia e' stato coniato nel:
+[163] [0.0061%] L'incapacita' di iniziare o portare avanti un comportamento diretto a uno scopo e' una buona definizione di:
+[164] [0.0061%] La ripetizione automatica a pappagallodi alcune parole e' definita:[1]
+[165] [0.0041%] Il neurotrasmettitore monoaminico dopamina.

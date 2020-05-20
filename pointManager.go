@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"math/rand"
@@ -61,9 +62,26 @@ func ComputeCDF() {
 		pointer[i] = pointer[i] / normalizer
 	}
 
+	testCDF()
+
 	for i := range cdf {
 		if i > 0 {
 			pointer[i] += pointer[i-1]
+		}
+	}
+}
+
+func testCDF() {
+	outFile, err := os.Create("debugCDF.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for i, val := range cdf {
+		s := fmt.Sprintf("[%d] [%.4f%%] %s\n", i, val, quizzes.Quizzes[i].Domanda)
+		_, err = outFile.Write([]byte(s))
+		if err != nil {
+			log.Fatal(err)
 		}
 	}
 }
