@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"math/rand"
@@ -22,7 +21,6 @@ const filePunteggi = "punteggi.json"
 
 func ScegliDomanda() int {
 	ComputeCDF()
-	fmt.Println(cdf)
 	r := rand.Float32()
 
 	domanda := 0
