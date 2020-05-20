@@ -8,15 +8,22 @@ import (
 	"strings"
 )
 
+const colorReset = "\033[0m"
+const colorRed = "\033[31m"
+const colorGreen = "\033[32m"
+
+const bold = "\033[1m"
+const underlined = "\033[4m"
+
 func scriviDomanda(quiz Quiz) (int, string) {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println(quiz.Domanda)
+	fmt.Printf("%s%s%s\n", bold, quiz.Domanda, colorReset)
 	fmt.Println()
 	for numero, risposta := range quiz.Risposte {
 		fmt.Printf("[%s] %s\n", numero, risposta)
 	}
 
-	fmt.Print("\n[*] Scrivi il numero della risposta: ")
+	fmt.Print("\n[>] ")
 	risposta, err := reader.ReadString('\n')
 	if err != nil {
 		log.Fatal(err)
@@ -31,9 +38,10 @@ func scriviDomanda(quiz Quiz) (int, string) {
 
 func scriviEsito(risultato int, risposta string) {
 	if risultato == 1 {
-		fmt.Printf("[!] Corretto!\n\n")
+		fmt.Printf("%s[!] Corretto!\n\n%s", colorGreen, colorReset)
 	} else {
-		fmt.Printf("[!] Sbagliato!\n")
-		fmt.Printf("[>] La risposta corretta era: %s\n\n", risposta)
+		fmt.Printf("%s[!] Sbagliato!\n", colorRed)
+		fmt.Printf("[>] La risposta corretta era: %s%s\n\n%s", underlined, risposta, colorReset)
 	}
+	fmt.Printf("%s\n\n", "________________________________________________________________________________")
 }
