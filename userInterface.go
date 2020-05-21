@@ -41,7 +41,7 @@ func scriviEsito(risultato int, risposta string) {
 		fmt.Printf("%s[!] Corretto!\n\n%s", colorGreen, colorReset)
 	} else {
 		fmt.Printf("%s[!] Sbagliato!\n", colorRed)
-		fmt.Printf("[>] La risposta corretta era: %s%s\n\n%s", underlined, risposta, colorReset)
+		fmt.Printf("[>] La risposta corretta era: %s%s%s\n\n", underlined, risposta, colorReset)
 	}
 	fmt.Printf("%s\n\n", "________________________________________________________________________________")
 }
