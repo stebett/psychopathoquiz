@@ -13,24 +13,30 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	loadQuestions()
 
-	QuizCriterioA()
+	var totalScore float32
+	for i := 0; i < 30; i++ {
+		fmt.Printf("\n\n________________________________________________________________________________\n\n")
+		totalScore += QuizCriterioA()
+	}
+
+	fmt.Printf("[!] Hai totalizzato %2.1f punti!", totalScore)
 }
 
-func QuizCriterioA() {
+func QuizCriterioA() float32 {
 	n := rand.Intn(numeroDisturbi)
 	disturbo := diagnosi.Diagnosi[n]
 
 	disturbo.PrintCriterio("A")
 
 	score := AnswerHandler(disturbo)
-	ProcessScore(score, disturbo)
+	return ProcessScore(score, disturbo)
 
 }
 
 func AnswerHandler(disturbo Disturbo) (score float32) {
 	answer := Input()
 	if answer[0] == "" || answer[0] == "help" {
-		fmt.Println("Puoi chiedere aiuto scrivendo il numero o la parola associati ai sintomi o criteri che ti servono!")
+		fmt.Println("[?] Puoi chiedere aiuto scrivendo il numero o la parola associati ai sintomi o criteri che ti servono!")
 		fmt.Println("[1] cognitivi")
 		fmt.Println("[2] comportamentali")
 		fmt.Println("[3] emotivi")
@@ -41,6 +47,7 @@ func AnswerHandler(disturbo Disturbo) (score float32) {
 		fmt.Println("[8] D")
 		fmt.Println("[9] E")
 		fmt.Println("[10] F")
+		fmt.Println("[11] tutto")
 		return AnswerHandler(disturbo)
 	}
 	if answer[0] == "cognitivi" || answer[0] == "1" {
@@ -83,6 +90,10 @@ func AnswerHandler(disturbo Disturbo) (score float32) {
 		disturbo.PrintCriterio("f")
 		return AnswerHandler(disturbo)
 	}
+	if answer[0] == "tutto" || answer[0] == "11" {
+		disturbo.PrintAll()
+		return AnswerHandler(disturbo)
+	}
 
 	score = CompareStrings(answer, FormatString(disturbo.Nome))
 	return score
@@ -106,7 +117,7 @@ func (s Sintomo) PrintSintomiCognitivi(num int) {
 	slice := rand.Perm(num)
 	for i := 0; i < len(sKind); i++ {
 		index = strconv.Itoa(slice[i] + 1)
-		fmt.Printf("[%s] %s\n", index, sKind[index])
+		fmt.Printf("\t[*] %s\n", sKind[index])
 	}
 }
 func (s Sintomo) PrintSintomiComportamentali(num int) {
@@ -121,7 +132,7 @@ func (s Sintomo) PrintSintomiComportamentali(num int) {
 	slice := rand.Perm(num)
 	for i := range slice {
 		index = strconv.Itoa(slice[i] + 1)
-		fmt.Printf("[%s] %s\n", index, sKind[index])
+		fmt.Printf("\t[*] %s\n", sKind[index])
 	}
 }
 func (s Sintomo) PrintSintomiEmotivi(num int) {
@@ -136,7 +147,7 @@ func (s Sintomo) PrintSintomiEmotivi(num int) {
 	slice := rand.Perm(num)
 	for i := range slice {
 		index = strconv.Itoa(slice[i] + 1)
-		fmt.Printf("[%s] %s\n", index, sKind[index])
+		fmt.Printf("\t[*] %s\n", sKind[index])
 	}
 }
 func (s Sintomo) PrintSintomiNeurovegetativi(num int) {
@@ -151,22 +162,31 @@ func (s Sintomo) PrintSintomiNeurovegetativi(num int) {
 	slice := rand.Perm(num)
 	for i := range slice {
 		index = strconv.Itoa(slice[i] + 1)
-		fmt.Printf("[%s] %s\n", index, sKind[index])
+		fmt.Printf("\t[*] %s\n", sKind[index])
 	}
 }
 
-func ProcessScore(score float32, disturbo Disturbo) {
+func (d Disturbo) PrintAll() {
+
+}
+
+func ProcessScore(score float32, disturbo Disturbo) float32 {
 	if score < 0.1 {
 		fmt.Printf("%s%s%s\n", colorGreen, "[!] Perfetto!", colorReset)
-		return
+		return 1
 	} else if score < 0.3 {
 		fmt.Printf("%s%s%s\n", colorGreen, "[!] Sembra giusto, controlla la risposta!", colorReset)
+		fmt.Printf("%s%s%s%s%s\n\n", "[>]", underlined, " La risposta era: ", disturbo.Nome, colorReset)
+		return 0.8
 	} else if score < 0.5 {
 		fmt.Printf("%s%s%s\n", colorRed, "[!] Sembra sbagliato, controlla la risposta!", colorReset)
+		fmt.Printf("%s%s%s%s%s\n\n", "[>]", underlined, " La risposta era: ", disturbo.Nome, colorReset)
+		return 0.1
 	} else {
 		fmt.Printf("%s%s%s\n", colorRed, "[!] Nope", colorReset)
+		fmt.Printf("%s%s%s%s%s\n\n", "[>]", underlined, " La risposta era: ", disturbo.Nome, colorReset)
+		return 0
 	}
-	fmt.Printf("%s%s%s%s%s\n\n", "[>]", underlined, " La risposta era: ", disturbo.Nome, colorReset)
 }
 
 const colorReset = "\033[0m"

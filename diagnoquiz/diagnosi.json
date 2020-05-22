@@ -3,7 +3,7 @@
     {
       "Nome":"Episodio Depressivo Maggiore",
       "Criteri":{
-        "A":"Cinque o piu' dei seguenti sintomi sono stati contemporaneamente presenti durante un periodo di 2 settimane e rappresentano un cambiamento rispetto al precedente funzionamento. Almeno uno dei sintomi e' costituito da 1 o 2",
+        "A":"Cinque o piu' dei sintomi sono stati contemporaneamente presenti durante un periodo di 2 settimane e rappresentano un cambiamento rispetto al precedente funzionamento. Almeno uno dei sintomi e' costituito da sintomi emotivi",
         "B":"",
         "C":"",
         "D":"",
@@ -520,7 +520,7 @@
     {
       "Nome":"Schizofrenia",
       "Criteri":{
-        "A":"Due o piu' dei sintomi, ciascuno presente per una parte di tempo significativa durante un periodo di 1 mese (almeno un sintomo e' uno due o 3",
+        "A":"Due o piu' dei sintomi, ciascuno presente per una parte di tempo significativa durante un periodo di 1 mese (almeno un sintomo e' cognitivo o neurovegetativo)",
         "B":"Disfunzione sociale/lavorativa",
         "C":"",
         "D":"",
@@ -826,7 +826,7 @@
     {
       "Nome":"Attacco di panico",
       "Criteri":{
-        "A":"Una comparsa improvvisa di paura o disagio intensi che raggiunge il picco in pochi minuti, periodo durante il quale si verificano almeno quattro dei sintomi:",
+        "A":"Una comparsa improvvisa di paura o disagio intensi che raggiunge il picco in pochi minuti, periodo durante il quale si verificano almeno quattro dei sintomi neurovegetativi:",
         "B":"",
         "C":"",
         "D":"",

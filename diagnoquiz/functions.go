@@ -9,9 +9,17 @@ import (
 )
 
 func Levenshtein(s, t string) (result int) {
+	if s == t {
+		return 0
+	}
+	if s == "" {
+		return len(t)
+	}
+	if t == "" {
+		return len(s)
+	}
 
 	matrix := GenerateMatrix(len(s), len(t))
-
 	if s[0] != t[0] {
 		for i := 1; i < len(s); i++ {
 			matrix[i][0] += 1
