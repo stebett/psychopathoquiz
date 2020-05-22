@@ -20,7 +20,7 @@
           "2":"Marcata diminuzione di interesse o piacere per tutte o quasi le attivita'"
         },
         "Cognitivi":{
-          "1":"Sentimenti di autosvalutazione o di colpa eccessivi o inapporopriati",
+          "1":"Sentimenti di autosvalutazione o di colpa eccessivi o inappropriati",
           "2":"Ridotta capacita' di pensare o di concentrarsi, quasi tutti i giorni"
         },
         "Neurovegetativi":{
@@ -43,7 +43,7 @@
       "DifferenzaGenere":"",
       "DifferenzaEta":"",
       "Decorso":{
-        "Esordio":"Labilita' emotiva, riduzione degli interessi, astenia, difficolta' di concentrazzione, disturbi somatici",
+        "Esordio":"Labilita' emotiva, riduzione degli interessi, astenia, difficolta' di concentrazione, disturbi somatici",
         "PeriodoDiStato":"",
         "SintomiResidui":"Labilita' affettiva, irritabilita', bassa autostima, isolamento sociale"
       },
@@ -148,7 +148,7 @@
     {
       "Nome":"Disturbo depressivo Persistente (Distimia)",
       "Criteri":{
-        "A":"Umore depresso per la maggior parte del giorno, quasi tutti igiorni, come riferito dal soggetto o osservato dagli altri, per almeno 2 anni",
+        "A":"Umore depresso per la maggior parte del giorno, quasi tutti i giorni, come riferito dal soggetto o osservato dagli altri, per almeno 2 anni",
         "B":"Presenza, quando depresso, di due o piu' dei sintomi",
         "C":"Durante i 2 anni di malattia (1 anno nei bambini e negli adolescenti) la persona non e' mai stata priva dei sintomi per piu di uno o due mesi alla volta",
         "D":"I criteri per un disturbo depressivo maggiore possono essere continuamente presenti per 2 anni (DDM cronico)",
@@ -203,12 +203,12 @@
       "Prognosi":""
     },
     {
-      "Nome":"Disturbo da disregolazione dlel'umore dirompente",
+      "Nome":"Disturbo da disregolazione dell'umore dirompente",
       "Criteri":{
         "A":"Gravi e ricorrenti scoppi di collera manifestati verbalmente e/o in modo comportamentale che sono grossolanamente sproporzionati nell'intensita' o nella durata alla situazione o alla provocazione",
         "B":"Gli scoppi di collera non sono coerenti con lo stadio di sviluppo",
         "C":"In media 3 o piu volte la settimana",
-        "D":"L'umore tra uno scoppio di collera e l'altro e' persistenemente irritabile o arrabbbiato per la maggior parte della giornata, quasi tutti i giorni, ed e' osservabile da parte di altri",
+        "D":"L'umore tra uno scoppio di collera e l'altro e' persistentemente irritabile o arrabbiato per la maggior parte della giornata, quasi tutti i giorni, ed e' osservabile da parte di altri",
         "E":"Sintomi presenti in almeno 2 contesti",
         "F":"Diagnosi effettuabile tra i 6 e i 18 anni",
         "G":"L'eta' d'esordio e' prima dei 10 anni",
@@ -248,7 +248,7 @@
       "Prognosi":""
     },
     {
-      "Nome":"Disturbo Disforico Premestuale",
+      "Nome":"Disturbo Disforico Premestruale",
       "Criteri":{
         "A":"Nella maggior parte dei cicli mestruali, almeno 5 sintomi devono essere presenti nella settimana precedente le mestruazioni, iniziare a migliorare entro pochi giorni dall'insorgenza delle mestruazioni e ridursi al minimo o scomparire nella settimana successiva alle mestruazioni",
         "B":"Uno o piu' dei sintomi emotivi presenti",
@@ -404,7 +404,7 @@
       "Prognosi":""
     },
     {
-      "Nome":"Distubo Ciclotimico",
+      "Nome":"Disturbo Ciclotimico",
       "Criteri":{
         "A":"Per almeno 2 anni (uno nei bambini e negli adolescenti) ci sono stati numerosi periodi con sintomi ipomaniacali che non soddisfano i criteri per un episodio ipomaniacale e numerosi periodi con sintomi depressivi che non soddisfano i criteri per un episodio depressivo maggiore",
         "B":"Durante questo periodo i sintomi sono stati presenti per almeno meta' del tempo, e l'individuo non e' mai stato senza sintomi per due mesi",
@@ -493,7 +493,7 @@
         "6":"Con caratteristiche psicotiche",
         "7":"Con catatonia",
         "8":"Con cicli rapidi",
-        "9":"Con esordio ne lperipartum",
+        "9":"Con esordio nel peripartum",
         "10":"Con andamento stagionale"
       },
       "DiagnosiDifferenziale":{
@@ -565,7 +565,7 @@
         "PeriodoDiStato":"",
         "SintomiResidui":"Ricorda la fase prodromica, compromissione del funzionamento, sintomi negativi"
       },
-      "Prognosi":"Favorevole se associata a esordio tardivo e acuto, fattori precipitanti identificabili, breve periodo tra l'esordio e il trattamento, buon funzionamento premorboso, prevalenza di sintomi positivi, anamnesti familiare negativa per schizofrenia, sostegno sociale. Tassi di remissione tra 10 e 60%"
+      "Prognosi":"Favorevole se associata a esordio tardivo e acuto, fattori precipitanti identificabili, breve periodo tra l'esordio e il trattamento, buon funzionamento premorboso, prevalenza di sintomi positivi, anamnesi familiare negativa per schizofrenia, sostegno sociale. Tassi di remissione tra 10 e 60%"
     },
     {
       "Nome":"Disturbo schizotipico di personalita'",
@@ -624,7 +624,7 @@
     {
       "Nome":"Disturbo schizoide di personalita'",
       "Criteri":{
-        "A":"Un pattern pervasivo di distacco dalle relazioni sociali e una gamma ristretta di espressioni emotive in situazioni interpersonali, che inizia nella prima eta' adulta ed e'presente in svariati contesti come indicato da quattro o piu' dei sintomi",
+        "A":"Un pattern pervasivo di distacco dalle relazioni sociali e una gamma ristretta di espressioni emotive in situazioni interpersonali, che inizia nella prima eta' adulta ed e' presente in svariati contesti come indicato da quattro o piu' dei sintomi",
         "B":"",
         "C":"",
         "D":"",
@@ -826,7 +826,7 @@
     {
       "Nome":"Attacco di panico",
       "Criteri":{
-        "A":"Una comparsa improvvisa di paura o diasio gintensi che raggiunge il picco in pochi minuti, periodo durante il quale si verificano almeno quattro dei sintomi:",
+        "A":"Una comparsa improvvisa di paura o disagio intensi che raggiunge il picco in pochi minuti, periodo durante il quale si verificano almeno quattro dei sintomi:",
         "B":"",
         "C":"",
         "D":"",
@@ -848,10 +848,10 @@
           "1":"Palpitazioni, tachicardia",
           "2":"Sudorazione",
           "3":"Tremori fini",
-          "4":"Sensazione di soffocamente",
+          "4":"Sensazione di soffocamento",
           "5":"Sensazione di asfissia",
           "6":"Dolore o fastidio al petto",
-          "7":"Nauesea",
+          "7":"Nausea",
           "8":"Vertigine",
           "9":"Brividi o vampate",
           "10":"Parestesie (torpore o formicolio)",
@@ -984,7 +984,7 @@
       "Nome":"Agorafobia",
       "Criteri":{
         "A":"Paura o ansia marcate relative al trovarsi in due o piu' situazioni descritte nei sintomi",
-        "B":"L'individuo teme o evia queste situazioni a causa di pensieri legati al fatto che potrebbe essere difficile fuggire, oppure che potrebbe non essere disponibile soccorso nell'eventualita' che si sviluppino sintomi simili al panico o altri sintomi invalidanti o imbarazzanti",
+        "B":"L'individuo teme o evita queste situazioni a causa di pensieri legati al fatto che potrebbe essere difficile fuggire, oppure che potrebbe non essere disponibile soccorso nell'eventualita' che si sviluppino sintomi simili al panico o altri sintomi invalidanti o imbarazzanti",
         "C":"La situazione agorafobica provoca quasi sempre paura o ansia",
         "D":"Evitamento, accompagnatori o paura e ansia intense",
         "E":"Sproporzione rispetto al reale pericolo e al contesto",
@@ -1172,7 +1172,7 @@
         "6":"Dismorfismo corporeo",
         "7":"Paura di prendere peso in Anoressia",
         "8":"Lamentele fisiche nel disturbo da sintomi somatici",
-        "9":"Avere una grave malattia nel disturbo d'ansia da amalattia",
+        "9":"Avere una grave malattia nel disturbo d'ansia da malattia",
         "10":"Convinzioni deliranti nella schizofrenia/disturbo delirante"
       },
       "DiagnosiDifferenziale":{
@@ -1209,7 +1209,7 @@
         },
         "Cognitivi":{
           "1":"Pensieri, impulsi o immagini ricorrenti e persistenti, vissuti, in qualche momento nel corso del disturbo, come intrusivi o indesiderati e che causano ansia o disagio marcati",
-          "2":"Il soggetto tenta di ignorare o sopprimere tali pensieri, impusli o immagini, o di neutralizzarli con altri pensieri o azioni (cioe' mettendo in atto una compulsione"
+          "2":"Il soggetto tenta di ignorare o sopprimere tali pensieri, impulsi o immagini, o di neutralizzarli con altri pensieri o azioni (cioe' mettendo in atto una compulsione"
         },
         "Neurovegetativi":{
           "1":""
@@ -1246,10 +1246,10 @@
       "Prognosi":""
     },
     {
-      "Nome":"Disturbo da Dismorismo Corporeo",
+      "Nome":"Disturbo da Dismorfismo Corporeo",
       "Criteri":{
         "A":"Preoccupazione per uno o piu' difetti o imperfezioni percepite nell'aspetto fisico, che non sono osservabili o appaiono agli altri in modo lieve",
-        "B":"A un certo punto, durante il decorso del disturbo, l'individuo ha messo in atto comportamenti ripetitivi o azioni mentali in risposta a proccupazioni legate all'aspetto",
+        "B":"A un certo punto, durante il decorso del disturbo, l'individuo ha messo in atto comportamenti ripetitivi o azioni mentali in risposta a preoccupazioni legate all'aspetto",
         "C":"La preoccupazione legata all'aspetto non e' meglio giustificata da preoccupazioni legate al grasso corporeo o al peso in un individuo con un disturbo alimentare",
         "D":"",
         "E":"",
@@ -1499,7 +1499,7 @@
         "Emotivi":{
           "1":"Incapacita' di ricordare qualche aspetto importante dell'evento traumatico (non dovuta ad altri fattori)",
           "2":"Persistenti ed esagerate convinzioni o aspettative negative relative a se stessi, ad altri, o al mondo",
-          "3":"Persistenti, distorti pensieri relativi alla causa e alle conseguenze dell'evento trauamatico che portano l'individuo a dare la colpa a se stesso oppure agli altri",
+          "3":"Persistenti, distorti pensieri relativi alla causa e alle conseguenze dell'evento traumatico che portano l'individuo a dare la colpa a se stesso oppure agli altri",
           "4":"Persistente stato emotivo negativo",
           "5":"Marcata riduzione di interesse o partecipazione ad attivita' significative",
           "6":"Sentimenti di distacco o di estraneita' verso gli altri",
@@ -1521,7 +1521,7 @@
           "6":"Alterazioni del sonno"
         },
         "Comportamentali":{
-          "1":"Evitamento o tentativi di evitare ricordi spiacevoli, pensieri o sentimenti relativi o strettamente associati all'evento trauamatico",
+          "1":"Evitamento o tentativi di evitare ricordi spiacevoli, pensieri o sentimenti relativi o strettamente associati all'evento traumatico",
           "2":"Evitamento o tentativi di evitare fattori esterni che suscitano ricordi spiacevoli, pensieri o sentimenti relativi o strettamente associati all'evento traumatico"
         }
       },
@@ -1652,7 +1652,7 @@
       "Nome":"Delirium",
       "Criteri":{
         "A":"Un'alterazione dell'attenzione e della consapevolezza",
-        "B":"L'alterazione si sviluppa in un periodo di tempo breve (da ore a giorni), rappresenta un cambiamento rispetto al livello base dell'attenzione e della consapevolezza e tende a presentare fluttuazioni della gra vita' nell'arco della giornata",
+        "B":"L'alterazione si sviluppa in un periodo di tempo breve (da ore a giorni), rappresenta un cambiamento rispetto al livello base dell'attenzione e della consapevolezza e tende a presentare fluttuazioni della gravita' nell'arco della giornata",
         "C":"Un'ulteriore modificazione cognitiva",
         "D":"Evidenze che l'alterazione sia la conseguenza fisiologica diretta di un'altra condizione medica, di intossicazione da sostanze o di astinenza",
         "E":"",
@@ -1700,7 +1700,7 @@
     {
       "Nome":"Disturbo Neurocognitivo Maggiore (Demenza)",
       "Criteri":{
-        "A":"Evidenza di un significativo declino cognitivo da un precedente livello di prestazione in uno o piu' domini cognitivi (attenzione complessa, funzioni esecutive, apprendimento e memoria, linguaggio, funzione percettiva-motoria o cognizione sociale) basatu su: preoccupazione dell'individuo e significativa compromissione della performance cognitiva",
+        "A":"Evidenza di un significativo declino cognitivo da un precedente livello di prestazione in uno o piu' domini cognitivi (attenzione complessa, funzioni esecutive, apprendimento e memoria, linguaggio, funzione percettiva-motoria o cognizione sociale) basati su: preoccupazione dell'individuo e significativa compromissione della performance cognitiva",
         "B":"I deficit interferiscono con l'indipendenza nella vita quotidiana",
         "C":"I deficit non si verificano esclusivamente nel contesto di un delirium",
         "D":"",
@@ -1755,8 +1755,8 @@
       "Nome":"Disturbo Neurocognitivo Maggiore indotto da Sostanze",
       "Criteri":{
         "A":"Sono soddisfatti i criteri per il disturbo neurocognitivo maggiore",
-        "B":"La sostanza o il farmaco e la durata e l'entita' dell'uso sono in grado di produrre la compromissione cognitivia",
-        "C":"Il decors otemporale dei deficit e' coerente con la tempistica dell'uso e dell'astinenza della sostanza e del farmaco",
+        "B":"La sostanza o il farmaco e la durata e l'entita' dell'uso sono in grado di produrre la compromissione cognitiva",
+        "C":"Il decorso temporale dei deficit e' coerente con la tempistica dell'uso e dell'astinenza della sostanza e del farmaco",
         "D":"",
         "E":"",
         "F":"",
@@ -1901,7 +1901,7 @@
         "PeriodoDiStato":"",
         "SintomiResidui":""
       },
-      "Prognosi":"Favorevole per esordio acuto, pregresso evento stressante, trattamento precoce, buon livello intellettivo, sintomi com cecita', afonia e paralisi. Negativa se crisi epilettiche, tremori, disturbi istironico, dipendente o antisociale"
+      "Prognosi":"Favorevole per esordio acuto, pregresso evento stressante, trattamento precoce, buon livello intellettivo, sintomi con cecita', afonia e paralisi. Negativa se crisi epilettiche, tremori, disturbi istironico, dipendente o antisociale"
     },
     {
       "Nome":"Disturbo da Ansia di Malattia",

@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"math/rand"
 	"strconv"
-	"strings"
 	"time"
 )
 
@@ -20,40 +19,79 @@ func main() {
 func QuizCriterioA() {
 	n := rand.Intn(numeroDisturbi)
 	disturbo := diagnosi.Diagnosi[n]
+
 	disturbo.PrintCriterio("A")
 
+	score := AnswerHandler(disturbo)
+	ProcessScore(score, disturbo)
+
+}
+
+func AnswerHandler(disturbo Disturbo) (score float32) {
 	answer := Input()
-	fmt.Printf("\nPrinting answer ->>%s<<-\n", answer)
-	if answer[0] == "" {
-		return
+	if answer[0] == "" || answer[0] == "help" {
+		fmt.Println("Puoi chiedere aiuto scrivendo il numero o la parola associati ai sintomi o criteri che ti servono!")
+		fmt.Println("[1] cognitivi")
+		fmt.Println("[2] comportamentali")
+		fmt.Println("[3] emotivi")
+		fmt.Println("[4] neurovegetativi")
+		fmt.Println("[5] tempo")
+		fmt.Println("[6] B")
+		fmt.Println("[7] C")
+		fmt.Println("[8] D")
+		fmt.Println("[9] E")
+		fmt.Println("[10] F")
+		return AnswerHandler(disturbo)
 	}
-	if answer[0] == "cognitivi" {
+	if answer[0] == "cognitivi" || answer[0] == "1" {
 		disturbo.Sintomi.PrintSintomiCognitivi(0)
+		return AnswerHandler(disturbo)
 	}
-	if answer[0] == "comportamentali" {
+	if answer[0] == "comportamentali" || answer[0] == "2" {
 		disturbo.Sintomi.PrintSintomiComportamentali(0)
+		return AnswerHandler(disturbo)
 	}
-	if answer[0] == "emotivi" {
+	if answer[0] == "emotivi" || answer[0] == "3" {
 		disturbo.Sintomi.PrintSintomiEmotivi(0)
+		return AnswerHandler(disturbo)
 	}
-	if answer[0] == "neurovegetativi" {
+	if answer[0] == "neurovegetativi" || answer[0] == "4" {
 		disturbo.Sintomi.PrintSintomiNeurovegetativi(0)
+		return AnswerHandler(disturbo)
+	}
+	if answer[0] == "tempo" || answer[0] == "5" {
+		disturbo.PrintCriterio("Tempo")
+		return AnswerHandler(disturbo)
+	}
+	if answer[0] == "b" || answer[0] == "6" {
+		disturbo.PrintCriterio("b")
+		return AnswerHandler(disturbo)
+	}
+	if answer[0] == "c" || answer[0] == "7" {
+		disturbo.PrintCriterio("c")
+		return AnswerHandler(disturbo)
+	}
+	if answer[0] == "d" || answer[0] == "8" {
+		disturbo.PrintCriterio("d")
+		return AnswerHandler(disturbo)
+	}
+	if answer[0] == "e" || answer[0] == "9" {
+		disturbo.PrintCriterio("e")
+		return AnswerHandler(disturbo)
+	}
+	if answer[0] == "f" || answer[0] == "10" {
+		disturbo.PrintCriterio("f")
+		return AnswerHandler(disturbo)
 	}
 
-	score := CompareStrings(answer, FormatString(disturbo.Nome))
-	ProcessScore(score, disturbo)
+	score = CompareStrings(answer, FormatString(disturbo.Nome))
+	return score
 
 }
 
 func (d Disturbo) PrintCriterio(letter string) {
 	criterio := d.Criteri[letter]
 	fmt.Printf("%s%s%s\n", bold, criterio, colorReset)
-	if strings.Contains(criterio, "sintomi") {
-		// d.Sintomi.PrintSintomiCognitivi(0)
-		// d.Sintomi.PrintSintomiComportamentali(0)
-		// d.Sintomi.PrintSintomiEmotivi(0)
-		// d.Sintomi.PrintSintomiNeurovegetativi(0)
-	}
 }
 
 func (s Sintomo) PrintSintomiCognitivi(num int) {
