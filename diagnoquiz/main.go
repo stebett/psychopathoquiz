@@ -23,8 +23,8 @@ func main() {
 }
 
 func QuizCriterioA() float32 {
-	n := rand.Intn(numeroDisturbi)
-	disturbo := diagnosi.Diagnosi[n]
+	// n := rand.Intn(numeroDisturbi)
+	disturbo := diagnosi.Diagnosi[0]
 
 	disturbo.PrintCriterio("A")
 
