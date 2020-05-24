@@ -1,13 +1,9 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"log"
 	"math/rand"
-	"os"
 	"strconv"
-	"strings"
 	"time"
 )
 
@@ -37,16 +33,17 @@ type Sintomo struct {
 }
 
 const numeroDisturbi = 37
-const fileDiagnosi = "/home/ginko/dev/psychopathoquiz/diagnoquiz/diagnosi.json"
+const fileDiagnosi = "/home/ginko/dev/psychopathoquiz/diagnosi.json"
 
 var diagnosi Diagnosi
 
 func GuessName() {
 	rand.Seed(time.Now().UnixNano())
-	LoadQuestions(fileDiagnosi, &diagnosi)
+	LoadJson(fileDiagnosi, &diagnosi)
 
 	var totalScore float32
 	for i := 0; i < 30; i++ {
+		PrintLine()
 		totalScore += NameQuiz()
 	}
 
@@ -54,8 +51,8 @@ func GuessName() {
 }
 
 func NameQuiz() float32 {
-	// n := rand.Intn(numeroDisturbi)
-	disturbo := diagnosi.Diagnosi[0]
+	n := rand.Intn(numeroDisturbi)
+	disturbo := diagnosi.Diagnosi[n]
 
 	disturbo.PrintCriterio("A")
 
@@ -67,20 +64,6 @@ func NameQuiz() float32 {
 func (d Disturbo) PrintCriterio(letter string) {
 	criterio := d.Criteri[letter]
 	fmt.Printf("%s%s%s\n", bold, criterio, colorReset)
-}
-
-func Input() []string {
-	reader := bufio.NewReader(os.Stdin)
-
-	fmt.Print("\n[>] ")
-	answer, err := reader.ReadString('\n')
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	answerArray := FormatString(answer)
-	return answerArray
-
 }
 
 func (s Sintomo) PrintSintomiCognitivi(num int) {
@@ -290,15 +273,6 @@ func GenerateMatrix(rows, cols int) [][]int {
 		matrix[0][i] = i
 	}
 	return matrix
-}
-
-func FormatString(s string) []string {
-	s = strings.ToLower(s)
-	s = strings.TrimSuffix(s, "\n")
-	sArray := strings.Split(s, " ")
-
-	return sArray
-
 }
 
 func CompareStrings(answer, solution []string) (score float32) {
