@@ -1164,6 +1164,9 @@
         }
       },
       "Specificatori":{
+        "1":""
+      },
+      "DiagnosiDifferenziale":{
         "1":"Disturbo d'Ansia Sociale",
         "2":"Timore di avere ADP nel Disturbo di Panico",
         "3":"Disturbo Ossessivo Compulsivo",
@@ -1174,9 +1177,6 @@
         "8":"Lamentele fisiche nel disturbo da sintomi somatici",
         "9":"Avere una grave malattia nel disturbo d'ansia da malattia",
         "10":"Convinzioni deliranti nella schizofrenia/disturbo delirante"
-      },
-      "DiagnosiDifferenziale":{
-        "1":""
       },
       "Prevalenza":"5.7%",
       "Incidenza":"3%",

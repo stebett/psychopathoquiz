@@ -19,7 +19,7 @@ const underlined = "\033[4m"
 
 func ChooseGame() {
 	PrintLine()
-	fmt.Println("Choose your game:\n[1] GuessCross\n[2] GuessName\n[3] Exit")
+	fmt.Println("Choose your game:\n[1] GuessCross\n[2] GuessName\n[3] GuessSpec\n[4] Exit")
 	answer := Input()
 
 	if answer[0] == "1" {
@@ -29,6 +29,9 @@ func ChooseGame() {
 		GuessName()
 	}
 	if answer[0] == "3" {
+		GuessSpec()
+	}
+	if answer[0] == "4" {
 		os.Exit(0)
 	}
 }

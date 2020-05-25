@@ -63,14 +63,42 @@ func NameQuiz() float32 {
 
 func (d Disturbo) PrintCriterio(letter string) {
 	criterio := d.Criteri[letter]
-	fmt.Printf("%s%s%s\n", bold, criterio, colorReset)
+	if criterio != "" {
+		fmt.Printf("[%s] %s%s%s\n", letter, bold, criterio, colorReset)
+	}
+}
+
+func (d Disturbo) PrintDemographics() {
+	if d.Prevalenza != "" {
+		fmt.Printf("[P] %s\n", d.Prevalenza)
+	}
+	if d.Incidenza != "" {
+		fmt.Printf("[I] %s\n", d.Incidenza)
+	}
+	if d.DifferenzaGenere != "" {
+		fmt.Printf("[G] %s\n", d.DifferenzaGenere)
+	}
+	if d.DifferenzaEta != "" {
+		fmt.Printf("[E] %s\n", d.DifferenzaEta)
+	}
+}
+
+func (d Disturbo) PrintSpecificatori() {
+	if d.Specificatori["1"] != "" {
+		fmt.Printf("\n[+] %sSpecificatori%s\n", bold, colorReset)
+	}
+	for i, val := range d.Specificatori {
+		fmt.Printf("[%s] %s\n", i, val)
+	}
 }
 
 func (s Sintomo) PrintSintomiCognitivi(num int) {
 	var index string
 	sKind := s.Cognitivi
 
-	fmt.Printf("\n[+] %sSintomi Cognitivi%s\n", bold, colorReset)
+	if sKind["1"] != "" {
+		fmt.Printf("\n[+] %sSintomi Cognitivi%s\n", bold, colorReset)
+	}
 
 	if num == 0 || num > len(sKind) {
 		num = len(sKind)
@@ -78,7 +106,9 @@ func (s Sintomo) PrintSintomiCognitivi(num int) {
 	slice := rand.Perm(num)
 	for i := 0; i < len(sKind); i++ {
 		index = strconv.Itoa(slice[i] + 1)
-		fmt.Printf("\t[*] %s\n", sKind[index])
+		if sKind[index] != "" {
+			fmt.Printf("\t[*] %s\n", sKind[index])
+		}
 	}
 }
 
@@ -86,7 +116,9 @@ func (s Sintomo) PrintSintomiComportamentali(num int) {
 	var index string
 	sKind := s.Comportamentali
 
-	fmt.Printf("\n[+] %sSintomi Comportamentali%s\n", bold, colorReset)
+	if sKind["1"] != "" {
+		fmt.Printf("\n[+] %sSintomi Comportamentali%s\n", bold, colorReset)
+	}
 
 	if num == 0 || num > len(sKind) {
 		num = len(sKind)
@@ -94,7 +126,9 @@ func (s Sintomo) PrintSintomiComportamentali(num int) {
 	slice := rand.Perm(num)
 	for i := range slice {
 		index = strconv.Itoa(slice[i] + 1)
-		fmt.Printf("\t[*] %s\n", sKind[index])
+		if sKind[index] != "" {
+			fmt.Printf("\t[*] %s\n", sKind[index])
+		}
 	}
 }
 
@@ -102,7 +136,9 @@ func (s Sintomo) PrintSintomiEmotivi(num int) {
 	var index string
 	sKind := s.Emotivi
 
-	fmt.Printf("\n[+] %sSintomi Emotivi%s\n", bold, colorReset)
+	if sKind["1"] != "" {
+		fmt.Printf("\n[+] %sSintomi Emotivi%s\n", bold, colorReset)
+	}
 
 	if num == 0 || num > len(sKind) {
 		num = len(sKind)
@@ -110,7 +146,9 @@ func (s Sintomo) PrintSintomiEmotivi(num int) {
 	slice := rand.Perm(num)
 	for i := range slice {
 		index = strconv.Itoa(slice[i] + 1)
-		fmt.Printf("\t[*] %s\n", sKind[index])
+		if sKind[index] != "" {
+			fmt.Printf("\t[*] %s\n", sKind[index])
+		}
 	}
 }
 
@@ -118,7 +156,9 @@ func (s Sintomo) PrintSintomiNeurovegetativi(num int) {
 	var index string
 	sKind := s.Neurovegetativi
 
-	fmt.Printf("\n[+] %sSintomi Neurovegetativi%s\n", bold, colorReset)
+	if sKind["1"] != "" {
+		fmt.Printf("\n[+] %sSintomi Neurovegetativi%s\n", bold, colorReset)
+	}
 
 	if num == 0 || num > len(sKind) {
 		num = len(sKind)
@@ -126,12 +166,29 @@ func (s Sintomo) PrintSintomiNeurovegetativi(num int) {
 	slice := rand.Perm(num)
 	for i := range slice {
 		index = strconv.Itoa(slice[i] + 1)
-		fmt.Printf("\t[*] %s\n", sKind[index])
+		if sKind[index] != "" {
+			fmt.Printf("\t[*] %s\n", sKind[index])
+		}
 	}
 }
 
 func (d Disturbo) PrintAll() {
-
+	fmt.Printf("______\n\n")
+	d.PrintCriterio("B")
+	d.PrintCriterio("C")
+	d.PrintCriterio("D")
+	d.PrintCriterio("E")
+	d.PrintCriterio("F")
+	d.PrintCriterio("G")
+	d.PrintCriterio("Tempo")
+	d.Sintomi.PrintSintomiCognitivi(0)
+	d.Sintomi.PrintSintomiEmotivi(0)
+	d.Sintomi.PrintSintomiNeurovegetativi(0)
+	d.Sintomi.PrintSintomiComportamentali(0)
+	fmt.Println()
+	d.PrintDemographics()
+	d.PrintSpecificatori()
+	fmt.Println("____")
 }
 
 func AnswerHandler(disturbo Disturbo) (score float32) {
@@ -315,4 +372,14 @@ func minArray(s []int) float32 {
 	}
 
 	return float32(tmpMin)
+}
+
+func argMin(s []float32) (index int) {
+	oldVal := s[0]
+	for i, val := range s {
+		if val < oldVal {
+			index = i
+		}
+	}
+	return index
 }
