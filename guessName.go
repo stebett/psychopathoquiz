@@ -333,6 +333,9 @@ func GenerateMatrix(rows, cols int) [][]int {
 }
 
 func CompareStrings(answer, solution []string) (score float32) {
+	for i := len(answer); i <= len(solution); i++ {
+		answer = append(answer, "")
+	}
 	for _, solWord := range solution {
 		var distances []int
 		for _, ansWord := range answer {

@@ -17,7 +17,6 @@ func GuessSpec() {
 	}
 
 	fmt.Printf("[!] Hai totalizzato %2.1f punti!", totalScore)
-
 }
 
 func SpecQuiz() float32 {
@@ -31,29 +30,42 @@ func SpecEpisode(disturbo Disturbo) (totalScore float32) {
 	var bestMatch string
 	var score float32
 
-	for i := len(disturbo.Specificatori); i > 0; i-- {
-		fmt.Printf("[*] Mancano %d specificatori!\n", i)
-		bestMatch, score = compareSpecAnswer(disturbo)
-		fmt.Printf("\n[!] Eri vicino a: %s%s%s con un punteggio di %.2f\n", colorGreen, disturbo.Specificatori[bestMatch], colorReset, score)
-		totalScore += score
+	specs := make(map[string]string)
+	for i, val := range disturbo.Specificatori {
+		specs[i] = val
 	}
-	disturbo.PrintSpecificatori()
 
+	for i := len(specs); i > 0; i-- {
+		// fmt.Printf("[*] Mancano %d specificatori!\n", i)
+		bestMatch, score = compareSpecAnswer(disturbo, specs)
+		fmt.Printf("\n[!] %s%s%s\n", underlined, specs[bestMatch], colorReset)
+		totalScore += score
+		delete(specs, bestMatch)
+	}
+
+	fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
+	for i, val := range disturbo.Specificatori {
+		_, ok := specs[i]
+		if ok {
+			fmt.Printf("[%s] %s%s%s\n", i, colorRed, val, colorReset)
+		} else {
+			fmt.Printf("[%s] %s%s%s\n", i, colorGreen, val, colorReset)
+		}
+	}
 	return totalScore
 }
 
-func compareSpecAnswer(disturbo Disturbo) (index string, score float32) {
+func compareSpecAnswer(disturbo Disturbo, specs map[string]string) (index string, score float32) {
 	bestScore := float32(1)
 
 	answer := Input()
-	for i, val := range disturbo.Specificatori {
+	for i, val := range specs {
 		score = CompareStrings(answer, FormatString(val))
 		if score < bestScore {
 			bestScore = score
 			index = i
 		}
 	}
-
 	return index, bestScore
 }
 
