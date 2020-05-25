@@ -28,15 +28,6 @@ func SpecQuiz() float32 {
 	return score
 }
 
-func CopySpecs(oldSpecs map[string]string) map[string]string {
-	specs := make(map[string]string)
-	for i, val := range oldSpecs {
-		specs[i] = removeParenthesis(val)
-	}
-	return specs
-
-}
-
 func SpecEpisode(disturbo Disturbo) (totalScore float32) {
 	var bestMatch string
 	var score float32
@@ -75,6 +66,14 @@ func compareSpecAnswer(disturbo Disturbo, specs map[string]string) (index string
 		}
 	}
 	return index, bestScore
+}
+
+func CopySpecs(oldSpecs map[string]string) map[string]string {
+	specs := make(map[string]string)
+	for i, val := range oldSpecs {
+		specs[i] = removeParenthesis(val)
+	}
+	return specs
 }
 
 func LoadSpec() (disturbo Disturbo) {
