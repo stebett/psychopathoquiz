@@ -174,7 +174,7 @@
 1	diagnosi.json	/^        "1":""$/;"	s	object:Diagnosi.2.DiagnosiDifferenziale
 1	diagnosi.json	/^        "1":""$/;"	s	object:Diagnosi.2.Specificatori
 1	diagnosi.json	/^        "1":""$/;"	s	object:Diagnosi.21.Specificatori
-1	diagnosi.json	/^        "1":""$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
+1	diagnosi.json	/^        "1":""$/;"	s	object:Diagnosi.22.Specificatori
 1	diagnosi.json	/^        "1":""$/;"	s	object:Diagnosi.24.DiagnosiDifferenziale
 1	diagnosi.json	/^        "1":""$/;"	s	object:Diagnosi.26.DiagnosiDifferenziale
 1	diagnosi.json	/^        "1":""$/;"	s	object:Diagnosi.26.Specificatori
@@ -200,9 +200,9 @@
 1	diagnosi.json	/^        "1":"Con catatonia",$/;"	s	object:Diagnosi.10.Specificatori
 1	diagnosi.json	/^        "1":"Con debolezza o paralisi",$/;"	s	object:Diagnosi.36.Specificatori
 1	diagnosi.json	/^        "1":"Con dolore predominante",$/;"	s	object:Diagnosi.35.Specificatori
-1	diagnosi.json	/^        "1":"Con insight buono o sufficiente",$/;"	s	object:Diagnosi.23.Specificatori
-1	diagnosi.json	/^        "1":"Con insight buono o sufficiente",$/;"	s	object:Diagnosi.24.Specificatori
-1	diagnosi.json	/^        "1":"Con insight buono o sufficiente",$/;"	s	object:Diagnosi.25.Specificatori
+1	diagnosi.json	/^        "1":"Con insight buono (o sufficiente)",$/;"	s	object:Diagnosi.23.Specificatori
+1	diagnosi.json	/^        "1":"Con insight buono (o sufficiente)",$/;"	s	object:Diagnosi.24.Specificatori
+1	diagnosi.json	/^        "1":"Con insight buono (o sufficiente)",$/;"	s	object:Diagnosi.25.Specificatori
 1	diagnosi.json	/^        "1":"Con sindrome distimica pura (criteri di un EDM non sono stati soddisfatti nei due a/;"	s	object:Diagnosi.3.Specificatori
 1	diagnosi.json	/^        "1":"Con sintomi dissociativi",$/;"	s	object:Diagnosi.29.Specificatori
 1	diagnosi.json	/^        "1":"Con umore depresso",$/;"	s	object:Diagnosi.28.Specificatori
@@ -212,7 +212,7 @@
 1	diagnosi.json	/^        "1":"Disturbi bipolari",$/;"	s	object:Diagnosi.9.DiagnosiDifferenziale
 1	diagnosi.json	/^        "1":"Disturbo Depressivo Maggiore",$/;"	s	object:Diagnosi.5.DiagnosiDifferenziale
 1	diagnosi.json	/^        "1":"Disturbo Ossessivo Compulsivo",$/;"	s	object:Diagnosi.25.DiagnosiDifferenziale
-1	diagnosi.json	/^        "1":"Disturbo d'Ansia Sociale",$/;"	s	object:Diagnosi.22.Specificatori
+1	diagnosi.json	/^        "1":"Disturbo d'Ansia Sociale",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 1	diagnosi.json	/^        "1":"Disturbo da attacchi di Panico",$/;"	s	object:Diagnosi.35.DiagnosiDifferenziale
 1	diagnosi.json	/^        "1":"Disturbo da sintomi somatici"$/;"	s	object:Diagnosi.37.DiagnosiDifferenziale
 1	diagnosi.json	/^        "1":"Disturbo depressivo maggiore",$/;"	s	object:Diagnosi.23.DiagnosiDifferenziale
@@ -407,9 +407,9 @@
 1	domande.json	/^		{$/;"	o	array:Quizzes
 10	diagnosi.json	/^          "10":"Parestesie (torpore o formicolio)",$/;"	s	object:Diagnosi.16.Sintomi.Neurovegetativi
 10	diagnosi.json	/^        "10":"Con andamento stagionale"$/;"	s	object:Diagnosi.9.Specificatori
-10	diagnosi.json	/^        "10":"Convinzioni deliranti nella schizofrenia\/disturbo delirante"$/;"	s	object:Diagnosi.22.Specificatori
+10	diagnosi.json	/^        "10":"Convinzioni deliranti nella schizofrenia\/disturbo delirante"$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 10	diagnosi.json	/^        "10":"Eziologie molteplici"$/;"	s	object:Diagnosi.33.Specificatori
-10	diagnosi.json	/^        "10":"Persistente: piu' di sei mesi",$/;"	s	object:Diagnosi.36.Specificatori
+10	diagnosi.json	/^        "10":"Persistente (piu' di sei mesi)",$/;"	s	object:Diagnosi.36.Specificatori
 10	diagnosi.json	/^    {$/;"	o	array:Diagnosi
 10	domande.json	/^		{$/;"	o	array:Quizzes
 100	domande.json	/^		{$/;"	o	array:Quizzes
@@ -543,7 +543,7 @@
 2	diagnosi.json	/^        "2":"Con insight scarso",$/;"	s	object:Diagnosi.24.Specificatori
 2	diagnosi.json	/^        "2":"Con insight scarso",$/;"	s	object:Diagnosi.25.Specificatori
 2	diagnosi.json	/^        "2":"Con movimento anomalo",$/;"	s	object:Diagnosi.36.Specificatori
-2	diagnosi.json	/^        "2":"Cronico: se la durata dei sintomi e' 3 mesi o piu'",$/;"	s	object:Diagnosi.29.Specificatori
+2	diagnosi.json	/^        "2":"Cronico (se la durata dei sintomi e' 3 mesi o piu')",$/;"	s	object:Diagnosi.29.Specificatori
 2	diagnosi.json	/^        "2":"Decorso episodico"$/;"	s	object:Diagnosi.10.Specificatori
 2	diagnosi.json	/^        "2":"Degenerazione frontotemporale",$/;"	s	object:Diagnosi.33.Specificatori
 2	diagnosi.json	/^        "2":"Delirium da astinenza da sostanze",$/;"	s	object:Diagnosi.32.Specificatori
@@ -569,7 +569,7 @@
 2	diagnosi.json	/^        "2":"Schizofrenia",$/;"	s	object:Diagnosi.6.DiagnosiDifferenziale
 2	diagnosi.json	/^        "2":"Schizofrenia",$/;"	s	object:Diagnosi.7.DiagnosiDifferenziale
 2	diagnosi.json	/^        "2":"Senza Marcato Fattore Di Stress",$/;"	s	object:Diagnosi.15.Specificatori
-2	diagnosi.json	/^        "2":"Timore di avere ADP nel Disturbo di Panico",$/;"	s	object:Diagnosi.22.Specificatori
+2	diagnosi.json	/^        "2":"Timore di avere ADP nel Disturbo di Panico",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 2	diagnosi.json	/^        "2":"Tipo evitante assistenza"$/;"	s	object:Diagnosi.37.Specificatori
 2	diagnosi.json	/^    {$/;"	o	array:Diagnosi
 2	domande.json	/^				"2": "... indica che i punteggi della variabile indipendente non sono in nessun modo esplica/;"	s	object:Quizzes.5.Risposte
@@ -782,10 +782,10 @@
 3	diagnosi.json	/^        "3":"Con caratteristiche miste",$/;"	s	object:Diagnosi.9.Specificatori
 3	diagnosi.json	/^        "3":"Con episodi depressivi maggiori intermittenti (almeno un periodo di 8 settimane con/;"	s	object:Diagnosi.3.Specificatori
 3	diagnosi.json	/^        "3":"Con esordio nel Postpartum",$/;"	s	object:Diagnosi.15.Specificatori
-3	diagnosi.json	/^        "3":"Con espressione ritardata: se i criteri diagnostici non sono soddisfatti entro 6 me/;"	s	object:Diagnosi.29.Specificatori
-3	diagnosi.json	/^        "3":"Con insight assente\/convinzioni deliranti"$/;"	s	object:Diagnosi.23.Specificatori
-3	diagnosi.json	/^        "3":"Con insight assente\/convinzioni deliranti"$/;"	s	object:Diagnosi.24.Specificatori
-3	diagnosi.json	/^        "3":"Con insight assente\/convinzioni deliranti"$/;"	s	object:Diagnosi.25.Specificatori
+3	diagnosi.json	/^        "3":"Con espressione ritardata (se i criteri diagnostici non sono soddisfatti entro 6 me/;"	s	object:Diagnosi.29.Specificatori
+3	diagnosi.json	/^        "3":"Con insight assente (convinzioni deliranti)"$/;"	s	object:Diagnosi.23.Specificatori
+3	diagnosi.json	/^        "3":"Con insight assente (convinzioni deliranti)"$/;"	s	object:Diagnosi.24.Specificatori
+3	diagnosi.json	/^        "3":"Con insight assente (convinzioni deliranti)"$/;"	s	object:Diagnosi.25.Specificatori
 3	diagnosi.json	/^        "3":"Con sintomi riguardanti la deglutizione",$/;"	s	object:Diagnosi.36.Specificatori
 3	diagnosi.json	/^        "3":"Deliri in schizofrenia o altri disturbi psicotici"$/;"	s	object:Diagnosi.25.DiagnosiDifferenziale
 3	diagnosi.json	/^        "3":"Delirium indotto da farmaci",$/;"	s	object:Diagnosi.32.Specificatori
@@ -794,7 +794,7 @@
 3	diagnosi.json	/^        "3":"Disturbi di personalita'"$/;"	s	object:Diagnosi.5.DiagnosiDifferenziale
 3	diagnosi.json	/^        "3":"Disturbo Ossessivo Compulsivo",$/;"	s	object:Diagnosi.18.DiagnosiDifferenziale
 3	diagnosi.json	/^        "3":"Disturbo Ossessivo Compulsivo",$/;"	s	object:Diagnosi.19.DiagnosiDifferenziale
-3	diagnosi.json	/^        "3":"Disturbo Ossessivo Compulsivo",$/;"	s	object:Diagnosi.22.Specificatori
+3	diagnosi.json	/^        "3":"Disturbo Ossessivo Compulsivo",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 3	diagnosi.json	/^        "3":"Disturbo dell'Umore"$/;"	s	object:Diagnosi.35.DiagnosiDifferenziale
 3	diagnosi.json	/^        "3":"Disturbo di Tourette",$/;"	s	object:Diagnosi.23.DiagnosiDifferenziale
 3	diagnosi.json	/^        "3":"Disturbo schizoaffettivo",$/;"	s	object:Diagnosi.9.DiagnosiDifferenziale
@@ -803,7 +803,7 @@
 3	diagnosi.json	/^        "3":"Disturbo schizofreniforme",$/;"	s	object:Diagnosi.7.DiagnosiDifferenziale
 3	diagnosi.json	/^        "3":"Episodio Ipomaniacale",$/;"	s	object:Diagnosi.8.DiagnosiDifferenziale
 3	diagnosi.json	/^        "3":"Gelosia",$/;"	s	object:Diagnosi.14.Specificatori
-3	diagnosi.json	/^        "3":"Gravita' lieve: un sintomo",$/;"	s	object:Diagnosi.35.Specificatori
+3	diagnosi.json	/^        "3":"Gravita' lieve (1 sintomo)",$/;"	s	object:Diagnosi.35.Specificatori
 3	diagnosi.json	/^        "3":"Malattia a corpi di Lewy",$/;"	s	object:Diagnosi.33.Specificatori
 3	diagnosi.json	/^        "3":"Predisposti da una situazione"$/;"	s	object:Diagnosi.16.Specificatori
 3	diagnosi.json	/^        "3":"Remissione protratta (maggiore di 12 mesi)",$/;"	s	object:Diagnosi.31.Specificatori
@@ -1019,12 +1019,12 @@
 4	diagnosi.json	/^        "4":"Dismorfismo corporeo",$/;"	s	object:Diagnosi.19.DiagnosiDifferenziale
 4	diagnosi.json	/^        "4":"Disturbo Delirante",$/;"	s	object:Diagnosi.6.DiagnosiDifferenziale
 4	diagnosi.json	/^        "4":"Disturbo Delirante",$/;"	s	object:Diagnosi.7.DiagnosiDifferenziale
-4	diagnosi.json	/^        "4":"Disturbo Post-traumatico da Stress",$/;"	s	object:Diagnosi.22.Specificatori
+4	diagnosi.json	/^        "4":"Disturbo Post-traumatico da Stress",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 4	diagnosi.json	/^        "4":"Disturbo delirante",$/;"	s	object:Diagnosi.3.DiagnosiDifferenziale
 4	diagnosi.json	/^        "4":"Disturbo post-traumatico da stress",$/;"	s	object:Diagnosi.18.DiagnosiDifferenziale
 4	diagnosi.json	/^        "4":"Disturbo schizoaffettivo",$/;"	s	object:Diagnosi.8.DiagnosiDifferenziale
-4	diagnosi.json	/^        "4":"Gravita' lieve: 2-3 sintomi",$/;"	s	object:Diagnosi.31.Specificatori
-4	diagnosi.json	/^        "4":"Gravita' moderata: due o piu sintomi",$/;"	s	object:Diagnosi.35.Specificatori
+4	diagnosi.json	/^        "4":"Gravita' lieve (2-3 sintomi)",$/;"	s	object:Diagnosi.31.Specificatori
+4	diagnosi.json	/^        "4":"Gravita' moderata (2 o piu' sintomi)",$/;"	s	object:Diagnosi.35.Specificatori
 4	diagnosi.json	/^        "4":"Malattia vascolare",$/;"	s	object:Diagnosi.33.Specificatori
 4	diagnosi.json	/^        "4":"Persecuzione",$/;"	s	object:Diagnosi.14.Specificatori
 4	diagnosi.json	/^        "4":"Schizofrenia",$/;"	s	object:Diagnosi.9.DiagnosiDifferenziale
@@ -1222,12 +1222,12 @@
 5	diagnosi.json	/^        "5":"Delirium dovuto ad eziologie molteplici"$/;"	s	object:Diagnosi.32.Specificatori
 5	diagnosi.json	/^        "5":"Disturbo Ossessivo Compulsivo di personalita' (il tratto e' egosintonico)",$/;"	s	object:Diagnosi.23.DiagnosiDifferenziale
 5	diagnosi.json	/^        "5":"Disturbo Post-traumatico da Stress",$/;"	s	object:Diagnosi.19.DiagnosiDifferenziale
-5	diagnosi.json	/^        "5":"Disturbo d'ansia da separazione",$/;"	s	object:Diagnosi.22.Specificatori
+5	diagnosi.json	/^        "5":"Disturbo d'ansia da separazione",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 5	diagnosi.json	/^        "5":"Disturbo d'ansia di separazione"$/;"	s	object:Diagnosi.18.DiagnosiDifferenziale
 5	diagnosi.json	/^        "5":"Disturbo dello spettro della schizofrenia",$/;"	s	object:Diagnosi.3.DiagnosiDifferenziale
 5	diagnosi.json	/^        "5":"Disturbo schizofreniforme",$/;"	s	object:Diagnosi.9.DiagnosiDifferenziale
-5	diagnosi.json	/^        "5":"Gravita' grave: due o piu' sintomi oltre a molteplici sintomi somatici"$/;"	s	object:Diagnosi.35.Specificatori
-5	diagnosi.json	/^        "5":"Gravita' moderata: 4-5 sintomi",$/;"	s	object:Diagnosi.31.Specificatori
+5	diagnosi.json	/^        "5":"Gravita' grave (due o piu' sintomi oltre a molteplici sintomi somatici)"$/;"	s	object:Diagnosi.35.Specificatori
+5	diagnosi.json	/^        "5":"Gravita' moderata (4-5 sintomi)",$/;"	s	object:Diagnosi.31.Specificatori
 5	diagnosi.json	/^        "5":"Schizofrenia",$/;"	s	object:Diagnosi.8.DiagnosiDifferenziale
 5	diagnosi.json	/^        "5":"Somatico",$/;"	s	object:Diagnosi.14.Specificatori
 5	diagnosi.json	/^        "5":"Spettro della schizofrenia",$/;"	s	object:Diagnosi.6.DiagnosiDifferenziale
@@ -1253,7 +1253,7 @@
 6	diagnosi.json	/^        "6":"Con anestesia o perdita di sensibilita'",$/;"	s	object:Diagnosi.36.Specificatori
 6	diagnosi.json	/^        "6":"Con caratteristiche psicotiche congrue o incongrue all'umore"$/;"	s	object:Diagnosi.3.Specificatori
 6	diagnosi.json	/^        "6":"Con caratteristiche psicotiche",$/;"	s	object:Diagnosi.9.Specificatori
-6	diagnosi.json	/^        "6":"Dismorfismo corporeo",$/;"	s	object:Diagnosi.22.Specificatori
+6	diagnosi.json	/^        "6":"Dismorfismo corporeo",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 6	diagnosi.json	/^        "6":"Disturbi psicotici"$/;"	s	object:Diagnosi.6.DiagnosiDifferenziale
 6	diagnosi.json	/^        "6":"Disturbi psicotici",$/;"	s	object:Diagnosi.3.DiagnosiDifferenziale
 6	diagnosi.json	/^        "6":"Disturbi psicotici",$/;"	s	object:Diagnosi.7.DiagnosiDifferenziale
@@ -1261,9 +1261,9 @@
 6	diagnosi.json	/^        "6":"Disturbo d'ansia da separazione"$/;"	s	object:Diagnosi.19.DiagnosiDifferenziale
 6	diagnosi.json	/^        "6":"Disturbo di panico",$/;"	s	object:Diagnosi.23.DiagnosiDifferenziale
 6	diagnosi.json	/^        "6":"Disturbo schizofreniforme",$/;"	s	object:Diagnosi.8.DiagnosiDifferenziale
-6	diagnosi.json	/^        "6":"Gravita' grave: 6 o piu' sintomi"$/;"	s	object:Diagnosi.31.Specificatori
+6	diagnosi.json	/^        "6":"Gravita' grave (6 o piu' sintomi)"$/;"	s	object:Diagnosi.31.Specificatori
 6	diagnosi.json	/^        "6":"Misto",$/;"	s	object:Diagnosi.14.Specificatori
-6	diagnosi.json	/^        "6":"Uso di sostanze\/farmaci",$/;"	s	object:Diagnosi.33.Specificatori
+6	diagnosi.json	/^        "6":"Uso di sostanze o farmaci",$/;"	s	object:Diagnosi.33.Specificatori
 6	diagnosi.json	/^    {$/;"	o	array:Diagnosi
 6	domande.json	/^		{$/;"	o	array:Quizzes
 60	domande.json	/^		{$/;"	o	array:Quizzes
@@ -1286,7 +1286,7 @@
 7	diagnosi.json	/^        "7":"Disturbo Delirante",$/;"	s	object:Diagnosi.8.DiagnosiDifferenziale
 7	diagnosi.json	/^        "7":"Episodio maniacale o ipomaniacale",$/;"	s	object:Diagnosi.3.DiagnosiDifferenziale
 7	diagnosi.json	/^        "7":"Infezione da HIV",$/;"	s	object:Diagnosi.33.Specificatori
-7	diagnosi.json	/^        "7":"Paura di prendere peso in Anoressia",$/;"	s	object:Diagnosi.22.Specificatori
+7	diagnosi.json	/^        "7":"Paura di prendere peso in Anoressia",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 7	diagnosi.json	/^        "7":"Senza specificazione"$/;"	s	object:Diagnosi.14.Specificatori
 7	diagnosi.json	/^        "7":"Spettro della schizofrenia",$/;"	s	object:Diagnosi.9.DiagnosiDifferenziale
 7	diagnosi.json	/^        "7":"Tricotillomania",$/;"	s	object:Diagnosi.23.DiagnosiDifferenziale
@@ -1308,7 +1308,7 @@
 8	diagnosi.json	/^        "8":"Con cicli rapidi",$/;"	s	object:Diagnosi.9.Specificatori
 8	diagnosi.json	/^        "8":"Con sintomi misti",$/;"	s	object:Diagnosi.36.Specificatori
 8	diagnosi.json	/^        "8":"Disturbi psicotici"$/;"	s	object:Diagnosi.9.DiagnosiDifferenziale
-8	diagnosi.json	/^        "8":"Lamentele fisiche nel disturbo da sintomi somatici",$/;"	s	object:Diagnosi.22.Specificatori
+8	diagnosi.json	/^        "8":"Lamentele fisiche nel disturbo da sintomi somatici",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 8	diagnosi.json	/^        "8":"Morbo di Parkinson",$/;"	s	object:Diagnosi.33.Specificatori
 8	diagnosi.json	/^        "8":"Reazione da lutto"$/;"	s	object:Diagnosi.3.DiagnosiDifferenziale
 8	diagnosi.json	/^        "8":"Spettro della schizofrenia",$/;"	s	object:Diagnosi.8.DiagnosiDifferenziale
@@ -1325,10 +1325,10 @@
 88	domande.json	/^		{$/;"	o	array:Quizzes
 89	domande.json	/^		{$/;"	o	array:Quizzes
 9	diagnosi.json	/^          "9":"Brividi o vampate",$/;"	s	object:Diagnosi.16.Sintomi.Neurovegetativi
-9	diagnosi.json	/^        "9":"Avere una grave malattia nel disturbo d'ansia da malattia",$/;"	s	object:Diagnosi.22.Specificatori
+9	diagnosi.json	/^        "9":"Avere una grave malattia nel disturbo d'ansia da malattia",$/;"	s	object:Diagnosi.22.DiagnosiDifferenziale
 9	diagnosi.json	/^        "9":"Con esordio nel peripartum",$/;"	s	object:Diagnosi.9.Specificatori
 9	diagnosi.json	/^        "9":"Disturbi psicotici"$/;"	s	object:Diagnosi.8.DiagnosiDifferenziale
-9	diagnosi.json	/^        "9":"Episodio acuto: meno di sei mesi",$/;"	s	object:Diagnosi.36.Specificatori
+9	diagnosi.json	/^        "9":"Episodio acuto (meno di sei mesi)",$/;"	s	object:Diagnosi.36.Specificatori
 9	diagnosi.json	/^        "9":"Morbo di Huntington",$/;"	s	object:Diagnosi.33.Specificatori
 9	diagnosi.json	/^    {$/;"	o	array:Diagnosi
 9	domande.json	/^		{$/;"	o	array:Quizzes
@@ -1380,7 +1380,7 @@ A	diagnosi.json	/^        "A":"Una comparsa improvvisa di paura o disagio intens
 A	diagnosi.json	/^        "A":"Una modalita' patologica d'uso della sostanza che conduce a disagio o compromission/;"	s	object:Diagnosi.31.Criteri
 A	diagnosi.json	/^        "A":"Uno o piu' sintomi di alterazione delle funzioni motorie volontarie o sensoriali",$/;"	s	object:Diagnosi.36.Criteri
 A	diagnosi.json	/^        "A":"Uno o piu' sintomi somatici che procurano disagio o portano ad alterazioni signific/;"	s	object:Diagnosi.35.Criteri
-AggiornaPunteggio	guessMultipleAnswers.go	/^func AggiornaPunteggio(numeroDomanda int, risultato int) {$/;"	f	package:main
+AggiornaPunteggio	guessCross.go	/^func AggiornaPunteggio(numeroDomanda int, risultato int) {$/;"	f	package:main
 AnswerHandler	guessName.go	/^func AnswerHandler(disturbo Disturbo) (score float32) {$/;"	f	package:main	typeref:typename:(score float32)
 B	diagnosi.json	/^        "B":"",$/;"	s	object:Diagnosi.0.Criteri
 B	diagnosi.json	/^        "B":"",$/;"	s	object:Diagnosi.12.Criteri
@@ -1458,6 +1458,7 @@ C	diagnosi.json	/^        "C":"La situazione agorafobica provoca quasi sempre pa
 C	diagnosi.json	/^        "C":"Le situazioni sociali provocano quasi sempre paura o ansia",$/;"	s	object:Diagnosi.20.Criteri
 C	diagnosi.json	/^        "C":"Sebbene possa non essere continuativamente presente alcuno dei sintomi, la condizio/;"	s	object:Diagnosi.35.Criteri
 C	diagnosi.json	/^        "C":"Un'ulteriore modificazione cognitiva",$/;"	s	object:Diagnosi.32.Criteri
+ChooseGame	commons.go	/^func ChooseGame() {$/;"	f	package:main
 Cognitivi	diagnosi.json	/^        "Cognitivi":{$/;"	o	object:Diagnosi.0.Sintomi
 Cognitivi	diagnosi.json	/^        "Cognitivi":{$/;"	o	object:Diagnosi.1.Sintomi
 Cognitivi	diagnosi.json	/^        "Cognitivi":{$/;"	o	object:Diagnosi.10.Sintomi
@@ -1575,7 +1576,7 @@ Compromissione	diagnosi.json	/^        "Compromissione":"I sintomi causano disag
 Compromissione	diagnosi.json	/^        "Compromissione":"I sintomi causano disagio clinicamente significativo o compromissione /;"	s	object:Diagnosi.7.Criteri
 Compromissione	diagnosi.json	/^        "Compromissione":"I sintomi causano disagio clinicamente significativo o compromissione /;"	s	object:Diagnosi.8.Criteri
 Compromissione	diagnosi.json	/^        "Compromissione":"I sintomi causano disagio clinicamente significativo o compromissione /;"	s	object:Diagnosi.9.Criteri
-ComputeCDF	guessMultipleAnswers.go	/^func ComputeCDF() {$/;"	f	package:main
+ComputeCDF	guessCross.go	/^func ComputeCDF() {$/;"	f	package:main
 CondizioneMedica	diagnosi.json	/^        "CondizioneMedica":""$/;"	s	object:Diagnosi.33.Criteri
 CondizioneMedica	diagnosi.json	/^        "CondizioneMedica":"L'episodio non e' attribuibile agli effetti di un'altra condizione m/;"	s	object:Diagnosi.32.Criteri
 CondizioneMedica	diagnosi.json	/^        "CondizioneMedica":"L'episodio non e' attribuibile agli effetti fisiologici di una sosta/;"	s	object:Diagnosi.0.Criteri
@@ -1614,7 +1615,8 @@ CondizioneMedica	diagnosi.json	/^        "CondizioneMedica":"L'episodio non e' a
 CondizioneMedica	diagnosi.json	/^        "CondizioneMedica":"L'episodio non e' attribuibile agli effetti fisiologici di una sosta/;"	s	object:Diagnosi.7.Criteri
 CondizioneMedica	diagnosi.json	/^        "CondizioneMedica":"L'episodio non e' attribuibile agli effetti fisiologici di una sosta/;"	s	object:Diagnosi.8.Criteri
 CondizioneMedica	diagnosi.json	/^        "CondizioneMedica":"L'episodio non e' attribuibile agli effetti fisiologici di una sosta/;"	s	object:Diagnosi.9.Criteri
-Corrette	guessMultipleAnswers.go	/^	Corrette  float32$/;"	m	struct:main.Punteggio	typeref:typename:float32
+CopySpecs	guessSpec.go	/^func CopySpecs(oldSpecs map[string]string) map[string]string {$/;"	f	package:main	typeref:typename:map[string]string
+Corrette	guessCross.go	/^	Corrette  float32$/;"	m	struct:main.Punteggio	typeref:typename:float32
 Criteri	diagnosi.json	/^      "Criteri":{$/;"	o	object:Diagnosi.0
 Criteri	diagnosi.json	/^      "Criteri":{$/;"	o	object:Diagnosi.1
 Criteri	diagnosi.json	/^      "Criteri":{$/;"	o	object:Diagnosi.10
@@ -2018,7 +2020,7 @@ Domanda	domande.json	/^			"Domanda": "ad Anton Mesmer (1734-1815) si deve la teo
 Domanda	domande.json	/^			"Domanda": "cos'e' l'autoginefilia?",$/;"	s	object:Quizzes.126
 Domanda	domande.json	/^			"Domanda": "i farmaci generalmente impiegati nel trattamento del disturbo bipolare sono:",$/;"	s	object:Quizzes.85
 Domanda	domande.json	/^			"Domanda": "nel DSM-5 quali cambiamenti sono stati apportati al Disturbo da Stress post-traum/;"	s	object:Quizzes.56
-Domanda	guessMultipleAnswers.go	/^	Domanda   string$/;"	m	struct:main.Quiz	typeref:typename:string
+Domanda	guessCross.go	/^	Domanda   string$/;"	m	struct:main.Quiz	typeref:typename:string
 E	diagnosi.json	/^        "E":"",$/;"	s	object:Diagnosi.0.Criteri
 E	diagnosi.json	/^        "E":"",$/;"	s	object:Diagnosi.1.Criteri
 E	diagnosi.json	/^        "E":"",$/;"	s	object:Diagnosi.10.Criteri
@@ -2172,7 +2174,7 @@ F	diagnosi.json	/^        "F":"",$/;"	s	object:Diagnosi.7.Criteri
 F	diagnosi.json	/^        "F":"",$/;"	s	object:Diagnosi.8.Criteri
 F	diagnosi.json	/^        "F":"",$/;"	s	object:Diagnosi.9.Criteri
 F	diagnosi.json	/^        "F":"Diagnosi effettuabile tra i 6 e i 18 anni",$/;"	s	object:Diagnosi.4.Criteri
-FormatString	guessName.go	/^func FormatString(s string) []string {$/;"	f	package:main	typeref:typename:[]string
+FormatString	commons.go	/^func FormatString(s string) []string {$/;"	f	package:main	typeref:typename:[]string
 G	diagnosi.json	/^        "G":"",$/;"	s	object:Diagnosi.0.Criteri
 G	diagnosi.json	/^        "G":"",$/;"	s	object:Diagnosi.1.Criteri
 G	diagnosi.json	/^        "G":"",$/;"	s	object:Diagnosi.10.Criteri
@@ -2212,8 +2214,9 @@ G	diagnosi.json	/^        "G":"",$/;"	s	object:Diagnosi.8.Criteri
 G	diagnosi.json	/^        "G":"",$/;"	s	object:Diagnosi.9.Criteri
 G	diagnosi.json	/^        "G":"L'eta' d'esordio e' prima dei 10 anni",$/;"	s	object:Diagnosi.4.Criteri
 GenerateMatrix	guessName.go	/^func GenerateMatrix(rows, cols int) [][]int {$/;"	f	package:main	typeref:typename:[][]int
-GuessMultipleAnswer	guessMultipleAnswers.go	/^func GuessMultipleAnswer() {$/;"	f	package:main
+GuessCross	guessCross.go	/^func GuessCross() {$/;"	f	package:main
 GuessName	guessName.go	/^func GuessName() {$/;"	f	package:main
+GuessSpec	guessSpec.go	/^func GuessSpec() {$/;"	f	package:main
 Incidenza	diagnosi.json	/^      "Incidenza":"",$/;"	s	object:Diagnosi.0
 Incidenza	diagnosi.json	/^      "Incidenza":"",$/;"	s	object:Diagnosi.1
 Incidenza	diagnosi.json	/^      "Incidenza":"",$/;"	s	object:Diagnosi.11
@@ -2253,9 +2256,10 @@ Incidenza	diagnosi.json	/^      "Incidenza":"1\/10000",$/;"	s	object:Diagnosi.10
 Incidenza	diagnosi.json	/^      "Incidenza":"3%",$/;"	s	object:Diagnosi.22
 Incidenza	diagnosi.json	/^      "Incidenza":"7%",$/;"	s	object:Diagnosi.9
 Incidenza	guessName.go	/^	Incidenza             string$/;"	m	struct:main.Disturbo	typeref:typename:string
-Input	guessName.go	/^func Input() []string {$/;"	f	package:main	typeref:typename:[]string
+Input	commons.go	/^func Input() []string {$/;"	f	package:main	typeref:typename:[]string
 Levenshtein	guessName.go	/^func Levenshtein(s, t string) (result int) {$/;"	f	package:main	typeref:typename:(result int)
-LoadQuestions	commons.go	/^func LoadQuestions(filename string, address interface{}) {$/;"	f	package:main
+LoadJson	commons.go	/^func LoadJson(filename string, address interface{}) {$/;"	f	package:main
+LoadSpec	guessSpec.go	/^func LoadSpec() (disturbo Disturbo) {$/;"	f	package:main	typeref:typename:(disturbo Disturbo)
 NameQuiz	guessName.go	/^func NameQuiz() float32 {$/;"	f	package:main	typeref:typename:float32
 Neurovegetativi	diagnosi.json	/^        "Neurovegetativi":{$/;"	o	object:Diagnosi.0.Sintomi
 Neurovegetativi	diagnosi.json	/^        "Neurovegetativi":{$/;"	o	object:Diagnosi.1.Sintomi
@@ -2414,11 +2418,13 @@ Prevalenza	diagnosi.json	/^      "Prevalenza":"Pochi dati, essendo breve",$/;"	s
 Prevalenza	guessName.go	/^	Prevalenza            string$/;"	m	struct:main.Disturbo	typeref:typename:string
 PrintAll	guessName.go	/^func (d Disturbo) PrintAll() {$/;"	f	struct:main.Disturbo
 PrintCriterio	guessName.go	/^func (d Disturbo) PrintCriterio(letter string) {$/;"	f	struct:main.Disturbo
+PrintDemographics	guessName.go	/^func (d Disturbo) PrintDemographics() {$/;"	f	struct:main.Disturbo
 PrintLine	commons.go	/^func PrintLine() {$/;"	f	package:main
 PrintSintomiCognitivi	guessName.go	/^func (s Sintomo) PrintSintomiCognitivi(num int) {$/;"	f	struct:main.Sintomo
 PrintSintomiComportamentali	guessName.go	/^func (s Sintomo) PrintSintomiComportamentali(num int) {$/;"	f	struct:main.Sintomo
 PrintSintomiEmotivi	guessName.go	/^func (s Sintomo) PrintSintomiEmotivi(num int) {$/;"	f	struct:main.Sintomo
 PrintSintomiNeurovegetativi	guessName.go	/^func (s Sintomo) PrintSintomiNeurovegetativi(num int) {$/;"	f	struct:main.Sintomo
+PrintSpecificatori	guessName.go	/^func (d Disturbo) PrintSpecificatori() {$/;"	f	struct:main.Disturbo
 ProcessScore	guessName.go	/^func ProcessScore(score float32, disturbo Disturbo) float32 {$/;"	f	package:main	typeref:typename:float32
 Prognosi	diagnosi.json	/^      "Prognosi":""$/;"	s	object:Diagnosi.0
 Prognosi	diagnosi.json	/^      "Prognosi":""$/;"	s	object:Diagnosi.1
@@ -2459,13 +2465,13 @@ Prognosi	diagnosi.json	/^      "Prognosi":"Migliore di schizofrenia, peggiore de
 Prognosi	diagnosi.json	/^      "Prognosi":"Peggiore in caso di sintomi gravi, lunga durata, presenza di disturbo di perso/;"	s	object:Diagnosi.24
 Prognosi	diagnosi.json	/^      "Prognosi":"Scarsamente invalidante, buon adattamento"$/;"	s	object:Diagnosi.18
 Prognosi	guessName.go	/^	Prognosi              string$/;"	m	struct:main.Disturbo	typeref:typename:string
-Punteggi	guessMultipleAnswers.go	/^	Punteggi []Punteggio$/;"	m	struct:main.Punteggi	typeref:typename:[]Punteggio
-Punteggi	guessMultipleAnswers.go	/^type Punteggi struct {$/;"	s	package:main
-Punteggio	guessMultipleAnswers.go	/^type Punteggio struct {$/;"	s	package:main
-Quiz	guessMultipleAnswers.go	/^type Quiz struct {$/;"	s	package:main
+Punteggi	guessCross.go	/^	Punteggi []Punteggio$/;"	m	struct:main.Punteggi	typeref:typename:[]Punteggio
+Punteggi	guessCross.go	/^type Punteggi struct {$/;"	s	package:main
+Punteggio	guessCross.go	/^type Punteggio struct {$/;"	s	package:main
+Quiz	guessCross.go	/^type Quiz struct {$/;"	s	package:main
 Quizzes	domande.json	/^	"Quizzes": [$/;"	a
-Quizzes	guessMultipleAnswers.go	/^	Quizzes []Quiz$/;"	m	struct:main.Quizzes	typeref:typename:[]Quiz
-Quizzes	guessMultipleAnswers.go	/^type Quizzes struct {$/;"	s	package:main
+Quizzes	guessCross.go	/^	Quizzes []Quiz$/;"	m	struct:main.Quizzes	typeref:typename:[]Quiz
+Quizzes	guessCross.go	/^type Quizzes struct {$/;"	s	package:main
 Risposte	domande.json	/^			"Risposte": {$/;"	o	object:Quizzes.0
 Risposte	domande.json	/^			"Risposte": {$/;"	o	object:Quizzes.1
 Risposte	domande.json	/^			"Risposte": {$/;"	o	object:Quizzes.10
@@ -2632,9 +2638,9 @@ Risposte	domande.json	/^			"Risposte": {$/;"	o	object:Quizzes.96
 Risposte	domande.json	/^			"Risposte": {$/;"	o	object:Quizzes.97
 Risposte	domande.json	/^			"Risposte": {$/;"	o	object:Quizzes.98
 Risposte	domande.json	/^			"Risposte": {$/;"	o	object:Quizzes.99
-Risposte	guessMultipleAnswers.go	/^	Risposte  map[string]string$/;"	m	struct:main.Quiz	typeref:typename:map[string]string
-Sbagliate	guessMultipleAnswers.go	/^	Sbagliate float32$/;"	m	struct:main.Punteggio	typeref:typename:float32
-ScegliDomanda	guessMultipleAnswers.go	/^func ScegliDomanda() int {$/;"	f	package:main	typeref:typename:int
+Risposte	guessCross.go	/^	Risposte  map[string]string$/;"	m	struct:main.Quiz	typeref:typename:map[string]string
+Sbagliate	guessCross.go	/^	Sbagliate float32$/;"	m	struct:main.Punteggio	typeref:typename:float32
+ScegliDomanda	guessCross.go	/^func ScegliDomanda() int {$/;"	f	package:main	typeref:typename:int
 Sintomi	diagnosi.json	/^      "Sintomi":{$/;"	o	object:Diagnosi.0
 Sintomi	diagnosi.json	/^      "Sintomi":{$/;"	o	object:Diagnosi.1
 Sintomi	diagnosi.json	/^      "Sintomi":{$/;"	o	object:Diagnosi.10
@@ -2879,7 +2885,9 @@ Soluzione	domande.json	/^			"Soluzione": "4"$/;"	s	object:Quizzes.90
 Soluzione	domande.json	/^			"Soluzione": "4"$/;"	s	object:Quizzes.91
 Soluzione	domande.json	/^			"Soluzione": "4"$/;"	s	object:Quizzes.93
 Soluzione	domande.json	/^			"Soluzione": "4"$/;"	s	object:Quizzes.96
-Soluzione	guessMultipleAnswers.go	/^	Soluzione string$/;"	m	struct:main.Quiz	typeref:typename:string
+Soluzione	guessCross.go	/^	Soluzione string$/;"	m	struct:main.Quiz	typeref:typename:string
+SpecEpisode	guessSpec.go	/^func SpecEpisode(disturbo Disturbo) (totalScore float32) {$/;"	f	package:main	typeref:typename:(totalScore float32)
+SpecQuiz	guessSpec.go	/^func SpecQuiz() float32 {$/;"	f	package:main	typeref:typename:float32
 Specificatori	diagnosi.json	/^      "Specificatori":{$/;"	o	object:Diagnosi.0
 Specificatori	diagnosi.json	/^      "Specificatori":{$/;"	o	object:Diagnosi.1
 Specificatori	diagnosi.json	/^      "Specificatori":{$/;"	o	object:Diagnosi.10
@@ -2957,30 +2965,32 @@ Tempo	diagnosi.json	/^        "Tempo":"Comparsa da 3 giorni a un mese dall'espos
 Tempo	diagnosi.json	/^        "Tempo":"Durata massima di 6 mesi",$/;"	s	object:Diagnosi.28.Criteri
 Tempo	diagnosi.json	/^        "Tempo":"Segni continuativi per almeno 6 mesi",$/;"	s	object:Diagnosi.10.Criteri
 Tempo	diagnosi.json	/^        "Tempo":"Superiore a un mese",$/;"	s	object:Diagnosi.29.Criteri
+argMin	guessName.go	/^func argMin(s []float32) (index int) {$/;"	f	package:main	typeref:typename:(index int)
 bold	commons.go	/^const bold = "\\033[1m"$/;"	c	package:main
-cdf	guessMultipleAnswers.go	/^var cdf [166]float32$/;"	v	package:main	typeref:typename:[166]float32
+cdf	guessCross.go	/^var cdf [166]float32$/;"	v	package:main	typeref:typename:[166]float32
 colorGreen	commons.go	/^const colorGreen = "\\033[32m"$/;"	c	package:main
 colorRed	commons.go	/^const colorRed = "\\033[31m"$/;"	c	package:main
 colorReset	commons.go	/^const colorReset = "\\033[0m"$/;"	c	package:main
+compareSpecAnswer	guessSpec.go	/^func compareSpecAnswer(disturbo Disturbo, specs map[string]string) (index string, score float32)/;"	f	package:main	typeref:typename:(index string, score float32)
 diagnosi	guessName.go	/^var diagnosi Diagnosi$/;"	v	package:main	typeref:struct:Diagnosi
-fileDiagnosi	guessName.go	/^const fileDiagnosi = "\/home\/ginko\/dev\/psychopathoquiz\/diagnoquiz\/diagnosi.json"$/;"	c	package:main
-fileDomande	guessMultipleAnswers.go	/^const fileDomande = "\/home\/ginko\/dev\/psychopathoquiz\/domande.json"$/;"	c	package:main
-filePunteggi	guessMultipleAnswers.go	/^const filePunteggi = "\/home\/ginko\/dev\/psychopathoquiz\/punteggi.json"$/;"	c	package:main
+fileDiagnosi	guessName.go	/^const fileDiagnosi = "\/home\/ginko\/dev\/psychopathoquiz\/diagnosi.json"$/;"	c	package:main
+fileDomande	guessCross.go	/^const fileDomande = "\/home\/ginko\/dev\/psychopathoquiz\/domande.json"$/;"	c	package:main
+filePunteggi	guessCross.go	/^const filePunteggi = "\/home\/ginko\/dev\/psychopathoquiz\/punteggi.json"$/;"	c	package:main
 lenStringArray	guessName.go	/^func lenStringArray(s []string) float32 {$/;"	f	package:main	typeref:typename:float32
-loadScore	guessMultipleAnswers.go	/^func loadScore() {$/;"	f	package:main
 main	commons.go	/^package main$/;"	p
-main	guessMultipleAnswers.go	/^package main$/;"	p
+main	guessCross.go	/^package main$/;"	p
 main	guessName.go	/^package main$/;"	p
-main	main.go	/^func main() {}$/;"	f	package:main
+main	guessSpec.go	/^package main$/;"	p
+main	main.go	/^func main() {$/;"	f	package:main
 main	main.go	/^package main$/;"	p
 min	guessName.go	/^func min(args ...int) int {$/;"	f	package:main	typeref:typename:int
 minArray	guessName.go	/^func minArray(s []int) float32 {$/;"	f	package:main	typeref:typename:float32
 numeroDisturbi	guessName.go	/^const numeroDisturbi = 37$/;"	c	package:main
-numeroEpisodi	guessMultipleAnswers.go	/^const numeroEpisodi = 30$/;"	c	package:main
-numeroQuesiti	guessMultipleAnswers.go	/^const numeroQuesiti = 166$/;"	c	package:main
-punteggi	guessMultipleAnswers.go	/^var punteggi Punteggi$/;"	v	package:main	typeref:typename:Punteggi
-quizzes	guessMultipleAnswers.go	/^var quizzes Quizzes$/;"	v	package:main	typeref:struct:Quizzes
-scriviDomanda	guessMultipleAnswers.go	/^func scriviDomanda(quiz Quiz) (int, string) {$/;"	f	package:main	typeref:typename:(int, string)
-scriviEsito	guessMultipleAnswers.go	/^func scriviEsito(risultato int, risposta string) {$/;"	f	package:main
-testCDF	guessMultipleAnswers.go	/^func testCDF() {$/;"	f	package:main
+numeroEpisodi	guessCross.go	/^const numeroEpisodi = 30$/;"	c	package:main
+numeroQuesiti	guessCross.go	/^const numeroQuesiti = 166$/;"	c	package:main
+punteggi	guessCross.go	/^var punteggi Punteggi$/;"	v	package:main	typeref:struct:Punteggi
+quizzes	guessCross.go	/^var quizzes Quizzes$/;"	v	package:main	typeref:struct:Quizzes
+removeParenthesis	guessSpec.go	/^func removeParenthesis(s string) string {$/;"	f	package:main	typeref:typename:string
+scriviDomanda	guessCross.go	/^func scriviDomanda(quiz Quiz) (int, string) {$/;"	f	package:main	typeref:typename:(int, string)
+scriviEsito	guessCross.go	/^func scriviEsito(risultato int, risposta string) {$/;"	f	package:main
 underlined	commons.go	/^const underlined = "\\033[4m"$/;"	c	package:main
