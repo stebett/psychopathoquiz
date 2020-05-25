@@ -1220,9 +1220,9 @@
         }
       },
       "Specificatori":{
-        "1":"Con insight buono o sufficiente",
+        "1":"Con insight buono (o sufficiente)",
         "2":"Con insight scarso",
-        "3":"Con insight assente/convinzioni deliranti"
+        "3":"Con insight assente (convinzioni deliranti)"
       },
       "DiagnosiDifferenziale":{
         "1":"Disturbo depressivo maggiore",
@@ -1274,9 +1274,9 @@
         }
       },
       "Specificatori":{
-        "1":"Con insight buono o sufficiente",
+        "1":"Con insight buono (o sufficiente)",
         "2":"Con insight scarso",
-        "3":"Con insight assente/convinzioni deliranti"
+        "3":"Con insight assente (convinzioni deliranti)"
       },
       "DiagnosiDifferenziale":{
         "1":""
@@ -1321,9 +1321,9 @@
         }
       },
       "Specificatori":{
-        "1":"Con insight buono o sufficiente",
+        "1":"Con insight buono (o sufficiente)",
         "2":"Con insight scarso",
-        "3":"Con insight assente/convinzioni deliranti"
+        "3":"Con insight assente (convinzioni deliranti)"
       },
       "DiagnosiDifferenziale":{
         "1":"Disturbo Ossessivo Compulsivo",
@@ -1527,8 +1527,8 @@
       },
       "Specificatori":{
         "1":"Con sintomi dissociativi",
-        "2":"Cronico: se la durata dei sintomi e' 3 mesi o piu'",
-        "3":"Con espressione ritardata: se i criteri diagnostici non sono soddisfatti entro 6 mesi dall'evento"
+        "2":"Cronico (se la durata dei sintomi e' 3 mesi o piu')",
+        "3":"Con espressione ritardata (se i criteri diagnostici non sono soddisfatti entro 6 mesi dall'evento)"
       },
       "DiagnosiDifferenziale":{
         "1":""
@@ -1630,9 +1630,9 @@
         "1":"In ambiente controllato",
         "2":"Remissione precoce (tra i 3 e i 12 mesi)",
         "3":"Remissione protratta (maggiore di 12 mesi)",
-        "4":"Gravita' lieve: 2-3 sintomi",
-        "5":"Gravita' moderata: 4-5 sintomi",
-        "6":"Gravita' grave: 6 o piu' sintomi"
+        "4":"Gravita' lieve (2-3 sintomi)",
+        "5":"Gravita' moderata (4-5 sintomi)",
+        "6":"Gravita' grave (6 o piu' sintomi)"
       },
       "DiagnosiDifferenziale":{
         "1":""
@@ -1731,7 +1731,7 @@
         "3":"Malattia a corpi di Lewy",
         "4":"Malattia vascolare",
         "5":"Trauma cranico",
-        "6":"Uso di sostanze/farmaci",
+        "6":"Uso di sostanze o farmaci",
         "7":"Infezione da HIV",
         "8":"Morbo di Parkinson",
         "9":"Morbo di Huntington",
@@ -1827,9 +1827,9 @@
       "Specificatori":{
         "1":"Con dolore predominante",
         "2":"Persistente",
-        "3":"Gravita' lieve: un sintomo",
-        "4":"Gravita' moderata: due o piu sintomi",
-        "5":"Gravita' grave: due o piu' sintomi oltre a molteplici sintomi somatici"
+        "3":"Gravita' lieve (1 sintomo)",
+        "4":"Gravita' moderata (2 o piu' sintomi)",
+        "5":"Gravita' grave (due o piu' sintomi oltre a molteplici sintomi somatici)"
       },
       "DiagnosiDifferenziale":{
         "1":"Disturbo da attacchi di Panico",
@@ -1884,8 +1884,8 @@
         "6":"Con anestesia o perdita di sensibilita'",
         "7":"Con sintomi sensoriali specifici",
         "8":"Con sintomi misti",
-        "9":"Episodio acuto: meno di sei mesi",
-        "10":"Persistente: piu' di sei mesi",
+        "9":"Episodio acuto (meno di sei mesi)",
+        "10":"Persistente (piu' di sei mesi)",
         "11":"Con fattore psicologico stressante",
         "12":"Senza fattore psicologico stressante"
       },

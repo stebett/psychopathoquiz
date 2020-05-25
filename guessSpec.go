@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"math/rand"
+	"regexp"
 	"time"
 )
 
@@ -26,14 +28,20 @@ func SpecQuiz() float32 {
 	return score
 }
 
+func CopySpecs(oldSpecs map[string]string) map[string]string {
+	specs := make(map[string]string)
+	for i, val := range oldSpecs {
+		specs[i] = removeParenthesis(val)
+	}
+	return specs
+
+}
+
 func SpecEpisode(disturbo Disturbo) (totalScore float32) {
 	var bestMatch string
 	var score float32
 
-	specs := make(map[string]string)
-	for i, val := range disturbo.Specificatori {
-		specs[i] = val
-	}
+	specs := CopySpecs(disturbo.Specificatori)
 
 	for i := len(specs); i > 0; i-- {
 		// fmt.Printf("[*] Mancano %d specificatori!\n", i)
@@ -76,4 +84,13 @@ func LoadSpec() (disturbo Disturbo) {
 		disturbo = LoadSpec()
 	}
 	return disturbo
+}
+
+func removeParenthesis(s string) string {
+	reg, err := regexp.Compile(`\((.*)\)`)
+	if err != nil {
+		log.Fatal(err)
+	}
+	processedString := reg.ReplaceAllString(s, "")
+	return processedString
 }
