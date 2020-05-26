@@ -17,19 +17,20 @@
       "Sintomi":{
         "Emotivi":{
           "1":"Umore depresso per la maggior parte del giorno, quasi ogni giorno",
-          "2":"Marcata diminuzione di interesse o piacere per tutte o quasi le attivita'"
+          "2":"Marcata diminuzione di interesse o piacere per tutte o quasi le attivita'",
+          "3":"Sentimenti di autosvalutazione o di colpa eccessivi o inappropriati"
         },
         "Cognitivi":{
-          "1":"Sentimenti di autosvalutazione o di colpa eccessivi o inappropriati",
           "2":"Ridotta capacita' di pensare o di concentrarsi, quasi tutti i giorni"
         },
         "Neurovegetativi":{
           "1":"Insonnia o ipersonnia quasi tutti i giorni",
-          "2":"Significativa perdita o aumento di dieta o appetito non dovuti a dieta quasi tutti i giorni"
+          "2":"Significativa perdita o aumento di dieta o appetito non dovuti a dieta quasi tutti i giorni",
+          "3":"Faticabilita' o mancanza di energia quasi tutti i giorni",
+          "4":"Agitazione o rallentamento psicomotori quasi tutti i giorni"
         },
         "Comportamentali":{
-          "1":"Faticabilita' o mancanza di energia quasi tutti i giorni",
-          "2":"Agitazione o rallentamento psicomotori quasi tutti i giorni"
+		  "1":""
         }
       },
       "Specificatori":{
@@ -266,12 +267,12 @@
           "1":"Marcata labilita' affettiva (sbalzi d'umore, pianti immotivati o sensibilita' al rifiuto",
           "2":"Irritabilita' o rabbia o aumento dei conflitti interpersonali",
           "3":"Umore marcatamente depresso, disperazione e pensieri autocritici",
-          "4":"Ansia marcata, tensione"
+          "4":"Ansia marcata, tensione",
+          "5":"Senso di sopraffazione"
         },
         "Cognitivi":{
           "1":"Diminuito interesse nelle attivita' abituali",
-          "2":"Difficolta' soggettiva di concentrazione",
-          "3":"Senso di sopraffazione"
+          "2":"Difficolta' soggettiva di concentrazione"
         },
         "Neurovegetativi":{
           "1":"Letargia, faticabilita', mancanza di energia",
@@ -639,7 +640,8 @@
         "Emotivi":{
           "1":"Non desidera ne prova piacere nelle relazioni affettive",
           "2":"Prova piacere in poche o nessuna attivita'",
-          "3":"Mostra freddezza emotiva, distacco o affettivita' appiattita"
+          "3":"Mostra freddezza emotiva, distacco o affettivita' appiattita",
+          "4":"Indifferente alle lodi e critiche"
         },
         "Cognitivi":{
           "1":""
@@ -650,8 +652,7 @@
         "Comportamentali":{
           "1":"Quasi sempre sceglie attivita' individuali",
           "2":"Poco o nessun interesse nelle esperienze sessuali con altre persone",
-          "3":"Non ha amici stretti o confidenti, eccetto i parenti stretti",
-          "4":"Indifferente alle lodi e critiche"
+          "3":"Non ha amici stretti o confidenti, eccetto i parenti stretti"
         }
       },
       "Specificatori":{
@@ -1097,10 +1098,11 @@
       },
       "Sintomi":{
         "Emotivi":{
-          "1":""
+          "1":"E' inibito in situazioni interpersonali nuove per sentimenti di inadeguatezza"
         },
         "Cognitivi":{
-          "1":""
+          "1":"Si vede come socialmente inetto, personalmente non attraente o inferiore agli altri",
+          "2":"Si preoccupa di essere criticato o rifiutato in situazioni sociali"
         },
         "Neurovegetativi":{
           "1":""
@@ -1109,10 +1111,7 @@
           "1":"Evita attivita' lavorative che implicano un significativo contatto interpersonale per timore di essere criticato, disapprovato o rifiutato",
           "2":"E' riluttante a entrare in relazione con persone, a meno che non sia certo di piacere",
           "3":"Mostra limitazioni nelle relazioni intime per timore di essere umiliato o ridicolizzato",
-          "4":"Si preoccupa di essere criticato o rifiutato in situazioni sociali",
-          "5":"E' inibito in situazioni interpersonali nuove per sentimenti di inadeguatezza",
-          "6":"Si vede come socialmente inetto, personalmente non attraente o inferiore agli altri",
-          "7":"E' insolitamente riluttante ad assumere rischi personali o a impegnarsi in qualsiasi attivita' nuova, poiche' questo puo' rivelarsi imbarazzante"
+          "4":"E' insolitamente riluttante ad assumere rischi personali o a impegnarsi in qualsiasi attivita' nuova, poiche' questo puo' rivelarsi imbarazzante"
         }
       },
       "Specificatori":{

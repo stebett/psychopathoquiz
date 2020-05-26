@@ -21,7 +21,8 @@ func GuessSint() {
 
 func SintQuiz() float32 {
 	disturbo := LoadSint()
-	fmt.Printf("[#] %s%s%s\n", bold, disturbo.Nome, colorReset)
+	fmt.Printf("\n[+] %s%s%s\n", bold, disturbo.Nome, colorReset)
+	disturbo.PrintCriterio("A")
 	score := SintEpisode(disturbo)
 	return score
 }
@@ -42,6 +43,9 @@ func AskSintomiCognitivi(disturbo Disturbo) (partialScore float32) {
 		sints := CopySpecs(disturbo.Sintomi.Cognitivi)
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
+			if score == 1.0 {
+				break
+			}
 			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
 			partialScore += score
 			delete(sints, bestMatch)
@@ -67,6 +71,9 @@ func AskSintomiComportamentali(disturbo Disturbo) (partialScore float32) {
 		sints := CopySpecs(disturbo.Sintomi.Comportamentali)
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
+			if score == 1.0 {
+				break
+			}
 			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
 			partialScore += score
 			delete(sints, bestMatch)
@@ -88,10 +95,13 @@ func AskSintomiNeurovegetativi(disturbo Disturbo) (partialScore float32) {
 	var bestMatch string
 	var score float32
 	if disturbo.checkNeurovegetativi() {
-		fmt.Printf("\n[+] %sSintomi cognitivi%s\n", bold, colorReset)
+		fmt.Printf("\n[+] %sSintomi neurovegetativi%s\n", bold, colorReset)
 		sints := CopySpecs(disturbo.Sintomi.Neurovegetativi)
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
+			if score == 1.0 {
+				break
+			}
 			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
 			partialScore += score
 			delete(sints, bestMatch)
@@ -113,10 +123,13 @@ func AskSintomiEmotivi(disturbo Disturbo) (partialScore float32) {
 	var bestMatch string
 	var score float32
 	if disturbo.checkEmotivi() {
-		fmt.Printf("\n[+] %sSintomi cognitivi%s\n", bold, colorReset)
+		fmt.Printf("\n[+] %sSintomi emotivi%s\n", bold, colorReset)
 		sints := CopySpecs(disturbo.Sintomi.Emotivi)
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
+			if score == 1.0 {
+				break
+			}
 			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
 			partialScore += score
 			delete(sints, bestMatch)
@@ -137,7 +150,7 @@ func AskSintomiEmotivi(disturbo Disturbo) (partialScore float32) {
 func LoadSint() (disturbo Disturbo) {
 	n := rand.Intn(numeroDisturbi)
 	disturbo = diagnosi.Diagnosi[n]
-	if !(disturbo.checkEmotivi() && disturbo.checkCognitivi() && disturbo.checkComportamentali() && disturbo.checkNeurovegetativi()) {
+	if !(disturbo.checkEmotivi() || disturbo.checkCognitivi() || disturbo.checkComportamentali() || disturbo.checkNeurovegetativi()) {
 		disturbo = LoadSint()
 	}
 	return disturbo
