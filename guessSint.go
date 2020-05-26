@@ -11,12 +11,12 @@ func GuessSint() {
 	LoadJson(fileDiagnosi, &diagnosi)
 
 	var totalScore float32
-	for i := 0; i < 20; i++ {
+	for i := 0; i < 5; i++ {
 		PrintLine()
 		totalScore += SintQuiz()
 	}
 
-	fmt.Printf("[!] Hai totalizzato %2.1f punti!", totalScore)
+	fmt.Printf("[!] Hai totalizzato %d punti!", 30-int(totalScore))
 }
 
 func SintQuiz() float32 {
@@ -44,10 +44,10 @@ func AskSintomiCognitivi(disturbo Disturbo) (partialScore float32) {
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
 			if score == 1.0 {
+				partialScore += score * float32(len(sints))
 				break
 			}
 			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
-			partialScore += score
 			delete(sints, bestMatch)
 		}
 		fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
@@ -72,10 +72,10 @@ func AskSintomiComportamentali(disturbo Disturbo) (partialScore float32) {
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
 			if score == 1.0 {
+				partialScore += score * float32(len(sints))
 				break
 			}
 			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
-			partialScore += score
 			delete(sints, bestMatch)
 		}
 		fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
@@ -100,10 +100,10 @@ func AskSintomiNeurovegetativi(disturbo Disturbo) (partialScore float32) {
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
 			if score == 1.0 {
+				partialScore += score * float32(len(sints))
 				break
 			}
 			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
-			partialScore += score
 			delete(sints, bestMatch)
 		}
 		fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
@@ -128,10 +128,10 @@ func AskSintomiEmotivi(disturbo Disturbo) (partialScore float32) {
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
 			if score == 1.0 {
+				partialScore += score * float32(len(sints))
 				break
 			}
 			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
-			partialScore += score
 			delete(sints, bestMatch)
 		}
 		fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
