@@ -21,6 +21,7 @@
           "3":"Sentimenti di autosvalutazione o di colpa eccessivi o inappropriati"
         },
         "Cognitivi":{
+		  "1":"Pensieri ricorrenti di morte",
           "2":"Ridotta capacita' di pensare o di concentrarsi, quasi tutti i giorni"
         },
         "Neurovegetativi":{
@@ -460,7 +461,7 @@
     {
       "Nome":"Disturbo Depressivo Maggiore",
       "Criteri":{
-        "A":"Presenza di Episodi depressivi maggiori",
+        "A":"Presenza di Episodi depressivi maggiori, con esclusione di disturbo bipolare",
         "B":"",
         "C":"",
         "D":"",
@@ -493,9 +494,8 @@
         "5":"Con caratteristiche atipiche",
         "6":"Con caratteristiche psicotiche",
         "7":"Con catatonia",
-        "8":"Con cicli rapidi",
-        "9":"Con esordio nel peripartum",
-        "10":"Con andamento stagionale"
+        "8":"Con esordio nel peripartum",
+        "9":"Con andamento stagionale"
       },
       "DiagnosiDifferenziale":{
         "1":"Disturbi bipolari",
