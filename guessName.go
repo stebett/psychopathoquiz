@@ -33,7 +33,7 @@ type Sintomo struct {
 }
 
 const numeroDisturbi = 37
-const fileDiagnosi = "/home/ginko/dev/psychopathoquiz/diagnosi.json"
+const fileDiagnosi = "/home/ginko/dev/go/src/github.com/ginkobab/psychopathoquiz/diagnosi.json"
 
 var diagnosi Diagnosi
 
