@@ -23,6 +23,13 @@ func SintQuiz() float32 {
 	disturbo := LoadSint()
 	fmt.Printf("\n[+] %s%s%s\n", bold, disturbo.Nome, colorReset)
 	disturbo.PrintCriterio("A")
+	disturbo.PrintCriterio("B")
+	disturbo.PrintCriterio("C")
+	disturbo.PrintCriterio("D")
+	disturbo.PrintCriterio("E")
+	disturbo.PrintCriterio("F")
+	disturbo.PrintCriterio("G")
+	disturbo.PrintCriterio("Tempo")
 	score := SintEpisode(disturbo)
 	return score
 }

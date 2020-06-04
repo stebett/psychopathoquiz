@@ -64,7 +64,7 @@ func NameQuiz() float32 {
 func (d Disturbo) PrintCriterio(letter string) {
 	criterio := d.Criteri[letter]
 	if criterio != "" {
-		fmt.Printf("[%s] %s%s%s\n", letter, bold, criterio, colorReset)
+		fmt.Printf("[%s] %s%s%s\n\n", letter, bold, criterio, colorReset)
 	}
 }
 
