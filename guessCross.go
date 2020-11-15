@@ -28,8 +28,8 @@ type Punteggio struct {
 	Sbagliate float32
 }
 
-const filePunteggi = "/home/ginko/dev/psychopathoquiz/punteggi.json"
-const fileDomande = "/home/ginko/dev/psychopathoquiz/domande.json"
+const filePunteggi = "/home/ginko/Documents/projects/completed/psychopathoquiz/punteggi.json"
+const fileDomande = "/home/ginko/Documents/projects/completed/psychopathoquiz/domande.json"
 const numeroQuesiti = 166
 const numeroEpisodi = 30
 
