@@ -7,3 +7,5 @@ The games give you random questions to answer, with a probability changing based
 The program calculates the Levenshtein distance between your answer and the correct one, and gives you a score based on that.
 
 The Levenshtein algorithm is implemented with dynamic programming.
+
+![pic](https://github.com/stebett/psychopathoquiz/blob/master/screenshot.png)
