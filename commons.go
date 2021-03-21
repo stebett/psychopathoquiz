@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bufio"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -53,13 +52,9 @@ func LoadJson(filename string, address interface{}) {
 }
 
 func Input() []string {
-	reader := bufio.NewReader(os.Stdin)
-
 	fmt.Print("\n[>] ")
-	answer, err := reader.ReadString('\n')
-	if err != nil {
-		log.Fatal(err)
-	}
+	var answer string
+	fmt.Scanln(&answer)
 
 	answerArray := FormatString(answer)
 	return answerArray

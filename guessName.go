@@ -33,7 +33,7 @@ type Sintomo struct {
 }
 
 const numeroDisturbi = 37
-const fileDiagnosi = "/home/ginko/Documents/projects/completed/psychopathoquiz/diagnosi.json"
+const fileDiagnosi = "diagnosi.json"
 
 var diagnosi Diagnosi
 
@@ -64,7 +64,7 @@ func NameQuiz() float32 {
 func (d Disturbo) PrintCriterio(letter string) {
 	criterio := d.Criteri[letter]
 	if criterio != "" {
-		fmt.Printf("[%s] %s%s%s\n\n", letter, bold, criterio, colorReset)
+		fmt.Printf("[%s] %s\n\n", letter, criterio)
 	}
 }
 
@@ -85,7 +85,7 @@ func (d Disturbo) PrintDemographics() {
 
 func (d Disturbo) PrintSpecificatori() {
 	if d.Specificatori["1"] != "" {
-		fmt.Printf("\n[+] %sSpecificatori%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Specificatori\n")
 	}
 	for i, val := range d.Specificatori {
 		fmt.Printf("[%s] %s\n", i, val)
@@ -97,7 +97,7 @@ func (s Sintomo) PrintSintomiCognitivi(num int) {
 	sKind := s.Cognitivi
 
 	if sKind["1"] != "" {
-		fmt.Printf("\n[+] %sSintomi Cognitivi%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Sintomi Cognitivi\n")
 	}
 
 	if num == 0 || num > len(sKind) {
@@ -117,7 +117,7 @@ func (s Sintomo) PrintSintomiComportamentali(num int) {
 	sKind := s.Comportamentali
 
 	if sKind["1"] != "" {
-		fmt.Printf("\n[+] %sSintomi Comportamentali%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Sintomi Comportamentali\n")
 	}
 
 	if num == 0 || num > len(sKind) {
@@ -137,7 +137,7 @@ func (s Sintomo) PrintSintomiEmotivi(num int) {
 	sKind := s.Emotivi
 
 	if sKind["1"] != "" {
-		fmt.Printf("\n[+] %sSintomi Emotivi%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Sintomi Emotivi\n")
 	}
 
 	if num == 0 || num > len(sKind) {
@@ -157,7 +157,7 @@ func (s Sintomo) PrintSintomiNeurovegetativi(num int) {
 	sKind := s.Neurovegetativi
 
 	if sKind["1"] != "" {
-		fmt.Printf("\n[+] %sSintomi Neurovegetativi%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Sintomi Neurovegetativi\n")
 	}
 
 	if num == 0 || num > len(sKind) {
@@ -260,19 +260,19 @@ func AnswerHandler(disturbo Disturbo) (score float32) {
 
 func ProcessScore(score float32, disturbo Disturbo) float32 {
 	if score < 0.1 {
-		fmt.Printf("%s%s%s\n", colorGreen, "[!] Perfetto!", colorReset)
+		fmt.Printf("%s\n", "[!] Perfetto!")
 		return 1
 	} else if score < 0.3 {
-		fmt.Printf("%s%s%s\n", colorGreen, "[!] Sembra giusto, controlla la risposta!", colorReset)
-		fmt.Printf("%s%s%s%s%s\n\n", "[>]", underlined, " La risposta era: ", disturbo.Nome, colorReset)
+		fmt.Printf("%s\n", "[!] Sembra giusto, controlla la risposta!")
+		fmt.Printf("%s%s\n\n", "[>] La risposta era: ", disturbo.Nome)
 		return 0.8
 	} else if score < 0.5 {
-		fmt.Printf("%s%s%s\n", colorRed, "[!] Sembra sbagliato, controlla la risposta!", colorReset)
-		fmt.Printf("%s%s%s%s%s\n\n", "[>]", underlined, " La risposta era: ", disturbo.Nome, colorReset)
+		fmt.Printf("[!] Sembra sbagliato, controlla la risposta!\n")
+		fmt.Printf("%s%s\n\n", "[>] La risposta era: ", disturbo.Nome)
 		return 0.1
 	} else {
-		fmt.Printf("%s%s%s\n", colorRed, "[!] Nope", colorReset)
-		fmt.Printf("%s%s%s%s%s\n\n", "[>]", underlined, " La risposta era: ", disturbo.Nome, colorReset)
+		fmt.Printf("[!] Nope\n")
+		fmt.Printf("%s%s\n\n", "[>] La risposta era: ", disturbo.Nome)
 		return 0
 	}
 }

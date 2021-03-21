@@ -46,7 +46,7 @@ func AskSintomiCognitivi(disturbo Disturbo) (partialScore float32) {
 	var bestMatch string
 	var score float32
 	if disturbo.checkCognitivi() {
-		fmt.Printf("\n[+] %sSintomi cognitivi%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Sintomi cognitivi\n")
 		sints := CopySpecs(disturbo.Sintomi.Cognitivi)
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
@@ -54,16 +54,16 @@ func AskSintomiCognitivi(disturbo Disturbo) (partialScore float32) {
 				partialScore += score * float32(len(sints))
 				break
 			}
-			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
+			fmt.Printf("\n[!] %s\n", sints[bestMatch])
 			delete(sints, bestMatch)
 		}
-		fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Soluzioni:\n")
 		for i, val := range disturbo.Sintomi.Cognitivi {
 			_, ok := sints[i]
 			if ok {
-				fmt.Printf("[%s] %s%s%s\n", i, colorRed, val, colorReset)
+				fmt.Printf("[%s] %s\n", i, val)
 			} else {
-				fmt.Printf("[%s] %s%s%s\n", i, colorGreen, val, colorReset)
+				fmt.Printf("[%s] %s\n", i, val)
 			}
 		}
 	}
@@ -74,7 +74,7 @@ func AskSintomiComportamentali(disturbo Disturbo) (partialScore float32) {
 	var bestMatch string
 	var score float32
 	if disturbo.checkComportamentali() {
-		fmt.Printf("\n[+] %sSintomi comportamentali%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Sintomi comportamentali\n")
 		sints := CopySpecs(disturbo.Sintomi.Comportamentali)
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
@@ -82,16 +82,16 @@ func AskSintomiComportamentali(disturbo Disturbo) (partialScore float32) {
 				partialScore += score * float32(len(sints))
 				break
 			}
-			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
+			fmt.Printf("\n[!] %s\n", sints[bestMatch])
 			delete(sints, bestMatch)
 		}
-		fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Soluzioni:\n")
 		for i, val := range disturbo.Sintomi.Comportamentali {
 			_, ok := sints[i]
 			if ok {
-				fmt.Printf("[%s] %s%s%s\n", i, colorRed, val, colorReset)
+				fmt.Printf("[%s] %s\n", i, val)
 			} else {
-				fmt.Printf("[%s] %s%s%s\n", i, colorGreen, val, colorReset)
+				fmt.Printf("[%s] %s\n", i, val)
 			}
 		}
 	}
@@ -102,7 +102,7 @@ func AskSintomiNeurovegetativi(disturbo Disturbo) (partialScore float32) {
 	var bestMatch string
 	var score float32
 	if disturbo.checkNeurovegetativi() {
-		fmt.Printf("\n[+] %sSintomi neurovegetativi%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Sintomi neurovegetativi\n")
 		sints := CopySpecs(disturbo.Sintomi.Neurovegetativi)
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
@@ -110,16 +110,16 @@ func AskSintomiNeurovegetativi(disturbo Disturbo) (partialScore float32) {
 				partialScore += score * float32(len(sints))
 				break
 			}
-			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
+			fmt.Printf("\n[!] %s\n", sints[bestMatch])
 			delete(sints, bestMatch)
 		}
-		fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Soluzioni:\n")
 		for i, val := range disturbo.Sintomi.Neurovegetativi {
 			_, ok := sints[i]
 			if ok {
-				fmt.Printf("[%s] %s%s%s\n", i, colorRed, val, colorReset)
+				fmt.Printf("[%s] %s\n", i, val)
 			} else {
-				fmt.Printf("[%s] %s%s%s\n", i, colorGreen, val, colorReset)
+				fmt.Printf("[%s] %s\n", i, val)
 			}
 		}
 	}
@@ -130,7 +130,7 @@ func AskSintomiEmotivi(disturbo Disturbo) (partialScore float32) {
 	var bestMatch string
 	var score float32
 	if disturbo.checkEmotivi() {
-		fmt.Printf("\n[+] %sSintomi emotivi%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Sintomi emotivi\n")
 		sints := CopySpecs(disturbo.Sintomi.Emotivi)
 		for i := len(sints); i > 0; i-- {
 			bestMatch, score = compareSpecAnswer(disturbo, sints)
@@ -138,16 +138,16 @@ func AskSintomiEmotivi(disturbo Disturbo) (partialScore float32) {
 				partialScore += score * float32(len(sints))
 				break
 			}
-			fmt.Printf("\n[!] %s%s%s\n", underlined, sints[bestMatch], colorReset)
+			fmt.Printf("\n[!] %s\n", sints[bestMatch])
 			delete(sints, bestMatch)
 		}
-		fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
+		fmt.Printf("\n[+] Soluzioni:\n")
 		for i, val := range disturbo.Sintomi.Emotivi {
 			_, ok := sints[i]
 			if ok {
-				fmt.Printf("[%s] %s%s%s\n", i, colorRed, val, colorReset)
+				fmt.Printf("[%s] %s\n", i, val)
 			} else {
-				fmt.Printf("[%s] %s%s%s\n", i, colorGreen, val, colorReset)
+				fmt.Printf("[%s] %s\n", i, val)
 			}
 		}
 	}

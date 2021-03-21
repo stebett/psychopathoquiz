@@ -23,7 +23,7 @@ func GuessSpec() {
 
 func SpecQuiz() float32 {
 	disturbo := LoadSpec()
-	fmt.Printf("[#] %s%s%s\n", bold, disturbo.Nome, colorReset)
+	fmt.Printf("[#] %s\n", disturbo.Nome)
 	score := SpecEpisode(disturbo)
 	return score
 }
@@ -37,18 +37,18 @@ func SpecEpisode(disturbo Disturbo) (totalScore float32) {
 	for i := len(specs); i > 0; i-- {
 		// fmt.Printf("[*] Mancano %d specificatori!\n", i)
 		bestMatch, score = compareSpecAnswer(disturbo, specs)
-		fmt.Printf("\n[!] %s%s%s\n", underlined, specs[bestMatch], colorReset)
+		fmt.Printf("\n[!] %s\n", specs[bestMatch])
 		totalScore += score
 		delete(specs, bestMatch)
 	}
 
-	fmt.Printf("\n[+] %sSoluzioni:%s\n", bold, colorReset)
+	fmt.Printf("\n[+] Soluzioni:\n")
 	for i, val := range disturbo.Specificatori {
 		_, ok := specs[i]
 		if ok {
-			fmt.Printf("[%s] %s%s%s\n", i, colorRed, val, colorReset)
+			fmt.Printf("[%s] %s\n", i, val)
 		} else {
-			fmt.Printf("[%s] %s%s%s\n", i, colorGreen, val, colorReset)
+			fmt.Printf("[%s] %s\n", i, val)
 		}
 	}
 	return totalScore
